@@ -2,6 +2,7 @@ module.exports = {
   title: 'NyanDev Blog',
   description: 'Just playing around with Javascript',
   themeConfig: {
+    domain: 'https://blog.nyandev.id',
     nav: [{
         text: 'Home',
         link: '/'
@@ -84,7 +85,7 @@ module.exports = {
         type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
         url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
         image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
-        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+        publishedAt: $page => $page.frontmatter.published && new Date($page.frontmatter.published),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
       }
     ],
