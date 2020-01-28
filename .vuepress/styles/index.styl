@@ -1,0 +1,111 @@
+@font-face
+  font-family CustomSansSerif
+  font-style normal
+  font-weight 300
+  src url("/fonts/keivit-regular.otf")
+
+@font-face
+  font-family CustomSansSerif
+  font-style normal
+  font-weight 700
+  src url("/fonts/keivit-bold.otf")
+
+@font-face
+  font-family CustomSerif
+  font-style normal
+  font-weight 400
+  src url("/fonts/charter-regular.otf")
+
+@font-face
+  font-family CustomSerif
+  font-style italic
+  font-weight 400
+  src url("/fonts/charter-italic.otf")
+
+@font-face
+  font-family CustomSerif
+  font-style normal
+  font-weight 700
+  src url("/fonts/charter-bold.otf")
+
+body
+  font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+  font-size 18px
+  line-height 1.58
+
+.theme-default-content.content__default
+  font-family CustomSerif,Georgia,Cambria,'Times New Roman',serif
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.58;
+
+  h1, h2, h3, h4, h5, h6
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+  img[src*="#ft-image"]
+    width 100%
+
+  blockquote
+    color #606f7b
+    font-style italic
+    padding-left 1.5rem
+    padding-right 1.5rem
+    border-left 5px solid #000
+    > p
+      font-size 1.2rem
+
+  p > img+em:nth-child(2)
+    font-size 15px
+    color #79828B
+    padding 12px 21px 0
+    line-height 18px
+    display inherit
+    vertical-align top
+    text-align center
+    font-style normal
+  p > img
+    width 100%
+
+.link-preview
+  text-decoration: none
+  margin 1rem 0
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex: 0 0 auto;
+  &:hover
+    text-decoration: none !important
+  .link-preview--content
+    padding: 10px 12px 10px;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: calc(100% - 180px)
+    p
+      margin-top: 0
+    p:last-child
+      margin-bottom: 0
+    p:not(.title)
+      font-size: 14px
+      color: rgba(0, 0, 0, 0.54)
+      font-weight: 400
+      word-break: break-word
+      text-overflow: ellipsis
+      overflow: hidden
+      max-height 40px
+    p.title
+      font-family CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+      font-weight bold
+      color #212121
+      margin-bottom 4px
+      font-size 18px
+  .link-preview--thumbnail
+    width 170px
+    height auto
+    min-height 167px
+    background-size cover
+    background-repeat no-repeat
+    background-position 50% 50%
+    box-shadow inset 0 0 0 1px rgba(0, 0, 0, 0.1)

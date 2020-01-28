@@ -1,0 +1,24 @@
+{
+  "name": "nyandev-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "blog:dev": "vuepress dev",
+    "blog:build": "vuepress build -d docs",
+    "blog:run": "live-server --port=8089 docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-container": "^2.1.2",
+    "vuepress-plugin-img-lazy": "^1.0.1",
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "vuepress-plugin-named-chunks": "^1.1.1",
+    "vuepress-plugin-nprogress": "^1.1.6",
+    "vuepress-plugin-reading-progress": "^1.0.8",
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "dependencies": {}
+}
