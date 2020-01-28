@@ -66,6 +66,7 @@ module.exports = {
         selector: '.content__default img:not([src*="#ft-image"])'
       }
     ],
+    ['minimal-analytics', {ga: 'UA-79152971-1'}]
     [
       'sitemap',
       {
