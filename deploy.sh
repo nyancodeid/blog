@@ -13,9 +13,3 @@ cd docs/
 echo 'blog.nyandev.id' > CNAME
 
 cd -
-
-git add -A
-git commit -m 'deploy: blog'
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:nyancodeid/blog.git master
