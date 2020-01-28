@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "blog:dev": "vuepress dev",
-    "blog:build": "vuepress build -d docs",
-    "blog:run": "live-server --port=8089 docs"
+    "blog:build": "vuepress build -d dist",
+    "blog:run": "live-server --port=8089 dist"
   },
   "devDependencies": {
     "vuepress": "^1.2.0",

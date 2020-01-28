@@ -7,7 +7,7 @@ set -e
 yarn blog:build
 
 # navigate into the build output directory
-cd docs/
+cd dist/
 
 # if you are deploying to a custom domain
 echo 'blog.nyandev.id' > CNAME
@@ -16,6 +16,6 @@ git add -A
 git commit -m 'deploy: blog'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:nyancodeid/blog.git master:gh-pages
+git subtree push --prefix dist origin gh-pages
 
 cd -
