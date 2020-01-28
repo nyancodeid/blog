@@ -52,10 +52,9 @@ module.exports = {
       }
     ],
     repo: 'nyancodeid/blog',
-    docsDir: 'docs',
-    docsBranch: 'master',
     editLinks: true,
-    editLinkText: 'Help us improve this page!'
+    editLinkText: 'Help us improve this page!',
+    smoothScroll: true
   },
   plugins: [
     'vuepress-plugin-nprogress',
