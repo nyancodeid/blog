@@ -53,8 +53,7 @@ module.exports = {
     ],
     repo: 'nyancodeid/blog',
     editLinks: true,
-    editLinkText: 'Help us improve this page!',
-    smoothScroll: true
+    editLinkText: 'Help us improve this page!'
   },
   plugins: [
     'vuepress-plugin-nprogress',
