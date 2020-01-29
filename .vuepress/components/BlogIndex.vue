@@ -44,6 +44,8 @@ export default {
   computed: {
     // Build a list of all our posts ready to be displayed.
     posts() {
+      console.log(this.$site.pages)
+
       let posts = this.$site.pages
         .filter(post => post.frontmatter.type !== "pages")
         .filter(post => {
