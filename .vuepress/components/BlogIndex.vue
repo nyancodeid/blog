@@ -30,7 +30,7 @@
 export default {
   props: [
     // This will limit the amount of blog posts shown
-    "limit", "category", "subcategory"
+    "limit", "category", "subcategory", "order"
   ],
   methods: {
     // Control how our data is formatted. You can change to format accoring to JS date format.
@@ -44,6 +44,15 @@ export default {
   computed: {
     // Build a list of all our posts ready to be displayed.
     posts() {
+      const descSort = (a, b) =>
+        new Date(b.frontmatter.published) -
+        new Date(a.frontmatter.published)
+      const ascSort = (a, b) =>
+        new Date(a.frontmatter.published) -
+        new Date(b.frontmatter.published)
+
+      const orderHandler = (this.order && this.order == "ASC") ? ascSort : descSort 
+
       let posts = this.$site.pages
         .filter(post => post.frontmatter.type !== "pages")
         .filter(post => {
@@ -51,16 +60,12 @@ export default {
             if (this.subcategory) {
               return (post.frontmatter.category === this.category && post.frontmatter.subcategory === this.subcategory)
             }
-            return (post.frontmatter.category === this.category)
+            return (post.frontmatter.category === this.category && !post.frontmatter.subcategory)
           }
           return true
         })
         .filter(post => !post.path.startsWith("/archived/"))
-        .sort(
-          (a, b) =>
-            new Date(b.frontmatter.published) -
-            new Date(a.frontmatter.published)
-        );
+        .sort(orderHandler);
       if (this.limit > 0) {
         posts = posts.slice(0, this.limit);
       }

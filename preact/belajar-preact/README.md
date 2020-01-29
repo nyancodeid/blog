@@ -14,4 +14,4 @@ meta:
 # Series Belajar Preact
 
 <Author name="Ryan Aunur Rassyid" />
-<BlogIndex category="preact" subcategory="belajar-preact" limit="10" />
+<BlogIndex category="preact" subcategory="belajar-preact" limit="10" order="ASC" />
