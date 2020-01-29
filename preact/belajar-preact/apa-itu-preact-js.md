@@ -7,6 +7,7 @@ published: 1/25/2020, 00:55:21 AM
 category: preact
 subcategory: belajar-preact
 tags: preact,cli,preactjs,javascript,react
+next: /preact/belajar-preact/setup-preact-app.html
 meta:
   - name: keywords
     content: preact,cli,preact.js,react

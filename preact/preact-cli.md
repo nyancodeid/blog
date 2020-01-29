@@ -15,3 +15,12 @@ meta:
 <Author name="Ryan Aunur Rassyid" />
 
 ![Preact-CLI: Command Line Bikin Semua Jadi Mudah](/images/preact-cli--nyandev-blog-cover.png#ft-image "Preact-CLI: Command Line Bikin Semua Jadi Mudah")
+
+
+Template project yang tersedia yaitu:
+- **default** - Default template dengan semua fitur (preact-router, preact-compat, dll).
+- **material** - Material template yang sudah tersedua `preact-material-components`.
+- **simple** - Template paling simple untuk yang ingin coba atau start dengan template yang minimalis.
+- **netlify** - Template untuk CMS Netlify.
+- **typescript** - Default template dengan implementasi typescript.
+- **widget** - Template untuk widget yang akan dipasang/diembed pada website lain.
