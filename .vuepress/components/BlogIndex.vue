@@ -83,7 +83,9 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: post.frontmatter.tags.split(','),
-        thumbnail: this.formatImageResize(post.frontmatter.image)
+        thumbnail: this.formatImageResize(
+          'https://blog.nyandev.id' + post.frontmatter.image
+        )
       }))
 
       return posts;
