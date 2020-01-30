@@ -5,7 +5,7 @@ module.exports = {
     ['link', { rel: "icon", type: "image/x-icon", href: "/icons/favicon.ico"}],
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
-    [ 'script', { src: "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" } ]
+    [ 'script', { src: "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js", async: '' } ]
   ],
   themeConfig: {
     domain: 'https://blog.nyandev.id',
