@@ -16,8 +16,7 @@ meta:
 # Belajar Preact: Setup Preact App
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Belajar Preact: Setup Preact App](/images/belajar-preact-bundler-cover.png#ft-image "Belajar Preact: Setup Preact App")
+<FeaturedImage src="/images/belajar-preact-bundler-cover.png" />
 
 ## Table of Content
 [[toc]]

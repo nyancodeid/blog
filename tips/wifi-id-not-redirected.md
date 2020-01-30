@@ -14,8 +14,7 @@ meta:
 # Tips: Login Page WiFi.id di OS Linux
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Tips: Login Page WiFi.id di OS Linux](/images/tips-login-wifiid-linux--nyandev-blog-cover.png#ft-image "Tips: Login Page WiFi.id di OS Linux | NyanDev Blog")
+<FeaturedImage src="/images/tips-login-wifiid-linux--nyandev-blog-cover.png" />
 
 Berawal dari kesulitan penulis untuk berinternet di Wifi.id Corner maka penulis akan membeberkan cara mengkoneksikan Laptop bersistem operasi Linux ke jaringan wifi di Wifi.id Corner.
 

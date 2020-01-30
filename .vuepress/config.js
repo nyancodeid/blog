@@ -56,6 +56,10 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     smoothScroll: false
   },
+  extendMarkdown: md => {
+    // use more markdown-it plugins!
+    md.use(require('markdown-it-mark'))
+  },
   plugins: [
     'vuepress-plugin-nprogress',
     'reading-progress',
@@ -63,7 +67,7 @@ module.exports = {
     'img-lazy',
     [
       'vuepress-plugin-medium-zoom', {
-        selector: '.content__default img:not([src*="#ft-image"])'
+        selector: '.content__default img:not(.no-zoom)'
       }
     ],
     ['minimal-analytics', {ga: 'UA-79152971-1'}],

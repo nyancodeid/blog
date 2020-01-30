@@ -13,8 +13,7 @@ meta:
 # Preact Hooks: untuk Functional Component
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Preact Hooks: untuk Functional Component](/images/preact-hooks--nyandev-blog-cover.png#ft-image "Preact Hooks: untuk Functional Component")
+<FeaturedImage src="/images/preact-hooks--nyandev-blog-cover.png" />
 
 > Hooks is a new concept that allows you to compose state and side effects. They allow you to reuse stateful logic between components.
 

@@ -15,8 +15,7 @@ meta:
 # Belajar Preact: Hello World
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Belajar Preact: Hello World](/images/belajar-preact-hello-world-cover.png#ft-image "Belajar Preact: Hello World")
+<FeaturedImage src="/images/belajar-preact-hello-world-cover.png" />
 
 <CodeBox id="preact-hello-world-1133w" title="Preact Hello World" />
 

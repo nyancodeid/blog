@@ -13,8 +13,7 @@ meta:
 # Javascript: Module and Bundler
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Javascript: Module and Bundler](/images/javascript-modules-bundler-nyandev-blog-cover.png#ft-image "Javascript: Module and Bundler")
+<FeaturedImage src="/images/javascript-modules-bundler-nyandev-blog-cover.png" />
 
 ## Table of Content
 [[toc]]

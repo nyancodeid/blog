@@ -13,9 +13,7 @@ meta:
 # Preact-CLI: Command Line Bikin Semua Jadi Mudah
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Preact-CLI: Command Line Bikin Semua Jadi Mudah](/images/preact-cli--nyandev-blog-cover.png#ft-image "Preact-CLI: Command Line Bikin Semua Jadi Mudah")
-
+<FeaturedImage src="/images/preact-cli--nyandev-blog-cover.png" />
 
 Template project yang tersedia yaitu:
 - **default** - Default template dengan semua fitur (preact-router, preact-compat, dll).

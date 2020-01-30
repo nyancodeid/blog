@@ -14,8 +14,7 @@ meta:
 # Tips: Cara Extract Meta Data pada Halaman Website
 
 <Author name="Ryan Aunur Rassyid" />
-
-![Cara Extract Meta Data Web](/images/extract-meta-data--nyandev-blog-cover.png#ft-image "Cara Extract Meta Data Web | NyanDev Blog")
+<FeaturedImage src="/images/extract-meta-data--nyandev-blog-cover.png" />
 
 Kalau kamu sering banget baca artikel di medium.com mungkin kalian tidak asing dengan tampilan priview berikut ini. Link preview ini mengambil data meta di web dan di tampilkan dalam bentuk card menarik.
 
