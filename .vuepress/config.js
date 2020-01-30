@@ -87,6 +87,19 @@ module.exports = {
         image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
         publishedAt: $page => $page.frontmatter.published && new Date($page.frontmatter.published),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+        customMeta: (add, context) => {
+
+          const {
+              $site, // Site configs provided by Vuepress
+              $page, // Page configs provided by Vuepress
+              siteTitle, title, description, author, tags, 
+              twitterCard, type, url, image, publishedAt, modifiedAt,
+          } = context
+  
+          add('og:image:alt', title, 'property')
+          add('og:image:width', '450', 'property')
+          add('article:author', 'https://facebook.com/ryan.hac', 'property')
+      },
       }
     ],
     [
