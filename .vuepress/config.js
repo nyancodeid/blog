@@ -1,6 +1,12 @@
 module.exports = {
   title: 'NyanDev Blog',
   description: 'Just playing around with Javascript',
+  head: [
+    ['link', { rel: "icon", type: "image/x-icon", href: "/icons/favicon.ico"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
+    [ 'script', { src: "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js" } ]
+  ],
   themeConfig: {
     domain: 'https://blog.nyandev.id',
     nav: [{
@@ -64,13 +70,12 @@ module.exports = {
     'vuepress-plugin-nprogress',
     'reading-progress',
     'vuepress-plugin-reading-time',
-    'img-lazy',
+    ['minimal-analytics', {ga: 'UA-79152971-1'}],
     [
       'vuepress-plugin-medium-zoom', {
         selector: '.content__default img:not(.no-zoom)'
       }
     ],
-    ['minimal-analytics', {ga: 'UA-79152971-1'}],
     [
       'sitemap',
       {

@@ -33,6 +33,7 @@
 </template>
 <script>
 export default {
+  name: "Author",
   props: [
     "name", "avatar"
   ],

@@ -11,6 +11,7 @@
 </template>
 <script>
 export default {
+  name: "CodeBox",
   props: [
     "title", "id"
   ],

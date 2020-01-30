@@ -11,7 +11,6 @@
   "devDependencies": {
     "vuepress": "^1.2.0",
     "vuepress-plugin-container": "^2.1.2",
-    "vuepress-plugin-img-lazy": "^1.0.1",
     "vuepress-plugin-medium-zoom": "^1.1.8",
     "vuepress-plugin-minimal-analytics": "^0.1.4",
     "vuepress-plugin-named-chunks": "^1.1.1",

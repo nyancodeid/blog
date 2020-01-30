@@ -18,4 +18,3 @@ meta:
 <FeaturedImage src="/images/belajar-preact-hello-world-cover.png" />
 
 <CodeBox id="preact-hello-world-1133w" title="Preact Hello World" />
-
