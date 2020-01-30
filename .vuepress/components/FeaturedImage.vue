@@ -13,7 +13,11 @@ export default {
 </script>
 <style lang="stylus">
 .featured-image
-  margin auto -1.5rem
+  margin 0
   img
     width 100%
+@media (max-width: 768px)
+  .featured-image
+    margin auto -1.5rem
+
 </style>
