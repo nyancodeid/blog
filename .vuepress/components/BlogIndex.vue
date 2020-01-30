@@ -7,7 +7,7 @@
         <router-link :to="post.path">
           <!-- If a post has the frontmatter "coverImage" then display that image. -->
           <div v-if="typeof post.frontmatter.image !== 'undefined'">
-            <img class="post-item--thumbnail" :src="post.thumbnail" :alt="post.title" />
+            <img class="post-item--thumbnail" :src="post.thumbnailMedium" :srcset="`${post.thumbnailMedium} 320w, ${post.thumbnailSmall} 1200w`" :alt="post.title" />
           </div>
         </router-link>
       </div>
@@ -40,15 +40,15 @@ export default {
 
       return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()} ${fDate.getHours()}:${(fDate.getMinutes() > 10) ? fDate.getMinutes() : `0${fDate.getMinutes()}`}`
     },
-    formatImageResize(url) {
+    formatImageResize(url, width = 200) {
       if (process.env.NODE_ENV === "development") {
         return url
       }
 
       return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
         + '?container=focus'
-        + '&resize_w=' + 200
-        + '&resize_h=' + 200
+        + '&resize_w=' + width
+        + '&resize_h=' + width
         + '&url=' + url;
     }
   },
@@ -83,9 +83,12 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: post.frontmatter.tags.split(','),
-        thumbnail: this.formatImageResize(
+        thumbnailSmall: this.formatImageResize(
           'https://blog.nyandev.id' + post.frontmatter.image
-        )
+        , 200),
+        thumbnailMedium: this.formatImageResize(
+          'https://blog.nyandev.id' + post.frontmatter.image
+        , 400)
       }))
 
       return posts;
@@ -146,7 +149,7 @@ export default {
   padding: 4px 8px;
   font-size: 13px;
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .post-item {
     flex-direction: column;
     margin-bottom: 2em;
