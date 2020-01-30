@@ -2,7 +2,7 @@
 title: "Javascript: Module and Bundler"
 lang: id-ID
 description: Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.
-image: /thumbnail/javascript-modules-bundler-nyandev-blog.png
+image: /thumbnail/javascript-modules-bundler-nyandev-blog.jpg
 published: 1/26/2020, 07:55:23 AM
 category: javascript
 tags: javascript,module,bundler,belajar
@@ -13,7 +13,7 @@ meta:
 # Javascript: Module and Bundler
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/javascript-modules-bundler-nyandev-blog-cover.png" />
+<FeaturedImage src="/images/covers/javascript-modules-bundler-nyandev-blog.jpg" />
 
 ## Table of Content
 [[toc]]

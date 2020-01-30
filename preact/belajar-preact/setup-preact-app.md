@@ -2,7 +2,7 @@
 title: "Belajar Preact: Setup Preact App"
 lang: id-ID
 description: Belajar memulai project dengan preact menggunakan bundler tool.
-image: /thumbnail/belajar-preact-bundler.png
+image: /thumbnail/belajar-preact-bundler.jpg
 published: 1/26/2020, 07:55:23 AM
 category: preact
 subcategory: belajar-preact
@@ -16,7 +16,7 @@ meta:
 # Belajar Preact: Setup Preact App
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/belajar-preact-bundler-cover.png" />
+<FeaturedImage src="/images/covers/belajar-preact-bundler.jpg" />
 
 ## Table of Content
 [[toc]]

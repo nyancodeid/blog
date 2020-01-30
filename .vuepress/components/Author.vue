@@ -2,7 +2,7 @@
   <div class="author d-flex">
     <div class="author-main d-flex">
       <div class="author-avatar">
-        <img v-if="(!avatar && name.indexOf('Ryan') != -1)" src="/images/profiles/avatar.png" :alt="name" width="48" height="48">
+        <img v-if="(!avatar && name.indexOf('Ryan') != -1)" src="/images/profiles/avatar.jpg" :alt="name" width="48" height="48">
         <img v-if="(avatar && name.indexOf('Ryan') == -1)" :src="avatar" :alt="name" width="48" height="48">
       </div>
       <div class="author-detail">

@@ -1,7 +1,7 @@
 ---
 title: " Tips: Cara Extract Meta Data Web"
 description: Cara dapetin data meta di web untuk digunakan di NyanDev Blog
-image: /thumbnail/extract-meta-data--nyandev-blog.png
+image: /thumbnail/extract-meta-data--nyandev-blog.jpg
 lang: id-ID
 published: 1/17/2020, 10:06:21 AM
 category: tips
@@ -14,7 +14,7 @@ meta:
 # Tips: Cara Extract Meta Data pada Halaman Website
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/extract-meta-data--nyandev-blog-cover.png" />
+<FeaturedImage src="/images/covers/extract-meta-data--nyandev-blog.jpg" />
 
 Kalau kamu sering banget baca artikel di medium.com mungkin kalian tidak asing dengan tampilan priview berikut ini. Link preview ini mengambil data meta di web dan di tampilkan dalam bentuk card menarik.
 

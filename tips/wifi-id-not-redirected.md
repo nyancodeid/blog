@@ -5,7 +5,7 @@ lang: id-ID
 tags: wifi.id,linux,refirected,login,dns,tips
 published: 1/17/2020, 10:06:21 AM
 category: tips
-image: /thumbnail/tips-login-wifiid-linux--nyandev-blog.png
+image: /thumbnail/tips-login-wifiid-linux--nyandev-blog.jpg
 author: Ryan Aunur Rassyid
 meta:
   - name: keywords
@@ -14,7 +14,7 @@ meta:
 # Tips: Login Page WiFi.id di OS Linux
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/tips-login-wifiid-linux--nyandev-blog-cover.png" />
+<FeaturedImage src="/images/covers/tips-login-wifiid-linux--nyandev-blog.jpg" />
 
 Berawal dari kesulitan penulis untuk berinternet di Wifi.id Corner maka penulis akan membeberkan cara mengkoneksikan Laptop bersistem operasi Linux ke jaringan wifi di Wifi.id Corner.
 

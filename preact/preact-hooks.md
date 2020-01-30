@@ -2,7 +2,7 @@
 title: "Preact Hooks: untuk Functional Component"
 lang: id-ID
 description: Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.
-image: /thumbnail/preact-hooks--nyandev-blog.png
+image: /thumbnail/preact-hooks--nyandev-blog.jpg
 published: 1/24/2020, 02:49:21 PM
 category: preact
 tags: preact,cli,preactjs,javascript,react
@@ -13,7 +13,7 @@ meta:
 # Preact Hooks: untuk Functional Component
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/preact-hooks--nyandev-blog-cover.png" />
+<FeaturedImage src="/images/covers/preact-hooks--nyandev-blog-cover.jpg" />
 
 > Hooks is a new concept that allows you to compose state and side effects. They allow you to reuse stateful logic between components.
 

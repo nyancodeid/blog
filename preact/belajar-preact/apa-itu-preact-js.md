@@ -2,7 +2,7 @@
 title: "Belajar Preact: Apa itu Preact JS?"
 lang: id-ID
 description: Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.
-image: /thumbnail/belajar-preact-perkenalan.png
+image: /thumbnail/belajar-preact-perkenalan.jpg
 published: 1/25/2020, 00:55:21 AM
 category: preact
 subcategory: belajar-preact
@@ -15,7 +15,7 @@ meta:
 # Belajar Preact: Apa itu Preact JS?
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/belajar-preact-perkenalan-cover.png" />
+<FeaturedImage src="/images/covers/belajar-preact-perkenalan.jpg" />
 
 ==Preact adalah sebuah javascript library yang menggambarkan dirinya sebagai alternatif library berukuran **3kB** untuk pengguna React dengan API ES6 yang sama.== Bagi pengguna yang belum pernah menggunakan React sebagai library untuk project saya ingin bermain dengan Preact yang menonjolkan diri sebagai library yang ringan namun dengan fitur yang sama dengan React.
 

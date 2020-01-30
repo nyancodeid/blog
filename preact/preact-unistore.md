@@ -2,7 +2,7 @@
 title: "Unistore: State Management Mudah untuk Preact App"
 lang: id-ID
 description: Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.
-image: /thumbnail/preact-unistore--nyandev-blog.png
+image: /thumbnail/preact-unistore--nyandev-blog.jpg
 published: 1/17/2020, 10:06:21 AM
 category: preact
 tags: preact,unistore,state,management,react
@@ -13,7 +13,7 @@ meta:
 # Unistore: State Management Mudah untuk Preact App
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/preact-unistore--nyandev-blog-cover.png" />
+<FeaturedImage src="/images/covers/preact-unistore--nyandev-blog.jpg" />
 
 > A tiny 350b centralized state container with component bindings for [Preact](https://github.com/developit/preact) & [React](https://github.com/facebook/react).
 
