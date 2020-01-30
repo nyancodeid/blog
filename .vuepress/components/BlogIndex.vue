@@ -49,6 +49,7 @@ export default {
         + '?container=focus'
         + '&resize_w=' + width
         + '&resize_h=' + width
+        + '&refresh=604800'
         + '&url=' + url;
     }
   },
