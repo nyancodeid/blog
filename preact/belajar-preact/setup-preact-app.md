@@ -36,7 +36,7 @@ Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.
 
 blog.nyandev.id
 :::
-::: preview-thumbnail https://blog.nyandev.id/thumbnail/javascript-modules-bundler-nyandev-blog.png
+::: preview-thumbnail https://blog.nyandev.id/thumbnail/javascript-modules-bundler-nyandev-blog.jpg
 :::
 ::::
 
