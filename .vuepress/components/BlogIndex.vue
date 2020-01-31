@@ -154,6 +154,7 @@ export default {
   .post-item > div:nth-child(1) > a > div {
     width: 100%;
     height: auto;
+    background-color: unset;
   }
   .post-item--thumbnail {
     width: 100%;
