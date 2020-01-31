@@ -83,9 +83,7 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: post.frontmatter.tags.split(','),
-        thumbnail: this.formatImageResize(
-          'https://blog.nyandev.id' + post.frontmatter.image
-        , 300)
+        thumbnail: this.formatImageResize(post.frontmatter.image, 300)
       }))
 
       return posts;
@@ -101,6 +99,8 @@ export default {
 }
 .post-item > div:nth-child(1) > a > div {
   width: 200px;
+  height: 200px;
+  background-color: #f2f2f2;
 }
 .post-item > div:nth-child(2) {
   padding-left: 16px;

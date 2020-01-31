@@ -10,7 +10,7 @@
         <span>{{dateFormat($page.frontmatter.published)}} · {{$page.readingTime.text}}</span>
       </div>
     </div>
-    <div class="author-social d-flex">
+    <div class="author-social d-flex" v-if="(name.indexOf('Ryan') != -1)">
       <div class="author-social-wrapper d-flex">
         <div>
           <a href="https://twitter.com/AunurRyan">
