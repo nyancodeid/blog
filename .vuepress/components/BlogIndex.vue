@@ -153,6 +153,7 @@ export default {
   }
   .post-item > div:nth-child(1) > a > div {
     width: 100%;
+    height: auto;
   }
   .post-item--thumbnail {
     width: 100%;
