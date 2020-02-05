@@ -267,3 +267,5 @@ codesandbox.io
 Dengan adanya module **Unistore** kita bisa me-*manage* state pada component kita agar lebih tertata serta memudahkan kita dan team dikemudian hari. Tidak diragukan lagi, peranan unistore sangatlah di perlukan untuk project yang berskala besar. Namun untuk project berskala kecil tidak ada salahnya untuk mencoba menerapkan ini unistore pada project hebat kalian. 
 
 Kapan menggunakan unistore atau state management yang lain? jika dalam project, kita melihat bahwa Child Component semakin banyak dan pertukaran state semakin sering terjadi antar component maka disitulah kamu memerlukan bantuan dari State Management. Unistore adalah salah satu contohnya dari sekian banyak state management lainnya.
+
+<Disqus />

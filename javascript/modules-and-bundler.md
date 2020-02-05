@@ -21,8 +21,8 @@ meta:
 ## Module
 Pertama mari kita belajar apa itu Module. Ketika javascript pertama kali diperkenalkan, javascript memiliki sistem yang sangat mendasar untuk memuat "module". Dengan cara menempatkan tag script dalam file html dan menentukan lokasi file javascript yang akan di-load kedalam website. Mekanisme ini kurang baik, bahkan untuk project kecil karena beberapa alasan:
 
-1. Karena semua diload dalam konteks global yang memicu tabrakan nama (*name collisions*) dan penimpaan (*overrides*)
-2. Banyak pekerjaan manual bagi developer untuk mengetahui dependensi dan urutan module yang diload
+1. Karena semua diload dalam konteks global yang memicu tabrakan nama (*name collisions*) dan penimpaan (*overrides*).
+2. Banyak pekerjaan manual bagi developer untuk mengetahui dependensi dan urutan module yang diload.
 
 Permasalahan tersebut diperburuk ketika aplikasi pada sisi client (browser) berkembang lebih besar dan lebih besar lagi sampai menjadi project yang kompleks. Untuk menyelesaikan masalah module ini, komunitas javascript mulai memperkenalkan solusinya sekitar tahun 2009 sebagai *CommonJS* (**CJS**) dan *Asynchronous Module Definition* (**AMD**).
 
@@ -212,3 +212,4 @@ Ada tiga hal yang dilakukkan oleh Bundler tool ini, yaitu:
 
 Sementara bundler mendeteksi dan mengumpulkan assets yang ada pada project, bundler juga akan menganalisa bagaimana module-module itu didefinisikan, bagaimana mereka ber-relasi, apakah file asset memerlukan transformasi (seperti Typescript, Sass, Stylus, atau Pug), dan bagaimana file tersebut diload kedalam file HTML. Pada fase **Transformasi** segala informasi tersebut di prosess dan dimanipulasi sesuai dengan konfigurasi file yang didefinisikan, contohnya file *Typescript* di compile sehingga menjadi file Javascript dan file Sass (.scss) di compile menjadi file CSS. Dan akhirnya fase **Optimasi** dilakukkan untuk meng-*optimasi* file asset seperti javascript, css, dan bahkan gambar juga (dikonfigurasi terlebih dahulu).
 
+<Disqus />
