@@ -60,7 +60,6 @@ module.exports = {
       {
         type: 'preview-thumbnail',
         before: (link) => {
-          console.log(arguments)
           return `<div class="link-preview--thumbnail" style="background-image: url(${link});">`
         },
         after: '</div>',
@@ -77,39 +76,40 @@ Karena vuepress menggunakan `stylus` maka syntax akan sedikit berbeda dengan css
 .link-preview
   text-decoration: none
   margin 1rem 0
-  box-shadow 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1)
-  display flex
-  flex 0 0 auto
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex: 0 0 auto;
   &:hover
-    text-decoration none !important
-
+    text-decoration: none !important
   .link-preview--content
-    padding 10px 12px 10px;
-    flex 1 1 auto
-    flex-direction column
-    justify-content center
-    display flex
-    width calc(100% - 180px)
+    padding: 10px 12px 10px;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: calc(100% - 180px)
     p
-      margin-top 0
+      margin-top: 0
     p:last-child
-      margin-bottom 0
+      margin-bottom: 0
     p:not(.title)
-      font-size 14px
-      color rgba(0, 0, 0, 0.54)
-      font-weight 400
-      word-break break-word
-      text-overflow ellipsis
-      overflow hidden
+      font-size: 14px
+      color: rgba(0, 0, 0, 0.54)
+      font-weight: 400
+      word-break: break-word
+      text-overflow: ellipsis
+      overflow: hidden
+      max-height 40px
     p.title
+      font-family CustomSansSerif,'Lucida Grande',Arial,sans-serif;
       font-weight bold
       color #212121
       margin-bottom 4px
       font-size 18px
-
   .link-preview--thumbnail
-    width 180px
-    height 167px
+    width 170px
+    height auto
+    min-height 167px
     background-size cover
     background-repeat no-repeat
     background-position 50% 50%

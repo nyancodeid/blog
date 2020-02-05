@@ -262,7 +262,7 @@ codesandbox.io
 ::::
 
 ## Kesimpulan
-**Unistore** menyebut dirinya sebagai State Container dengan Component Binding untuk Preact dan React. Karena konsepnya yang sederhana dari State Management membuat penggunanya lebih paham bagaimana peranan state management mempermudah kerjamu. Dengan ukuran nya yang sangat kecil (350b GZIP) tidak banyak memperngaruhi space project kamu.
+**Unistore** menyebut dirinya sebagai State Container dengan Component Binding untuk Preact dan React. Karena konsepnya yang sederhana dari State Management membuat penggunanya lebih paham bagaimana peranan state management mempermudah kerjamu. Dengan ukuran nya yang sangat kecil (350b GZIP) tidak banyak mempengaruhi space project kamu.
 
 Dengan adanya module **Unistore** kita bisa me-*manage* state pada component kita agar lebih tertata serta memudahkan kita dan team dikemudian hari. Tidak diragukan lagi, peranan unistore sangatlah di perlukan untuk project yang berskala besar. Namun untuk project berskala kecil tidak ada salahnya untuk mencoba menerapkan ini unistore pada project hebat kalian. 
 
