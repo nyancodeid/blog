@@ -3,6 +3,11 @@ module.exports = {
   description: 'Just playing around with Javascript',
   head: [
     ['link', { rel: "icon", type: "image/x-icon", href: "https://cdn.statically.io/favicon/blog.nyandev.id?cache=31556952"}],
+    ['link', { rel: "preconnect", href: "https://cdn.statically.io" }],
+    ['link', { rel: "preconnect", href: "https://telegra.ph" }],
+    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/eda0c383/.vuepress/public/fonts/keivit-regular.otf", as: "font" }],
+    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/eda0c383/.vuepress/public/fonts/keivit-bold.otf", as: "font" }],
+    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/eda0c383/.vuepress/public/fonts/charter-regular.otf", as: "font" }],
     [ 'script', { src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js", async: '' } ]
   ],
   themeConfig: {
