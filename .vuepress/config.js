@@ -2,10 +2,8 @@ module.exports = {
   title: 'NyanDev Blog',
   description: 'Just playing around with Javascript',
   head: [
-    ['link', { rel: "icon", type: "image/x-icon", href: "/icons/favicon.ico"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
-    [ 'script', { src: "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js", async: '' } ]
+    ['link', { rel: "icon", type: "image/x-icon", href: "https://cdn.statically.io/favicon/blog.nyandev.id?cache=31556952"}],
+    [ 'script', { src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js", async: '' } ]
   ],
   themeConfig: {
     domain: 'https://blog.nyandev.id',
@@ -14,16 +12,19 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Tips',
-        link: '/tips/'
+        text: 'Javascript',
+        items: [
+          { text: 'Javascript Category', link: '/javascript/' },
+          { text: 'Preact Category', link: '/preact/' },
+          { text: 'Series: Belajar Preact', link: '/preact/belajar-preact/' }
+        ]
       },
       {
-        text: 'Informasi',
-        link: '/informasi/'
-      },
-      {
-        text: 'External',
-        link: 'https://google.com'
+        text: 'Others',
+        items: [
+          { text: 'Tips Category', link: '/tips/' },
+          { text: 'Informasi Category', link: '/informasi/' }
+        ]
       }
     ],
     sidebar: [

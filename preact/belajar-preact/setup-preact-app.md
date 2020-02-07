@@ -113,10 +113,6 @@ github.com
 ### manifest.json
 Adalah file dimana konfigurasi atau informasi website kita dalam bentuk file JSON sederhana. Kamu bisa mengontrol bagaimana aplikasi terlihat oleh pengguna misalnya mengarahkan halaman apa yang bisa diluncurkan pengguna, dan menentukan tampilannya pada saat peluncuran. Bahkan splashscreen ketika web app dibuka. 
 
-::: warning
-Meskipun kamu bisa menggunakan manifes aplikasi web di situs mana pun, semua itu hanya bekerja jika website kamu adalah **PWA** (Progressive Web App).
-:::
-
 ### src/
 Pada folder inilah kita akan bekerja, dimana semua komponen, style, dan busnis logic di letakkan. `src` sendiri adalah singkatan dari **source** yang artinya sumber atau semua bermula disini.
 
@@ -132,11 +128,25 @@ npm run build
 
 Dengan menjalankan perintah diatas, kamu sudah memerintahkan preact-cli untuk menjalankan perintah `build` ke versi produksi (*release*). `dist` sendiri merupakan singkatan dari **distribution**.
 
-::: tip 
+::: warning For Your Information 
 **src/** stands for source, and is the **raw code** before minification or concatenation or some other compilation - used to read/edit the code.
 
 **dist/** stands for distribution, and is the **minified/concatenated** version - actually used on production sites.
 :::
+
+## NPM Script
+Ketika kita menjalankan perintah `npm run dev` sebenarnya ini adalah perintah untuk `npm` agar menjalankan script `dev` yang bisa kamu lihat di file packages.json. Pada propertis scripts disitu secara default akan ada `dev`, `build`, dan `server`. Disitulah isi perintah yang sebenarnya dijalankan oleh npm.
+
+### Start Development Server
+Setiap kali kita ingin mengerjakan project kita. Kita harus menyalakan Development Server kita terlebih dulu dengan mengetik perintah `npm run dev`. Perintah tersebut menjalankan server development supaya kita bisa mengakses nya pada browser dengan alamat `http://localhost:8080` (secara default) dan mendapatkan perubahan langsung secara real-time setiap kali kamu melakukkan perubahan dan menyimpannya.
+
+### Build Project
+Untuk menghasilkan versi release dari Project, kita bisa menjalankan perintah `npm run build`. Dan hasilnya kita bisa lihat di folder `dist/`.
+
+## Kesimpulkan
+Preact-CLI memudahkan kita untuk membuat project Preact secara cepat dengan pre-set yang sudah dibuat oleh Team Preact. Dengan menggunakan Command Line kita semakin dipermudah dalam pengoprasiannya.
+
+## Referensi
 
 :::: preview https://stackoverflow.com/questions/23730882/what-is-the-role-of-src-and-dist-folders
 
