@@ -17,4 +17,23 @@ meta:
 <Author name="Ryan Aunur Rassyid" />
 <FeaturedImage src="/images/covers/belajar-preact-hello-world.jpg" />
 
-<CodeBox id="preact-hello-world-1133w" title="Preact Hello World" />
+<CodeSwitcher :languages="{js:'JavaScript',ts:'TypeScript'}">
+<template v-slot:js>
+
+```js
+module.exports = function (str) {
+    return typeof str === 'string' && str.trim() === str
+}
+```
+
+</template>
+<template v-slot:ts>
+
+```ts
+export default function isString (str: string) : str is string {
+    return typeof str === 'string' && str.trim() === str
+}
+```
+
+</template>
+</CodeSwitcher>

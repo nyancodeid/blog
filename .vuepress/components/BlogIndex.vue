@@ -7,7 +7,7 @@
         <router-link :to="post.path">
           <!-- If a post has the frontmatter "coverImage" then display that image. -->
           <div v-if="typeof post.frontmatter.image !== 'undefined'">
-            <img class="post-item--thumbnail no-zoom lazyload" :data-src="post.thumbnail" :alt="post.title" />
+            <img class="post-item--thumbnail no-zoom" :src="post.thumbnail" :alt="post.title" />
           </div>
         </router-link>
       </div>
@@ -82,7 +82,7 @@ export default {
       }
       posts = posts.map(post => ({ 
         ...post,
-        tags: post.frontmatter.tags.split(','),
+        tags: (post.frontmatter.tags && post.frontmatter.tags.split(',')) || [],
         thumbnail: this.formatImageResize(post.frontmatter.image, 300)
       }))
 

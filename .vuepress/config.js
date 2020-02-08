@@ -1,3 +1,25 @@
+const fs = require('fs')
+const path = require('path')
+
+function getCategoryPost (dir, title) {
+  const dirs = path.join(__dirname, `../${dir}`)
+  let files = []
+
+  try {
+    const _files = fs.readdirSync(dirs, { withFileTypes: true })
+
+    files = _files
+      .filter(file => !file.name.includes('README'))
+      .filter(file => !file.isDirectory())
+      .map(file => file.name)
+
+    return [ dir, `${title} (${files.length})` ]
+  } catch (err) {
+    console.error(err)
+    return [ dir, title ]
+  }
+}
+
 module.exports = {
   title: 'NyanDev Blog',
   description: 'Just playing around with Javascript',
@@ -34,45 +56,31 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Javascript', // required
-        path: '/javascript', // optional, which should be a absolute path.
+        title: 'Category', // required
         collapsable: false, // optional, defaults to true
         sidebarDepth: 1, // optional, defaults to 1
         children: [
-          '/preact/',
-          '/preact/belajar-preact/'
-        ]
-      },
-      {
-        title: 'Tips', // required
-        path: '/tips', // optional, which should be a absolute path.
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1, // optional, defaults to 1
-        children: [
-          '/tips/meta-data-extract',
-          '/tips/wifi-id-not-redirected'
-        ]
-      },
-      {
-        title: 'Informasi', // required
-        path: '/informasi', // optional, which should be a absolute path.
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1, // optional, defaults to 1
-        children: [
-          '/informasi/belajar-finansial-literasi'
+          getCategoryPost('/javascript/', 'Javascript'),
+          getCategoryPost('/preact/', 'Preact'),
+          getCategoryPost('/preact/belajar-preact/', 'Preact Series'),
+          getCategoryPost('/devops/', 'Dev Ops'),
+          getCategoryPost('/tips/', 'Tips'),
+          getCategoryPost('/informasi/', 'Informasi')
         ]
       }
     ],
     repo: 'nyancodeid/blog',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    smoothScroll: false
+    smoothScroll: false,
+    lastUpdated: 'Last Updated'
   },
   extendMarkdown: md => {
     // use more markdown-it plugins!
     md.use(require('markdown-it-mark'))
   },
   plugins: [
+    'code-switcher',
     'vuepress-plugin-nprogress',
     'reading-progress',
     'vuepress-plugin-reading-time',

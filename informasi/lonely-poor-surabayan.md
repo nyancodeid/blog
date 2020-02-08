@@ -1,5 +1,5 @@
 ---
-title: L o n e l y Poor Surabayan
+title: Lonely Poor Surabayan
 author: Aris Rahman P. Putra
 description: Saya ingin menonton film Crazy Rich Asian. Agar lebih bisa menghayati, saya putuskan untuk menonton film tersebut di salah satu mall tempat para CrazyRichSurabayan biasa menghabiskan...
 lang: id-ID
@@ -11,7 +11,7 @@ meta:
   - name: keywords
     content: lonely,poor,cinta,surabaya
 ---
-# L o n e l y Poor Surabayan
+# Lonely Poor Surabayan
 
 <Author name="Aris Rahman P. Putra" avatar="https://telegra.ph/file/2fbf52fafc3602298f03f.png" />
 <FeaturedImage src="/images/covers/lonely-poor-surabayan.jpg" />

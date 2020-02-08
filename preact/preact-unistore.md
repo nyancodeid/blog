@@ -21,7 +21,7 @@ meta:
 
 ## State Management
 
-Dalam membangun sebuah web app kita akan dihadapkan dengan beberapa permasalah dalam mengatur ***state***. Ya state, mungkin untuk 2-5 komponen yang kita buat tidak akan meninmbulkan masalah saat proses development. Namun, permasalah ini akan muncul ketika kamu sudah memiliki banyak komponen yang saling membutuhkan state satu sama lain.
+Dalam membangun sebuah web app kita akan dihadapkan dengan beberapa permasalah dalam mengatur ***state***. Ya state, mungkin untuk 2-5 komponen yang kita buat tidak akan menimbulkan masalah saat proses development. Namun, permasalah ini akan muncul ketika kamu sudah memiliki banyak komponen yang saling membutuhkan state satu sama lain.
 
 Kita tau bahwa management state yang dilakukkan sebelumnya yaitu melempar ***state*** ke ***props*** akan mudah di pahami dalam pengenalan konsep state. Siapa yang tidak tau dengan cara pengenalan state yang disajikan dengan membuat aplikasi increment sederhana. Namun kita harus tau bahwa ini adalah cara sederhana menjelaskan konsep state dan project yang akan kita bangun tidak akan sesederhana itu.
 
@@ -36,18 +36,7 @@ Alih-alih menggunakan Redux ([*preact-redux*](https://github.com/developit/preac
 If you're using Preact X (preact@10+), please use the official react-redux library.
 :::
 
-Jadi sederhanya Unistore merupakan sebuah state management yg mana tugasnya sebagai centralized store untuk semua component dalam aplikasi preact/react.
-
-:::: preview https://github.com/developit/preact-redux
-
-::: preview-content developit/preact-redux
-:loop: Preact integration for Redux (no shim needed!) - developit/preact-redux
-
-github.com
-:::
-::: preview-thumbnail https://avatars1.githubusercontent.com/u/105127?s=400&v=4
-:::
-::::
+Jadi sederhanya Unistore merupakan sebuah state management yg mana tugasnya sebagai **centralized store** untuk semua component dalam aplikasi preact/react.
 
 ## Konsep
 Karena unistore adalah module sederhana yang dibuat dengan prinsip yang sama dengan Redux, jadi konsep dasar State Management nya hampir sama dengan Redux.
@@ -262,10 +251,34 @@ codesandbox.io
 ::::
 
 ## Kesimpulan
-**Unistore** menyebut dirinya sebagai State Container dengan Component Binding untuk Preact dan React. Karena konsepnya yang sederhana dari State Management membuat penggunanya lebih paham bagaimana peranan state management mempermudah kerjamu. Dengan ukuran nya yang sangat kecil (350b GZIP) tidak banyak mempengaruhi space project kamu.
+**Unistore** menyebut dirinya sebagai *state container* dengan *component binding* untuk Preact dan React. Dengan modern API dan konsep yang sama dengan library redux dengan penyederhanaan cara kerja dalam mengatur *state* membuat kamu lebih mudah memahami bagaimana peranan module ini dalam mempermudah pekerjaanmu. Dengan ukuran nya yang sangat kecil (~350b) sehingga tidak banyak mempengaruhi size project kamu.
 
-Dengan adanya module **Unistore** kita bisa me-*manage* state pada component kita agar lebih tertata serta memudahkan kita dan team dikemudian hari. Tidak diragukan lagi, peranan unistore sangatlah di perlukan untuk project yang berskala besar. Namun untuk project berskala kecil tidak ada salahnya untuk mencoba menerapkan ini unistore pada project hebat kalian. 
+Tapi, dalam memulai project Preact kamu tidak perlu langsung menggunakan Unistore dalam mengatur state kamu. Justru kita harus belajar dasar penggunaan state dalam komponen. Unistore atau module state management yang lain sangatlah di perlukan untuk project yang berskala besar.
 
-Kapan menggunakan unistore atau state management yang lain? jika dalam project, kita melihat bahwa Child Component semakin banyak dan pertukaran state semakin sering terjadi antar component maka disitulah kamu memerlukan bantuan dari State Management. Unistore adalah salah satu contohnya dari sekian banyak state management lainnya.
+Kapan kita menggunakan unistore atau state management yang lain?. ketika Child Component semakin banyak dan pertukaran state semakin sering terjadi antar component maka pada saat itulah kamu memerlukan bantuan dari State Management. Unistore adalah salah satu contohnya dari sekian banyak state management lainnya.
+
+## Referensi
+
+:::: preview https://github.com/developit/unistore
+
+::: preview-content GitHub - developit/unistore: 🌶 350b / 650b state container with component actions for Preact & React
+🌶 350b / 650b state container with component actions for Preact & React - developit/unistore
+
+github.com
+:::
+::: preview-thumbnail https://avatars1.githubusercontent.com/u/105127?s=400&v=4
+:::
+::::
+
+:::: preview https://css-tricks.com/learning-react-redux/
+
+::: preview-content Leveling Up with React: Redux | CSS-Tricks
+This tutorial is the final of a three-part series by Brad Westfall. We'll learn how to manage state across an entire application efficiently and in a way
+
+css-tricks.com
+:::
+::: preview-thumbnail https://i2.wp.com/css-tricks.com/wp-content/uploads/2014/03/css-tricks-star.png?fit=512%2C512&ssl=1
+:::
+::::
 
 <Disqus />
