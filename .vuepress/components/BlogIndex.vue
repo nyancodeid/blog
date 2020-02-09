@@ -42,14 +42,9 @@ export default {
       return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()} ${fDate.getHours()}:${(fDate.getMinutes() > 10) ? fDate.getMinutes() : `0${fDate.getMinutes()}`}`
     },
     formatImageResize(url, width = 200) {
-      return url
+      if (process.env.NODE_ENV !== "production") return url
 
-      // return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
-      //   + '?container=focus'
-      //   + '&resize_w=' + width
-      //   + '&resize_h=' + width
-      //   + '&refresh=604800'
-      //   + '&url=' + url;
+      return `https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`
     }
   },
   computed: {

@@ -14,8 +14,21 @@ echo 'blog.nyandev.id' > CNAME
 
 cd -
 
-git add -A
-git commit -m 'deploy: blog'
+git add dist
+
+echo "Commit message for gh-pages commit?"
+read pagecommit
+
+git commit -m 'deploy: $pagecommit'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git subtree push --prefix dist origin gh-pages
+
+git add -A
+
+echo "Commit message for gh-pages commit?"
+read mastercommit
+git commit -m 'update: $mastercommit'
+
+# push master 
+git push origin master
