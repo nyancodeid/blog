@@ -17,21 +17,62 @@ meta:
 <Author name="Ryan Aunur Rassyid" />
 <FeaturedImage src="/images/covers/belajar-preact-hello-world.jpg" />
 
-<CodeSwitcher :languages="{js:'JavaScript',ts:'TypeScript'}">
+<CodeSwitcher :languages="{js:'index.js',html:'index.html',json:'package.json'}">
 <template v-slot:js>
 
 ```js
-module.exports = function (str) {
-    return typeof str === 'string' && str.trim() === str
-}
+import { render, h } from "preact";
+
+const App = () => {
+  return <h1>Hello World</h1>;
+};
+
+render(<App />, document.getElementById("app"));
 ```
 
 </template>
-<template v-slot:ts>
+<template v-slot:html>
 
-```ts
-export default function isString (str: string) : str is string {
-    return typeof str === 'string' && str.trim() === str
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<div id="app"></div>
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
+```
+
+</template>
+<template v-slot:json>
+
+```json
+{
+  "name": "preact-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "preact": "10.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
 }
 ```
 

@@ -132,7 +132,7 @@ medium.com
 ::::
 ```
 
-#### Example
+#### Hasil implementasi
 :::: preview https://medium.com/@MFaridZia/belajar-state-management-pada-vue-js-dengan-vuex-ef6d0571bc0e
 
 ::: preview-content Belajar State Management pada Vue.js...
@@ -160,7 +160,7 @@ app.get("/fetch", async (req, res) => {
     res.send(renderResult({
         ...result,
         link: req.query.url,
-        thumbnail: result.ogImage || 'no-image',
+        thumbnail: result.ogImage || 'https://telegra.ph/file/73935aea4865c151c4c70.png',
         description: result.description || result.twitterDescription
     }))
 })
