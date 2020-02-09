@@ -120,3 +120,5 @@ Dan seharusnya kamu sekarang sudah mendapati halaman login WiFi.id yang sudah te
 
 ## Kesimpulan
 DNS Server memiliki peranan vital dalam internet karenanya semua pemetaan IP dan Domain ada padanya. Karenanya, diharapkan pembaca jadi lebih paham bagaimana DNS bekerja lewat studi kasus permasalahan simple ini. Dan bagaimana troubleshooting permasalahan secara bertahap.   
+
+<Disqus />

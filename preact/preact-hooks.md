@@ -86,7 +86,7 @@ import { useState } from 'preact/hooks';
 ## Stateful hooks
 
 ### useState
-Pada contoh diatas, kita menggunakan `useState`. useState adalah sebuah Hook, dan akan mengembalikan nilai dari state (pada contoh diatas: value) dan fungsi yang bisa kita gunakan untuk mengubah nilai tersebut (setValue). Fungsi setValue disini mirip dengan cara kerja `this.setState` jadi bayangkan bahwa kalau state ditampung pada object state nah kita disini membuatnya lebih kecil dengan membuat state yang lebih kecil dengan methode setState nya sendiri. 
+Pada contoh diatas, kita menggunakan `useState`. useState adalah sebuah Hook, dan akan mengembalikan nilai dari state (pada contoh diatas: value) dan fungsi yang bisa kita gunakan untuk mengubah nilai tersebut (setValue). Fungsi setValue disini mirip dengan `this.setState` jadi bayangkan kalau state ditampung dalam object state nah disini kita membuatnya lebih kecil dengan membuat state yang lebih kecil dengan metode setState nya sendiri. 
 
 useState memiliki parameter yang harus diisi, yaitu init value atau value awal. Contohnya disini parameter kita adalah `0`, jadi nilai awal dari state `value` adalah `0`.
 

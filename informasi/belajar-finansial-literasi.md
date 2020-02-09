@@ -75,3 +75,5 @@ Hijrah boleh, tetep di bayar dan jangan lari. Jangan menghina yang masih berhuta
 > "Tulisan ini saya tujukan agar yang saat ini masih hutang bisa sedikit mendapat wawasan."
 
 Baca langsung original post [di sini](https://www.facebook.com/photo.php?fbid=10218549847890809&set=a.1013387948343&type=3)
+
+<Disqus />

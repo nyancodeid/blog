@@ -185,3 +185,4 @@ Hasil nya akan nampak seperti berikut
 ![Hasil Pemanggilan API di Terminal](https://telegra.ph/file/fa5790f00cb63af08f6b3.png "Hasil Pemanggilan API di Terminal")
 *Hasil Pemanggilan API di Terminal*
 
+<Disqus />
