@@ -147,13 +147,155 @@ const memoized = useMemo(
 Hook **useCallback** dapat digunakan untuk memastikan bahwa fungsi yang dikembalikan akan tetap sama secara referensi selama tidak ada dependensi yang berubah. Ini dapat digunakan untuk mengoptimalkan pembaruan child component ketika mereka bergantung pada referensi yang sama untuk melewati pembaruan (misalnya. **ShouldComponentUpdate**).
 
 ```js
-const onClick = useCallback(() => console.log(valueA, valueB), [valueA, valueB]);
+const onClick = useCallback(() => console.log(a, b), [a, b]);
 ```
 
-useCallback memiliki 2 argument, yaitu **Function** dan **Dependency**. Untuk bisa mengakses `valueA` dan `valueB` maka kedua variable tersebut dipassing pada argument ke-2 method `useCallback` yang dibungkus kedalam Array.
+useCallback memiliki 2 argument, yaitu **Function** dan **Dependency**. Untuk bisa mengakses `a` dan `b` maka kedua variable tersebut dipassing pada argument ke-2 method `useCallback` yang dibungkus kedalam Array.
 
+## useRef
+Untuk mendapatkan referensi pada DOM node kedalam functional component kita bisa memanfaatkan hook **useRef**. Cara kerjanya mirip dengan method [createRef](https://preactjs.com/guide/v10/refs#createrefs).
+
+```jsx
+function Foo() {
+  // Initialize useRef dengan nilai awal `null`
+  const input = useRef(null);
+  const onClick = () => input.current && input.current.focus();
+
+  return (
+    <>
+      <input ref={input} />
+      <button onClick={onClick}>Focus input</button>
+    </>
+  );
+}
+```
+
+::: warning
+Hati hati untuk tidak membuat bingung `useRef` dengan `createRef`.
+:::
+
+## useContext
+Untuk mengakses konteks dalam komponen fungsional kita dapat menggunakan hook **useContext**, tanpa ada higher-order component atau wrapper component. Menurut website [aligator.io](https://alligator.io/) di artikelnya tentang `useContext` disebutkan bahwa `Context API` adalah alternatif yang sederhana dan mudah dipahami untuk “prop-drilling” ke atas dan ke bawah dari struktur komponen Anda. Alih-alih meneruskan data lokal di sekitar dan melalui beberapa lapisan komponen (passing data antar komponen), dibutuhkan langkah mundur untuk menciptakan state global, yang sangat berguna untuk data yang perlu dibagi di seluruh komponen (data seperti tema, otentikasi, bahasa pilihan, dll.)
+
+```jsx
+const Theme = createContext('light');
+
+function DisplayTheme() {
+  const theme = useContext(Theme);
+  return <p>Active theme: {theme}</p>;
+}
+
+// ...later
+function App() {
+  return (
+    <Theme.Provider value="light">
+      <OtherComponent>
+        <DisplayTheme />
+      </OtherComponent>
+    </Theme.Provider>
+  )
+}
+```
+
+## Side-Effects
+Side Effects adalah jantung dari modern app saat ini. Ketika value pada dependency argument berubah effect yang akan ditimbulkan dari perubahan tersebut akan memicu function yang ditetapkan sebagai callback nantinya. 
+
+### useEffect
+useEffect akan mentrigger function ketika sebuah nilai berubah atau memiliki dampak dari perubahan itu.
+
+```js
+useEffect(() => {
+  // Trigger your effect
+  return () => {
+    // Optional: Any cleanup code
+  };
+}, [] // <-- Dependency Array
+);
+```
+
+Lihat contoh sederhannya dari penerapan useEffect dalam merubah judul document HTML setiap kali value dari `props.title` benar benar berubah untuk menghindari pemanggilan function secara terus menerus ketika props di-*refresh* namun valuenya tetap. Itulah kenapa kita meletakkan `props.title` pada dependency array.
+
+```js
+function PageTitle(props) {
+  useEffect(() => {
+    document.title = props.title;
+  }, [props.title]);
+
+  return <h1>{props.title}</h1>;
+}
+```
+
+Contoh lain dalam penerapan `useEffect` yang tidak menggunakan dependency array.
+
+```js
+// Component that will always display the current window width
+function WindowWidth(props) {
+  const [width, setWidth] = useState(0);
+
+  function onResize() {
+    setWidth(window.innerWidth);
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+
+  return <div>Window width: {width}</div>;
+}
+```
+
+::: tip
+The cleanup function is optional. If you don't need to run any cleanup code, you don't need to return anything in the callback that's passed to `useEffect`.
+:::
+
+### useErrorBoundary
+Ketika component UI mengembalikan `Error` maka kita bisa handle menggunakan Hook **useErrorBoundary** untuk memberikan UI yang berbeda ketika component mengalami error saat menjalankan kode atau saat pemanggilan API berlangsung.
+
+```js
+const [error, resetError] = useErrorBoundary();
+```
+
+Kamu juga bisa melakukkan hal lain misalnya mengirim error tersebut ke server untuk *error reporting* dengan cara berikut.
+
+```js
+const [error, resetError] = useErrorBoundary(error => reportSomeError(error.message));
+```
+
+Contoh lengkapnya lihat kode berikut.
+
+```jsx
+const App = props => {
+  const [error, resetError] = useErrorBoundary(
+    error => reportSomeError(error.message)
+  );
+
+  // Display a nice error message
+  if (error) {
+    return (
+      <div>
+        <p>{error.message}</p>
+        <button onClick={resetError}>Try again</button>
+      </div>
+    );
+  } else {
+    return <div>{props.children}</div>
+  }
+};
+```
 
 ## Referensi
+:::: preview https://preactjs.com/guide/v10/hooks/
+
+::: preview-content Hooks – Preact
+Preact is a fast 3kB alternative to React with the same modern API.
+
+preactjs.com
+:::
+::: preview-thumbnail https://preactjs.com/assets/app-icon.png
+:::
+::::
+
 :::: preview https://medium.com/codelabs-unikom/mengenal-react-hooks-63aafde79da0
 
 ::: preview-content Mengenal React Hooks - UNIKOM Codelabs - Medium
@@ -162,5 +304,16 @@ Ketika membuat component di React, kita akan mempertimbangkan apakah harus mengg
 medium.com
 :::
 ::: preview-thumbnail https://miro.medium.com/max/1200/1*yPmUyz7rwQTcI1FLkoZBQQ.png
+:::
+::::
+
+:::: preview https://alligator.io/react/usecontext/
+
+::: preview-content The React useContext Hook in a Nutshell ← Alligator.io
+An introductory guide to React's useContext Hook to gain access to a global state via the Context API.
+
+alligator.io
+:::
+::: preview-thumbnail https://telegra.ph/file/9d0d66d03c52febd50913.png
 :::
 ::::
