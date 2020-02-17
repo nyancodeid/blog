@@ -27,9 +27,6 @@ module.exports = {
     ['link', { rel: "icon", type: "image/x-icon", href: "/icons/favicon.ico"}],
     ['link', { rel: "preconnect", href: "https://cdn.statically.io" }],
     ['link', { rel: "preconnect", href: "https://telegra.ph" }],
-    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/fonts/keivit-regular.otf", as: "font" }],
-    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/fonts/keivit-bold.otf", as: "font" }],
-    ['link', { rel: "preload", href: "https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/fonts/charter-regular.otf", as: "font" }],
     [ 'script', { src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js", async: '' } ]
   ],
   themeConfig: {
