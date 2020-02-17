@@ -104,6 +104,7 @@ export default {
 .post-item--thumbnail {
   height: 200px;
   width: 200px;
+  object-fit: cover;
 }
 .post-item--description {
   font-size: 14px;
