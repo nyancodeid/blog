@@ -2,6 +2,15 @@
   <div class="post-items">
     <!-- Loop through all posts. -->
     <div class="post-item" v-for="post in posts">
+      <div>
+        <h2 class="post-item--title">
+          <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
+        </h2>
+        <!-- Display the post's frontmatter description. -->
+        <p class="post-item--description">{{ post.frontmatter.description || "" }}</p>
+        <p class="post-item--author no-margin">{{ post.frontmatter.author || "Ryan Aunur Rassyid" }}</p>
+        <p class="post-item--meta no-margin">{{ formateDate(post.frontmatter.published) }} · {{ post.readingTime.text }}</p>
+      </div>
       <!-- Create a link to the post's url. This can also be removed if you don't plan to have any images. -->
       <div>
         <router-link :to="post.path">
@@ -10,18 +19,6 @@
             <img class="post-item--thumbnail no-zoom" :src="post.thumbnail" :alt="post.title" />
           </div>
         </router-link>
-      </div>
-      <div>
-        <h2 class="post-item--title">
-          <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
-        </h2>
-        <!-- Display the post's frontmatter description. -->
-        <p class="post-item--description">{{ post.frontmatter.description || "" }}</p>
-        <div class="post-item--tags">
-          <span v-for="tag in post.tags">{{tag}}</span>
-        </div>
-        <!-- Display the post's frontmatter date. -->
-        <span class="post-item--date">{{ formateDate(post.frontmatter.published) }}</span>
       </div>
     </div>
   </div>
@@ -39,7 +36,7 @@ export default {
       var fDate = new Date(date);
       var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
-      return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()} ${fDate.getHours()}:${(fDate.getMinutes() > 10) ? fDate.getMinutes() : `0${fDate.getMinutes()}`}`
+      return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()}`
     },
     formatImageResize(url, width = 200) {
       if (process.env.NODE_ENV !== "production") return url
@@ -88,65 +85,75 @@ export default {
 };
 </script>
 <style>
+.post-items {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Medium;
+}
 .post-item {
   display: flex;
   position: relative;
-  margin-bottom: 1em;
+  width: calc(50% - 18px);
+  padding: 1em 1em 16px 0;
 }
 .post-item > div:nth-child(1) > a > div {
   width: 200px;
   height: 200px;
   background-color: #f2f2f2;
 }
+.post-item > div:nth-child(1) {
+  width: 75%;
+}
 .post-item > div:nth-child(2) {
-  padding-left: 16px;
+  width: 25%;
 } 
 .post-item--thumbnail {
-  height: 200px;
-  width: 200px;
+  border-radius: 100%;
   object-fit: cover;
 }
+.home .post-item--thumbnail {
+  height: 110px;
+  width: 110px;
+}
+.post-item > div:nth-child(2) > a {
+  text-align: right;
+}
+.page .post-item--thumbnail {
+  height: 72px;
+  width: 72px;
+}
 .post-item--description {
-  font-size: 14px;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 40px;
+  line-height: 20px;
+  margin: 0;
 }
 .post-item--title {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 400px;
   border-bottom: unset;
+  font-size: 24px;
 }
 .post-item--title > a {
   font-weight: 700;
+  color: rgba(0,0,0,.84);
 }
-.post-item--tags {
-  display: flex;
-  flex-flow: row wrap;
-  margin: -4px;
+.post-item--author, .post-item--meta {
+  font-size: 16px;
 }
-.post-item--tags > span {
-  font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-  padding: 4px 8px;
-  border-radius: 4px;
-  background-color: #F2F2F2;
-  margin: 4px;
-  text-transform: uppercase;
-}
-.post-item--date {
-  position: absolute;
-  right: 8px;
-  top: 0;
-
-  border-radius: 0 0 4px 4px;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 4px 8px;
-  font-size: 13px;
+.post-item--author {
+  margin-top: 1.5em;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .post-item {
-    flex-direction: column;
     margin-bottom: 2em;
+    width: 100%;
+    padding: 0;
   }
   .post-item > div:nth-child(1) > a > div {
     width: 100%;
@@ -154,11 +161,11 @@ export default {
     background-color: unset;
   }
   .post-item--thumbnail {
-    width: 100%;
-    height: auto;
+    height: 72px;
+    width: 72px;
   }
   .post-item > div:nth-child(2) {
-    padding-left: 0;
+    text-align: right;
   }
 }
 </style>
