@@ -5,7 +5,7 @@ description: Saya ingin menonton film Crazy Rich Asian. Agar lebih bisa menghaya
 lang: id-ID
 published: 1/31/2020, 10:03:21 AM
 category: informasi
-image: /thumbnail/lonely-poor-surabayan.jpg
+image: /images/covers/lonely-poor-surabayan.jpg
 tags: lonely,poor,cinta,surabaya
 meta:
   - name: keywords
@@ -15,6 +15,8 @@ meta:
 
 <Author name="Aris Rahman P. Putra" avatar="https://telegra.ph/file/2fbf52fafc3602298f03f.png" />
 <FeaturedImage src="/images/covers/lonely-poor-surabayan.jpg" />
+
+> Featured image photo by <u>Fabrizio Verrecchia</u> on [unsplash.com](https://unsplash.com/photos/7Ieipcj7lp4)
 
 Saya ingin menonton film Crazy Rich Asian. Agar lebih bisa menghayati, saya putuskan untuk menonton film tersebut di salah satu mall tempat para **#CrazyRichSurabayan** biasa menghabiskan waktu dan menghabiskan uang mereka dengan duduk-duduk sambil tertawa lepas di tempat macam Excelso atau Starbuck atau nama-nama lain yang selalu membuat saya sedih saat melihat daftar menu dan harganya. Berjalan-jalan di tempat macam ini selalu membuat saya merenung, bagaimana mereka bisa sekaya itu? Apa yang mereka lakukan yang tidak dilakukan oleh orang tua saya? Mengapa Starbuck bisa dengan mudah membuka gerainya di tempat seelit mall ini di saat teman-teman ayah saya–para pedagang kaki lima–justru masih sering bermain petak umpet dengan Satuan Polisi Pamong Praja? Mengapa toilet mall bisa sedingin ini sedangkan rumah-rumah di Kampung Seng terasa begitu panas menyengat saat siang hari?
 

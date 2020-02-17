@@ -9,5 +9,5 @@ type: pages
 
 ## Tulisan Terbaru
 
-<BlogIndex limit="6" />
+<BlogIndex limit="20" />
 

@@ -31,6 +31,7 @@ module.exports = {
   ],
   themeConfig: {
     domain: 'https://blog.nyandev.id',
+    displayAllHeaders: true,
     nav: [{
         text: 'Home',
         link: '/'
@@ -38,31 +39,20 @@ module.exports = {
       {
         text: 'Javascript',
         items: [
-          { text: 'Javascript Category', link: '/javascript/' },
-          { text: 'Preact Category', link: '/preact/' },
+          { text: 'Javascript', link: '/javascript/' },
+          { text: 'Preact', link: '/preact/' },
           { text: 'Series: Belajar Preact', link: '/preact/belajar-preact/' }
         ]
       },
       {
+        text: 'Devops',
+        link: '/devops/'
+      },
+      {
         text: 'Others',
         items: [
-          { text: 'Tips Category', link: '/tips/' },
-          { text: 'Informasi Category', link: '/informasi/' }
-        ]
-      }
-    ],
-    sidebar: [
-      {
-        title: 'Category', // required
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1, // optional, defaults to 1
-        children: [
-          getCategoryPost('/javascript/', 'Javascript'),
-          getCategoryPost('/preact/', 'Preact'),
-          getCategoryPost('/preact/belajar-preact/', 'Preact Series'),
-          getCategoryPost('/devops/', 'Dev Ops'),
-          getCategoryPost('/tips/', 'Tips'),
-          getCategoryPost('/informasi/', 'Informasi')
+          { text: 'Tips', link: '/tips/' },
+          { text: 'Informasi', link: '/informasi/' }
         ]
       }
     ],

@@ -5,7 +5,7 @@ description: Apapun background mu saat ini, berapapun usiamu saat ini, dari kelu
 lang: id-ID
 published: 1/17/2020, 10:06:21 AM
 category: informasi
-image: /thumbnail/belajar-finansial-literasi--nyandev-blog.jpg
+image: /images/covers/belajar-financial-literasi-nyandev-blog.jpg
 tags: finansial,riba,hutang,literasi
 meta:
   - name: keywords
@@ -15,6 +15,8 @@ meta:
 
 <Author name="Avianto Tiyo" avatar="https://telegra.ph/file/feb763759206b2f37e8e5.png" />
 <FeaturedImage src="/images/covers/belajar-financial-literasi-nyandev-blog.jpg" />
+
+> Featured image photo by <u>Pepi Stojanovski</u> on [unsplash.com](https://unsplash.com/photos/MJSFNZ8BAXw)
 
 Apapun background mu saat ini, berapapun usiamu saat ini, dari keluarga kaya atau biasa saja, dari lulusan apa saja, kamu perlu mengerti seluk beluk dunia financial terutama Piutang.
 

@@ -14,10 +14,14 @@ export default {
 <style lang="stylus">
 .featured-image
   margin 0
-  img
-    width 100%
-@media (max-width: 768px)
-  .featured-image
-    margin auto -1.5rem
+
+  > img
+    width calc(100vw - 8px) !important
+    max-width calc(100vw - 8px) !important
+    position relative
+    left 50%
+    right 50%
+    margin-left -50vw
+    margin-right -50vw
 
 </style>

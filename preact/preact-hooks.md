@@ -2,7 +2,7 @@
 title: "Preact Hooks: untuk Functional Component"
 lang: id-ID
 description: Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.
-image: /thumbnail/preact-hooks--nyandev-blog.jpg
+image: /images/covers/preact-hooks--nyandev-blog.jpg
 published: 1/24/2020, 02:49:21 PM
 category: preact
 tags: preact,cli,preactjs,javascript,react
