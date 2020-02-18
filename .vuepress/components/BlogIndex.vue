@@ -148,6 +148,8 @@ export default {
 .post-item--author {
   margin-top: 1.5em;
   font-weight: bold;
+  color: #292929;
+  font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
 }
 @media (max-width: 768px) {
   .post-item {
@@ -160,7 +162,8 @@ export default {
     height: auto;
     background-color: unset;
   }
-  .post-item--thumbnail {
+  .home .post-item--thumbnail,
+  .page .post-item--thumbnail {
     height: 72px;
     width: 72px;
   }
