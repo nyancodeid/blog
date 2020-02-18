@@ -13,7 +13,10 @@ meta:
 # Unistore: State Management Mudah untuk Preact App
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/preact-unistore--nyandev-blog.png" />
+<FeaturedImage
+  src="/images/covers/preact-unistore--nyandev-blog.png"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com" />
 
 > A tiny 350b centralized state container with component bindings for [Preact](https://github.com/developit/preact) & [React](https://github.com/facebook/react).
 

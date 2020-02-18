@@ -13,9 +13,10 @@ meta:
 # Javascript: Module and Bundler
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/javascript-modules-bundler-nyandev-blog.png" />
-
-> *featured image by <u>webpack</u> on [webpack.js.org](https://webpack.js.org/)*
+<FeaturedImage 
+  src="/images/covers/javascript-modules-bundler-nyandev-blog.png"
+  source="webpack.js.org"
+  sourceLink="https://webpack.js.org/" />
 
 ## Table of Content
 [[toc]]

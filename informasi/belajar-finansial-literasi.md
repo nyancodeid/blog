@@ -14,9 +14,11 @@ meta:
 # Belajar Financial Literasi Itu Penting
 
 <Author name="Avianto Tiyo" avatar="https://telegra.ph/file/feb763759206b2f37e8e5.png" />
-<FeaturedImage src="/images/covers/belajar-financial-literasi-nyandev-blog.jpg" />
-
-> Featured image photo by <u>Pepi Stojanovski</u> on [unsplash.com](https://unsplash.com/photos/MJSFNZ8BAXw)
+<FeaturedImage 
+  src="/images/covers/belajar-financial-literasi-nyandev-blog.jpg"
+  author="Pepi Stojanovski"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com/photos/MJSFNZ8BAXw" />
 
 Apapun background mu saat ini, berapapun usiamu saat ini, dari keluarga kaya atau biasa saja, dari lulusan apa saja, kamu perlu mengerti seluk beluk dunia financial terutama Piutang.
 

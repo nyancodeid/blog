@@ -13,9 +13,11 @@ meta:
 # Berkenalan dengan Virtual DOM
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/javascript-virtual-dom-nyandev-blog.jpg" />
-
-> Featured image by <u>Leo Foureaux</u> on [unsplash.com](https://unsplash.com/photos/inQCuuA1MMo)
+<FeaturedImage 
+  src="/images/covers/javascript-virtual-dom-nyandev-blog.jpg"
+  author="Leo Foureaux"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com/photos/inQCuuA1MMo" />
 
 ![parsing HTML and building a DOM tree - developers.google.com](https://telegra.ph/file/55d8cb709a4728caa8d17.png)
 *parsing HTML and building a DOM tree - [developers.google.com](https://developers.google.com/web/updates/2018/09/inside-browser-part3)*

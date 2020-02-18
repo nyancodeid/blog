@@ -15,8 +15,10 @@ meta:
 # Password Modem Telkom HG8245H
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/infomasi-password-modem-telkom.jpg" />
-> *featured image photo by <u>getwallpapers.com</u>*
+<FeaturedImage
+  src="/images/covers/infomasi-password-modem-telkom.jpg"
+  source="getwallpapers.com"
+  sourceLink="https://getwallpapers.com" />
 
 Berikut adalah daftar username dan password untuk router dari Indihome atau Telkom dengan tipe series HUAWEI HG8245H. Secara default alamat IP untuk router ini adalah `192.168.100.1`. Pertama buka browser dan masukkan alamat IP Modem/Router pada URL Bar. Contohnya `http://192.168.100.1`, maka kamu akan menampilkan 2 inputan yang harus di-isi yaitu, username dan password. Secara SOP kamu akan diberikan username dan password untuk mengakses router kamu ketika selesai pemasangan wifi (minta jika kamu tidak dikasih) untuk memberikan akses mengubah nama wifi ataupun password wifi kamu dirumah.
 

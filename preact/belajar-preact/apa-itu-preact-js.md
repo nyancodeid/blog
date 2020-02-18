@@ -15,7 +15,10 @@ meta:
 # Belajar Preact: Apa itu Preact JS?
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/belajar-preact-perkenalan.png" />
+<FeaturedImage 
+  src="/images/covers/belajar-preact-perkenalan.png"
+  source="swansoftwaresolutions.com"
+  sourceLink="https://swansoftwaresolutions.com/a-different-kind-of-library-react-or-preact/" />
 
 ==Preact adalah sebuah javascript library yang menggambarkan dirinya sebagai alternatif library berukuran **3kB** untuk pengguna React dengan API ES6 yang sama.== Bagi pengguna yang belum pernah menggunakan React sebagai library untuk project saya ingin bermain dengan Preact yang menonjolkan diri sebagai library yang ringan namun dengan fitur yang sama dengan React.
 

@@ -16,9 +16,11 @@ meta:
 # Belajar Preact: Setup Preact App
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/belajar-preact-bundler.jpg" />
-
-> Featured image by <u>Nielsen Ramon</u> on [unsplash.com](https://unsplash.com/photos/okvqMfl78YE)
+<FeaturedImage 
+  src="/images/covers/belajar-preact-bundler.jpg"
+  author="Nielsen Ramon"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com/photos/okvqMfl78YE" />
 
 ## Table of Content
 [[toc]]

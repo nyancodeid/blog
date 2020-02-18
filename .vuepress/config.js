@@ -52,7 +52,8 @@ module.exports = {
         text: 'Others',
         items: [
           { text: 'Tips', link: '/tips/' },
-          { text: 'Informasi', link: '/informasi/' }
+          { text: 'Informasi', link: '/informasi/' },
+          { text: 'Bookmark', link: '/bookmark/' }
         ]
       }
     ],

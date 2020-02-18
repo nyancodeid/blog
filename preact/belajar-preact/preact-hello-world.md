@@ -15,9 +15,11 @@ meta:
 # Belajar Preact: Hello World
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/belajar-preact-hello-world.jpg" />
-
-> Featured image by <u>Julian Santa Ana</u> on [unsplash.com](https://unsplash.com/photos/FKqH1QhUqaw)
+<FeaturedImage 
+  src="/images/covers/belajar-preact-hello-world.jpg"
+  author="Julian Santa Ana"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com/photos/FKqH1QhUqaw" />
 
 <CodeSwitcher :languages="{js:'index.js',html:'index.html',json:'package.json'}">
 <template v-slot:js>

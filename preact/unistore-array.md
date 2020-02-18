@@ -14,8 +14,10 @@ meta:
 # Unistore: Manage State with Arrays
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/unistore-array-state.jpg" />
-> *featured image photo by <u>tokeet.com</u>*
+<FeaturedImage 
+  src="/images/covers/unistore-array-state.jpg"
+  source="tokeet.com"
+  sourceLink="https://tokeet.com" />
 
 Belajar memanipulasi state dengan tipe data `Array` pada Unistore atau dalam Preact State.
 

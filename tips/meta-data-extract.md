@@ -14,9 +14,11 @@ meta:
 # Tips: Cara Extract Meta Data pada Halaman Website
 
 <Author name="Ryan Aunur Rassyid" />
-<FeaturedImage src="/images/covers/extract-meta-data--nyandev-blog.jpg" />
-
-> Featured image by <u>Giancarlo Revolledo</u> on [unsplash.com](https://unsplash.com/photos/QOkr2RY4DT4)
+<FeaturedImage 
+  src="/images/covers/extract-meta-data--nyandev-blog.jpg"
+  author="Giancarlo Revolledo"
+  source="unsplash.com"
+  sourceLink="https://unsplash.com/photos/QOkr2RY4DT4" />
 
 Kalau kamu sering banget baca artikel di medium.com mungkin kalian tidak asing dengan tampilan priview berikut ini. Link preview ini mengambil data meta di web dan di tampilkan dalam bentuk card menarik.
 
