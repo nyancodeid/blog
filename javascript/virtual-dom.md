@@ -5,6 +5,7 @@ description: Lebih mengenal apa itu Virtual DOM dan alasan keberadaan mereka dal
 image: /images/covers/javascript-virtual-dom-nyandev-blog.jpg
 published: 2/9/2020, 10:13:23 PM
 category: javascript
+author: Ryan Aunur Rassyid
 tags: javascript,virtual,dom,tree,belajar
 meta:
   - name: keywords

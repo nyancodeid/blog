@@ -58,6 +58,7 @@ export default {
 
       let posts = this.$site.pages
         .filter(post => post.frontmatter.type !== "pages")
+        .filter(post => !post.frontmatter.draft)
         .filter(post => post.frontmatter.title)
         .filter(post => {
           if (this.category) {
