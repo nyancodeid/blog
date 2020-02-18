@@ -3,10 +3,9 @@ title: "Cara Setup Project Node.js + Typescript"
 lang: id-ID
 description: Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.
 image: /images/covers/cara-setup-nodejs-project-dengan-typescript.jpg
-published: 2/18/2020, 07:55:23 AM
+published: 2/18/2020, 09:55:23 PM
 category: javascript
 author: Ryan Aunur Rassyid
-draft: false
 tags: javascript,typescript,setup,node,belajar
 meta:
   - name: keywords
