@@ -81,7 +81,7 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: (post.frontmatter.tags && post.frontmatter.tags.split(',')) || [],
-        thumbnail: this.formatImageResize(post.frontmatter.image, 512)
+        thumbnail: this.formatImageResize(post.frontmatter.image, (this.category) ? 256 : 512)
       }))
 
       return posts;
