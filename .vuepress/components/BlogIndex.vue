@@ -38,10 +38,15 @@ export default {
 
       return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()}`
     },
-    formatImageResize(url, width = 200) {
+    formatImageResize(url, width = 512) {
       if (process.env.NODE_ENV !== "production") return url
 
-      return `https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`
+      return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
+        + '?container=focus'
+        + '&resize_w=' + width
+        + '&resize_h=' + width
+        + '&refresh=604800'
+        + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
     }
   },
   computed: {
@@ -77,7 +82,7 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: (post.frontmatter.tags && post.frontmatter.tags.split(',')) || [],
-        thumbnail: this.formatImageResize(post.frontmatter.image, 300)
+        thumbnail: this.formatImageResize(post.frontmatter.image, 512)
       }))
 
       return posts;
