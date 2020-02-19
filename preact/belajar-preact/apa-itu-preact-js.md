@@ -1,5 +1,5 @@
 ---
-title: "Belajar Preact: Apa itu Preact JS?"
+title: "Belajar Preact: Apa itu Preact JS? [#1]"
 lang: id-ID
 description: Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.
 image: /images/covers/belajar-preact-perkenalan.png

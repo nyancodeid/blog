@@ -1,5 +1,5 @@
 ---
-title: "Belajar Preact: Hello World"
+title: "Belajar Preact: Hello World [#3]"
 lang: id-ID
 description: Program Hello world adalah gerbang pertama dari runtutan series belajar Preact kita selanjutnya
 image: /images/covers/belajar-preact-hello-world.jpg

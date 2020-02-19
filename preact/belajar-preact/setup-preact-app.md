@@ -1,5 +1,5 @@
 ---
-title: "Belajar Preact: Setup Preact App"
+title: "Belajar Preact: Setup Preact App [#2]"
 lang: id-ID
 description: Belajar memulai project dengan preact menggunakan bundler tool.
 image: /images/covers/belajar-preact-bundler.jpg
