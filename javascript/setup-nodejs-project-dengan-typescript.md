@@ -22,7 +22,7 @@ meta:
 
 ## Introduction
 
-Node adalah runtime environment yang memungkinkan untuk menulis Javascript pada sisi server yang ditemukan pada tahun 2011 oleh **Ryan Dahl**. Hingga saat ini node mengalami perkembangan sangat pesat. Menulis Javascript pada server-side menjadi sebuah tantangan karena sifat bahasa Javascript yang *dynamic* dan *weak typed*.
+Node adalah runtime environment yang memungkinkan untuk menulis Javascript pada sisi server yang ditemukan pada tahun 2009 oleh **Ryan Dahl** dan mulai berkembang pesat pada tahun 2011. Hingga saat ini node masih mengalami perkembangan yang semakin pesat. Menulis Javascript pada server-side menjadi sebuah tantangan karena sifat bahasa Javascript yang *dynamic* dan *weak typed*.
 
 Ini menjadi keluhan para developer server-side sebelumnya yang ingin menggunakan javascript sebagai bahasa project mereka selanjutnya dengan alasan kurangnya *strong static typeing*. Disinilah Typescript datang untuk menutupi kekurangan tersebut.
 
@@ -38,6 +38,9 @@ Berikut ini beberapa manfaat menggunakan TypeScript:
 3. Kemampuan untuk menggunakan interface.
 
 Artikel kali kita akan membahas pengaturan dan konfigurasi yang diperlukan untuk memungkinkan, komputer kita menjalankan aplikasi Node menggunakan Typescript dan mengubahnya menjadi kode Javascript yang rapih dan andal.
+
+## Table of Content
+[[toc]]
 
 ## Prasyarat
 Karena kita akan menggunakan Node.js maka pastikan kamu sudah memiliki Node dengan versi minimal `6` atau gunakan NodeJS versi LTS terbaru untuk mengantisipasi error akibat tidak adanya fitur yang diperlukan untuk menjalankan Typescript.
@@ -170,7 +173,7 @@ Berikut adalah struktur code awal project sederhana untuk menjalankan Typescript
 ## Memperbarui file package.json
 Sampai sini kamu sudah bisa menjalankan project Typescript kita. Untuk membuatnya mudah dijalankan kita akan membuat `npm script`. Pada langkah ini kita akan membuat script `start` yang akan mengkompilasi dan mentranspilasikan kode TypeScript, dan kemudian menjalankan aplikasi .js yang dihasilkan.
 
-Buka file `package.json` dan perbarui itu sesuai dengan snippet dibawah ini:
+Buka file `package.json` dan perbarui sesuai dengan snippet dibawah ini:
 ```json
 {
   "name": "node-typescript",
@@ -195,12 +198,10 @@ Buka file `package.json` dan perbarui itu sesuai dengan snippet dibawah ini:
   }
 }
 ```
-update `main` path dan tambahkan perintah `start` pada `scripts`  
+update `main` path dan tambahkan perintah `start` pada `scripts`.
 
 
 ## Membuat dan Menjalankan Express Server Sederhana
-Now that TypeScript and its linter are configured, it is time to build a Node Express Server. Open up the app.ts file and paste in the following code snippet:
-
 Sekarang Typescript dan ESLint sudah terkonfigurasi, dan sekarang waktunya untuk mebuat basic Expres Server untuk menguji apakah konfigurasi kita sudah benar.
 
 ```ts
@@ -260,6 +261,20 @@ Pada titik ini kamu sudah berhasil setup project Node.js kamu menggunakan Typesc
 ::: tip Tips
 Kamu bisa menggunakan module `tsnode` untuk menjalankan script `.ts` kamu secara langsung dari pada menjalankan `tsc` untuk mengtranspile kode typescript menjadi javascript lalu menjalankan hasil transpile tersebut dengan `node`. `tsnode` secara otomatis akan melakukkan prosess transpile dan lansung menjalankan nya, ini menjadi lebih praktis.
 :::
+
+## Final Result
+Hasil akhir yang dibuat bisa kamu lihat di Repository Github penulis.
+
+:::: preview https://github.com/nyancodeid/node-typescript
+
+::: preview-content GitHub - nyancodeid/node-typescript: Cara Setup Project Node.js + Typescript
+Cara Setup Project Node.js + Typescript. Contribute to nyancodeid/node-typescript development by creating an account on GitHub.
+
+github.com
+:::
+::: preview-thumbnail https://avatars1.githubusercontent.com/u/24630806?s=400&v=4
+:::
+::::
 
 ## Kesimpulan
 Pada tutorial ini, kamu belajar tentang bagaimana Typescript sangat membantumu menulis kode Javascript secara benar dan andal. Kamu juga belajar tentang keuntungan bekerja dengan Typescript.
