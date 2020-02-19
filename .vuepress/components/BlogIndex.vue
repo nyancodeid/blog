@@ -44,7 +44,6 @@ export default {
       return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
         + '?container=focus'
         + '&resize_w=' + width
-        + '&resize_h=' + width
         + '&refresh=604800'
         + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
     }
