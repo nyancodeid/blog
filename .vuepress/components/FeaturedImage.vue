@@ -1,6 +1,6 @@
 <template>
   <p class="featured-image">
-    <img :alt="$page.title" :title="`${$page.title} | NyanDev Blog`" :data-src="src" loading="lazy" class="no-zoom lazy" :src="src" />
+    <img :alt="$page.title" :title="`${$page.title} | NyanDev Blog`" :data-src="src" class="no-zoom lazy" :src="src" />
     <span class="featured-image--subtitle" v-html="generateSubtitle()"></span>
   </p>  
 </template>
