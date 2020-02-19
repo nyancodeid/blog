@@ -22,7 +22,7 @@ function getCategoryPost (dir, title) {
 
 module.exports = {
   title: 'NyanDev Blog',
-  description: 'Just playing around with Javascript',
+  description: "Let's playing around with Javascript and his friends",
   head: [
     ['link', { rel: "icon", type: "image/x-icon", href: "/icons/favicon.ico"}],
     ['link', { rel: "preconnect", href: "https://cdn.statically.io" }],
