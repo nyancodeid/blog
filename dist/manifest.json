@@ -6,7 +6,7 @@
 	"display" : "standalone",
 	"start_url" : "https://blog.nyandev.id/",
 	"short_name" : "NyanDev Blog",
-	"theme_color" : "transparent",
+	"theme_color" : "#42b983",
 	"description" : "Let's playing around with Javascript and his friends",
 	"orientation" : "portrait",
 	"background_color" : "transparent",
@@ -48,6 +48,11 @@
      "sizes": "192x192",
      "type": "image/png",
      "density": "4.0"
+    },
+    {
+     "src": "/icons/android-icon-512x512.png",
+     "sizes": "512x512",
+     "type": "image/png"
     }
    ],
 	"url" : "https://blog.nyandev.id",
