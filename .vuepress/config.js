@@ -31,7 +31,7 @@ module.exports = {
     ['link', { rel: "icon", type: "image/png", sizes: "96x96", href: "/icons/favicon-96x96.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#42b983' }],
+    ['meta', { name: 'theme-color', content: '#65c59a' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', sizes: '57x57', href: '/icons/apple-icon-57x57.png' }],
