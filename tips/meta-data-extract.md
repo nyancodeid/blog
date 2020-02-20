@@ -10,6 +10,8 @@ tags: meta,api,runkit,nodejs,markdown
 meta:
   - name: keywords
     content: meta,api,runkit,nodejs,markdown
+feed:
+  enable: true
 ---
 # Tips: Cara Extract Meta Data pada Halaman Website
 

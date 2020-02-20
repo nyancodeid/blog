@@ -10,6 +10,8 @@ tags: javascript,typescript,setup,node,belajar
 meta:
   - name: keywords
     content: javascript,typescript,setup,node,belajar
+feed:
+  enable: true
 ---
 # Cara Setup Project Node.js + Typescript
 
@@ -49,18 +51,18 @@ Karena kita akan menggunakan Node.js maka pastikan kamu sudah memiliki Node deng
 Untuk memastikan bahwa prasyarat sudah dipenuhi adalah dengan memastikan versi node dan npm milik kalian dengan mengetik perintah dibawah ini di terminal atau command line kalian.
 
 ```shell
-node -v
-npm -v
+$ node -v
+$ npm -v
 ```
 Saat artikel ini dibuat penulis menggunakan Node versi `v12.16.0` dan npm versi `v6.13.4`
 
-### Menginisialisasi project dengan NPM
+## Menginisialisasi project dengan NPM
 Sekarang setelah Node dan Npm sudah ada, selanjutnya buat folder baru dan inisialisasi sebagai project npm:
 
 ```shell
-mkdir nama_project
-cd nama_project
-npm init
+$ mkdir nama_project
+$ cd nama_project
+$ npm init
 ```
 
 ::: tip Catatan
@@ -71,18 +73,18 @@ Jika kami ingin npm menebak nilai default dari proses inisialisasi project maka 
 Selanjutnya kita akan memisahkan folder dimana kita bekerja dan folder dimana file `.js` atau hasil transplasi diletakkan. 
 
 ```shell
-mkdir src
-mkdir dist
+$ mkdir src
+$ mkdir dist
 ```
 - `src`: adalah folder dimana file typescript kita berada.
 - `dist`: adalah folder dimana hasil build typescript kita berada.
 
-### Menginstal Dependensi
+## Menginstal Dependensi
 Sejauh ini Anda telah menginstal Node dan menginisialisasi project anda. Langkah selanjutnya adalah menginstall dependensi yang diperlukan untuk menjalankan script. Kita akan menginstall dependensi untuk *dev* dependensi dan *project* dependensi.
 
 ```shell
-npm install -D typescript
-npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+$ npm install -D typescript
+$ npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 - `typescript` : core typescript library.
 - `eslint` : core ESLint linting library.
@@ -92,8 +94,8 @@ npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 selanjutnya kita akan install package express.js yang akan digunakan untuk melakukkan pengujian konfigurasi Typescript kita.  
 
 ```shell
-npm install express 
-npm install -D @types/express
+$ npm install express 
+$ npm install -D @types/express
 ```
 Perintah kedua diatas menginstal types Express untuk dukungan Typescript. Paket ini dibutuhkan karena Typescript dan Express adalah paket independen. Tanpa paket `@types/express`, tidak ada cara bagi Typescript untuk mengetahui jenis-jenis class dalam Express.
 
@@ -141,7 +143,7 @@ module.exports =  {
   extends:  [
     'plugin:@typescript-eslint/recommended',  // Uses the recommended rules from the @typescript-eslint/eslint-plugin
   ],
- parserOptions:  {
+  parserOptions:  {
     ecmaVersion:  2018,  // Allows for the parsing of modern ECMAScript features
     sourceType:  'module',  // Allows for the use of imports
   },
@@ -225,7 +227,7 @@ app.listen(port, err => {
 koding diatas membuat Node Server yang berjalan pada port `3000` yang menampilkan response sederhana. Sekarang kita bisa menjalankan node server kita dengan perintah:
 
 ```shell
-npm start
+$ npm start
 ```
 
 Jika semua berjalan lancar maka pada terminal akan menampilkan pesan `server is listening on 3000` dan sekarang kamu bisa mengunjungi `http://localhost:3000` pada browser mu. Seharusnya akan tampil text berikut:

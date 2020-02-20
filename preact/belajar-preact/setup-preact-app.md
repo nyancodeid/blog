@@ -12,6 +12,8 @@ prev: /preact/belajar-preact/apa-itu-preact-js.html
 meta:
   - name: keywords
     content: javascript,module,bundler,belajar,project
+feed:
+  enable: true
 ---
 # Belajar Preact: Setup Preact App
 
@@ -72,10 +74,14 @@ yarn global add preact-cli
 ### Membuat Project Web
 Setelah preact-cli di install kita akan lanjut membuat project Preact kita. Sekarang preact-cli memiliki sejumlah template untuk memudahkan kita setup project secara cepat.
 
-Kita akan menggunakan template `simple` untuk memulai project kecil kita. Jika lebih memilih untuk menggunakan **yarn** pada project kalian, kalian bisa menambahkan argument `--yarn` pada akhir perintah dibawah ini.
+Kita akan menggunakan template `simple` untuk memulai project kecil kita. Jika lebih memilih untuk menggunakan **yarn** pada project kalian, kalian bisa menambahkan argument `--yarn` pada akhir perintah dibawah ini. 
+
+::: warning Catatan
+Karena `yarn` memiliki kelebihan cepat dalam melakukkan instalasi dependensi jadi selama tutorial series ini saya akan menggunakan `yarn` dari pada `npm`. Namun penulis tidak memaksakan bahwa kamu harus menggunakan `yarn` dari pada `npm`, karena pada dasarnya mereka sama.
+:::
 
 ```shell
-preact create simple preact_hello_world
+preact create simple preact_hello_world --yarn
 ```
 
 **Output**
@@ -87,68 +93,41 @@ To get started, cd into the new directory:
   cd preact_hello_world
 
 To start a development live-reload server:
-  npm run start
+  yarn start
 
 To create a production build (in ./build):
-  npm run build
+  yarn build
 
 To start a production HTTP/2 server:
-  npm run serve
+  yarn serve
 ```
 
 Kamu akan menemui folder yang dibuat secara otomatis oleh Preact-CLI. Kurang lebih isi folder project kita akan seperti berikut.
 
-![Folder Project Preact](https://telegra.ph/file/db4724796b6f118f8c070.png)
-
-## Breakdown
-Preact-CLI memiliki beberapa command dan optional yang lumayan banyak. Daftar lengkap command dan fungsi nya akan kita bahas di lain artikel. Kita akan breakdown apa saja folder ini dan bagaimana kita memulai project kita dengan Preact. Kamu bisa kepo-in di Github Repository nya langsung.
-
-:::: preview https://github.com/preactjs/preact-cli
-
-::: preview-content GitHub - preactjs/preact-cli
-😺 Your next Preact PWA starts in 30 seconds. Contribute to preactjs/preact-cli development by creating an account on GitHub.
-
-github.com
-:::
-::: preview-thumbnail https://avatars0.githubusercontent.com/u/26872990?s=400&v=4
-:::
-::::
-
-### manifest.json
-Adalah file dimana konfigurasi atau informasi website kita dalam bentuk file JSON sederhana. Kamu bisa mengontrol bagaimana aplikasi terlihat oleh pengguna misalnya mengarahkan halaman apa yang bisa diluncurkan pengguna, dan menentukan tampilannya pada saat peluncuran. Bahkan splashscreen ketika web app dibuka. 
-
-### src/
-Pada folder inilah kita akan bekerja, dimana semua komponen, style, dan busnis logic di letakkan. `src` sendiri adalah singkatan dari **source** yang artinya sumber atau semua bermula disini.
-
-### assets/
-File file image, ico, dan asset lainnya diletakkan disini. Secara ajaib webpack akan membuatnya bisa diakses secara public pada saat proses development.
-
-### dist/
-Folder ini tidak ada sebelum kita memerintahkan Preact-CLI untuk mem-*build* project kita menjadi versi release. Ini adalah folder dimana project preact kita sudah dalam bentuk dimana Browser bisa mem-*proses* nya dan menampilkannya. Karena ketika kita masih dalam development kita akan bekerja menggunakan JSX, SCSS, ataupun Typescript yang dimana Browser tidak mengenal mereka. Sudah menjadi tugas bundler yang akan men-*transpile* dan meng-*compile* file-file tersebut menjadi file yang browser kenali yaitu HTML, Javascript dan CSS.
-
-```shell
-npm run build
+```
+├── node_modules/
+├── assets/
+├── src/
+  ├── index.js
+├── .gitignore
+├── yarn.lock
+├── package.json
+├── manifest.json
 ```
 
-Dengan menjalankan perintah diatas, kamu sudah memerintahkan preact-cli untuk menjalankan perintah `build` ke versi produksi (*release*). `dist` sendiri merupakan singkatan dari **distribution**.
-
-::: warning For Your Information 
-**src/** stands for source, and is the **raw code** before minification or concatenation or some other compilation - used to read/edit the code.
-
-**dist/** stands for distribution, and is the **minified/concatenated** version - actually used on production sites.
-:::
-
 ## NPM Script
-Ketika kita menjalankan perintah `npm run dev` sebenarnya ini adalah perintah untuk `npm` agar menjalankan script `dev` yang bisa kamu lihat di file packages.json. Pada propertis scripts disitu secara default akan ada `dev`, `build`, dan `server`. Disitulah isi perintah yang sebenarnya dijalankan oleh npm.
+Ketika kita menjalankan perintah `yarn dev` sebenarnya ini adalah perintah untuk `yarn` agar menjalankan script `dev` yang bisa kamu lihat di file packages.json. Pada propertis scripts disitu secara default akan ada `dev`, `build`, dan `server`. Disitulah isi perintah yang sebenarnya dijalankan oleh yarn.
 
 ### Start Development Server
-Setiap kali kita ingin mengerjakan project kita. Kita harus menyalakan Development Server kita terlebih dulu dengan mengetik perintah `npm run dev`. Perintah tersebut menjalankan server development supaya kita bisa mengakses nya pada browser dengan alamat `http://localhost:8080` (secara default) dan mendapatkan perubahan langsung secara real-time setiap kali kamu melakukkan perubahan dan menyimpannya.
+Setiap kali kita ingin mengerjakan project kita. Kita harus menyalakan Development Server kita terlebih dulu dengan mengetik perintah `yarn dev`. Perintah tersebut menjalankan server development supaya kita bisa mengakses nya pada browser dengan alamat `http://localhost:8080` (secara default) dan mendapatkan perubahan langsung secara real-time setiap kali kamu melakukkan perubahan dan menyimpannya.
 
 ### Build Project
-Untuk menghasilkan versi release dari Project, kita bisa menjalankan perintah `npm run build`. Dan hasilnya kita bisa lihat di folder `dist/`.
+Untuk menghasilkan versi release dari Project, kita bisa menjalankan perintah `yarn build`. Dan hasilnya kita bisa lihat di folder `dist/`.
 
-## Kesimpulkan
-Preact-CLI memudahkan kita untuk membuat project Preact secara cepat dengan pre-set yang sudah dibuat oleh Team Preact. Dengan menggunakan Command Line kita semakin dipermudah dalam pengoprasiannya.
+## Kesimpulan
+Pada pembahasan kita kali ini, kamu belajar tentang bagaimana cara setup sebuah project Preact menggunakan bantuan Preact-CLI. Dengan adanya tool Preact-CLI mengelola dan menkonfigurasi Preact menjadi lebih mudah dan kamu tidak lagi repot untuk mengkonfigurasi production ready ataupun konfigurasi webpack yang diperlukan.
+
+Finally, kamu bisa mempersiapkan Project Preact kamu dengan lancar dan siap digunakan untuk Tutorial selanjutnya.
 
 ## Referensi
 

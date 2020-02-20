@@ -11,6 +11,8 @@ prev: /preact/belajar-preact/setup-preact-app.html
 meta:
   - name: keywords
     content: preact,preactjs,react,javascript
+feed:
+  enable: true
 ---
 # Belajar Preact: Hello World
 
@@ -21,64 +23,116 @@ meta:
   source="unsplash.com"
   sourceLink="https://unsplash.com/photos/FKqH1QhUqaw" />
 
-<CodeSwitcher :languages="{js:'index.js',html:'index.html',json:'package.json'}">
-<template v-slot:js>
+## Introduction
+Setelah kita melaukkan setup Project Preact, kita bisa langsung membuat aplikasi sederhana yang biasa dilakukkan ketika berkenalan dengan suatu program atau bahasa baru. Ya, tidak lain tidak bukan adalah `Hello World`. Kita mulai dengan sederhana dan bertahap, sebelum kita ke puncak tujuan kita, belajar Preact dan menggunakannya di project yang akan kita buat nantinya.
 
-```js
-import { render, h } from "preact";
+Dari project sederhana `Hello World` ini kita akan berkenal dengan:
+- Component
+- Component Life Cycle
+- State dan Props
 
-const App = () => {
-  return <h1>Hello World</h1>;
-};
+Dari tiga hal diatas, kita akan bahas secara terpisah di series selanjutnya. Jadi kita akan berkenalan terlebih dahulu bagaiaman eksistensi dan peranan mereka dalam membangun Component UI di Preact.
 
-render(<App />, document.getElementById("app"));
+Goal kita disini adalah membuat komponent `<HelloWorld />` dengan menampilkan nama kita. jadi hasil akhirnya akan menampilkan `Hello World, dan Hi Nama Kamu`.
+
+## Membuat Komponen
+Pertama kita akan membuat komponen `<HelloWorld />` yang akan ditampilkan di halaman web kita.
+
+### Struktur Komponen
+
+Kita akan membuat folder sendiri dimana component kita akan disimpan. Buat folder baru dengan nama `components` di dalam folder `src`. Jadi kita akan menyimpan component kita disitu, setiap kali kita akan membuat component kita akan membuat folder component itu sendiri. Struktur folder nya akan seperti ini:
+
+```
+├── src/
+  ├── components/
+    ├── HelloWorld/    
+      ├── HelloWorld.jsx
+      ├── index.js
+      ├── style.css
 ```
 
-</template>
-<template v-slot:html>
+Kenapa kita memisah component menjadi banyak File dan Folder? karena dengan membedakan file-file tersebut kita akan dipermudah dengan path pemanggilan dan secara best practice ini adalah salah satunya untuk mengelolah project Preact.
 
-```html
-<!DOCTYPE html>
-<html>
+  - `HelloWorld/`: Folder dengan nama component harus **CamelCase**.
+  - `HelloWorld.jsx`: kode Component UI
+  - `index.js`: Re-exporter kode component UI untuk mempermudah pemanggilan dan menghindari *repeating name* dalam penulisan path.
+  - `style.css`: Tempat dimana kode style/css untuk Component tersebut.
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+::: warning Catatan
+Kode component yang melibatkan JSX didalamnya dan tidak pure memiliki syntax Javascript pakailah format `.jsx` untuk mempermudah kita mengenali isi file tersebut tanpa harus membuka filenya.
+:::
 
-<body>
-	<div id="app"></div>
+### Kode Komponen
+Kita mulai dengan membuat kerangka UI kita dengan mengedit file `HelloWorld.jsx` kita. Sesuikan file kalian dengan kode snippet dibawah ini:
 
-	<script src="src/index.js">
-	</script>
-</body>
+```jsx
+import { Component } from 'preact'
+import style from './style.css'
 
-</html>
-```
+export default class HelloWorld extends Component {
+  render ({ name }) {
+    componentDidMount () {
+      console.log(`component Hello World berhasil dimuat`);
+    }
 
-</template>
-<template v-slot:json>
-
-```json
-{
-  "name": "preact-hello-world",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
-  },
-  "dependencies": {
-    "preact": "10.2.1"
-  },
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": []
+    return (
+      <h1 class={style.heading}>Hello World, dan Hai {name}</h1>
+    )
+  }
 }
 ```
 
-</template>
-</CodeSwitcher>
+Kode diatas menggunakan `Classes Component` jadi komponen dibuat dengan menggunakan Javascript Class.
+
+Selanjutnya kita ke file `style.css`
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+.heading {
+  font-family: 'Merriweather', serif;
+  color: #dfa612;
+  border: 2px solid #ffe297;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: normal;
+}
+```
+
+::: warning Catatan
+Secara default `preact-cli` akan mengcompile semua file style dalam folder `components/` menjadi `CSS Module`.
+:::
+
+Terakhir kita lanjut ke file `index.js` sebagai re-exporter komponen kita.
+
+```js
+export { default } from './HelloWorld.jsx'
+```
+
+Akhirnya, pada titik ini kalian sudah berhasil membuat Component `<HelloWorld />`. Kita lanjut menampilkannya pada file `index.js`.
+
+## Root Komponen
+Seperti yang sudah saya mention sebelumnya, semua file yang menggunakan `JSX` harus menggunakan type format `.jsx`. Jadi kita akan merubah format terlebih dahulu file `index.js` yang ada pada `src/index.js` menjadi `src/index.jsx`
+
+```{3}
+├── src/
+  ├── components/
+  ├── index.jsx
+```
+
+Setelah rename file menjadi `index.jsx` nya kita akan menambahkan komponent `<HelloWorld />` yang sudah kita buat tadi. Sesuaikan perubahan sesuai dengan kode snippet dibawah ini:
+
+```jsx{2,6}
+import './style';
+import HelloWorld from './components/HelloWorld';
+
+const App = () => (
+  <div class="container">
+    <HelloWorld name="Ryan Aunur" />
+  </div>
+);
+
+export default App;
+```
+

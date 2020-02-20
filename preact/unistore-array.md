@@ -9,6 +9,8 @@ tags: preact,unistore,state,management,react
 meta:
   - name: keywords
     content: preact,unistore,state,management,react
+feed:
+  enable: true
 ---
 
 # Unistore: Manage State with Arrays

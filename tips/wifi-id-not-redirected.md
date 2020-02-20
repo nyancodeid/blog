@@ -10,6 +10,8 @@ author: Ryan Aunur Rassyid
 meta:
   - name: keywords
     content: wifi.id,linux,redirected,login
+feed:
+  enable: true
 ---
 # Tips: Login Page WiFi.id di OS Linux
 

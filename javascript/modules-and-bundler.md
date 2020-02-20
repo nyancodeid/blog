@@ -10,6 +10,8 @@ tags: javascript,module,bundler,belajar
 meta:
   - name: keywords
     content: javascript,module,bundler,belajar
+feed:
+  enable: true
 ---
 # Javascript: Module and Bundler
 

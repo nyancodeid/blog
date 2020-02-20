@@ -11,6 +11,8 @@ next: /preact/belajar-preact/setup-preact-app.html
 meta:
   - name: keywords
     content: preact,cli,preact.js,react
+feed:
+  enable: true
 ---
 # Belajar Preact: Apa itu Preact JS?
 

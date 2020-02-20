@@ -9,6 +9,8 @@ tags: preact,cli,preactjs,javascript,react
 meta:
   - name: keywords
     content: preact,cli,preact.js,react
+feed:
+  enable: true
 ---
 # Preact Hooks: untuk Functional Component
 

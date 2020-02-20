@@ -10,6 +10,8 @@ tags: telkom,indihome,password,router,modem
 meta:
   - name: keywords
     content: telkom,indihome,password,router,modem,terbaru,2020
+feed:
+  enable: true
 ---
 
 # Password Modem Telkom HG8245H
