@@ -6,7 +6,7 @@
 	"display" : "standalone",
 	"start_url" : "https://blog.nyandev.id/",
 	"short_name" : "NyanDev Blog",
-	"theme_color" : "#42b983",
+	"theme_color" : "#65c59a",
 	"description" : "Let's playing around with Javascript and his friends",
 	"orientation" : "portrait",
 	"background_color" : "transparent",
