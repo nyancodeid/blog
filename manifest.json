@@ -9,7 +9,7 @@
 	"theme_color" : "#65c59a",
 	"description" : "Let's playing around with Javascript and his friends",
 	"orientation" : "portrait",
-	"background_color" : "transparent",
+	"background_color" : "#65c59a",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
 	"icons": [
