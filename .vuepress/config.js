@@ -26,9 +26,10 @@ module.exports = {
   head: [
     ['link', { rel: "icon", href: "/icons/favicon.ico"}],
     ['link', { rel: "icon", type: "image/png", sizes: "192x192", href: "/icons/android-icon-192x192.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/android-icon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "96x96", href: "/icons/android-icon-96x96.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/android-icon-16x16.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "36x36", href: "/icons/android-icon-36x36.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/icons/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "96x96", href: "/icons/favicon-96x96.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/icons/favicon-16x16.png"}],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
