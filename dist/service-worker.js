@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "aac2bdaeb92f632d9207cfcab5fd2c80"
+    "revision": "f9196d5c08f03672b78e1d2e46afee9c"
   },
   {
-    "url": "assets/css/0.styles.e3bad6a3.css",
-    "revision": "3f62731a10e357518fda14722efa870d"
+    "url": "assets/css/0.styles.ff2c1fd4.css",
+    "revision": "7be9d74171d4a0a6d506d54472bb4843"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -50,52 +50,52 @@ self.__precacheManifest = [
     "revision": "a5041afb3617e47a06e0d8eb68b4bcad"
   },
   {
-    "url": "assets/js/13.a352abda.js",
-    "revision": "a638bf8e99db1489f566a97e979cb320"
+    "url": "assets/js/13.2fef160e.js",
+    "revision": "b786ee4c4817a2fd0d339c1701fb7ee5"
   },
   {
     "url": "assets/js/14.027847cf.js",
     "revision": "c44d1a2f99485d4c93963326ef31fee6"
   },
   {
-    "url": "assets/js/15.8483e7cf.js",
-    "revision": "9f4beab2be1a0c310c2508927839fe72"
+    "url": "assets/js/15.1f0f6280.js",
+    "revision": "a16ea9a9cfa8db3f267f9e50fe423968"
   },
   {
-    "url": "assets/js/16.a0ddd785.js",
-    "revision": "a9ddfee2020f054e3334f490ad98638b"
+    "url": "assets/js/16.d9c5a3ed.js",
+    "revision": "3bb222d904f1d2b25bed4fd72f25b902"
   },
   {
-    "url": "assets/js/17.ae37a612.js",
-    "revision": "5fd077924c4ff388ab35df800fad172f"
+    "url": "assets/js/17.a447b2d8.js",
+    "revision": "559283e5d09e9f1cab80fe90352091da"
   },
   {
-    "url": "assets/js/18.0609acaf.js",
-    "revision": "689334979ade31e48dd26a72266ce10a"
+    "url": "assets/js/18.e210c08c.js",
+    "revision": "b9929168db25024c61a50be3bf8331c1"
   },
   {
-    "url": "assets/js/19.035dbc92.js",
-    "revision": "ad36c98700854401ee44b249b13707a3"
+    "url": "assets/js/19.9d06e112.js",
+    "revision": "7c678c28412052d1207d835781de80d2"
   },
   {
     "url": "assets/js/2.abbe9cb6.js",
     "revision": "1014a8a951718887d9fbf393da9f91f0"
   },
   {
-    "url": "assets/js/20.479c9c3e.js",
-    "revision": "e6dfd145acbd3e920c1e17b0c3bbe204"
+    "url": "assets/js/20.d0464d76.js",
+    "revision": "b963fbc5d340a704788c5b896f7618e4"
   },
   {
-    "url": "assets/js/21.0d92ee9c.js",
-    "revision": "661732686a2fcf92e22f0dab92240c84"
+    "url": "assets/js/21.2a9ed746.js",
+    "revision": "8fa1880749c5ade63a137ac4ed8d9d4c"
   },
   {
-    "url": "assets/js/22.4e2f9f58.js",
-    "revision": "c9b0c017154878f24eca17e4f396da07"
+    "url": "assets/js/22.ff38a0a1.js",
+    "revision": "ee2756953b7d9af240554e82cefef2c5"
   },
   {
-    "url": "assets/js/23.833c4406.js",
-    "revision": "2f2b0afbac485ef86f94cf812349d9dc"
+    "url": "assets/js/23.bcd9fd2a.js",
+    "revision": "4ea6c7446dc91e94f41acb5bdda40dae"
   },
   {
     "url": "assets/js/24.a72b2a6c.js",
@@ -106,32 +106,32 @@ self.__precacheManifest = [
     "revision": "6cab08d92c6f61cdd72162d93324082e"
   },
   {
-    "url": "assets/js/26.63c46b02.js",
-    "revision": "69cd2cb13f56d1b5c4b87f7c981a0363"
+    "url": "assets/js/26.e57f73e9.js",
+    "revision": "6442d22c2abebdeb8517de2ceb885669"
   },
   {
-    "url": "assets/js/27.b1790832.js",
-    "revision": "f9ecfdcf433aba5708baa3c083cc8a75"
+    "url": "assets/js/27.03db21f3.js",
+    "revision": "bf35cbcb9250bb8abc9a8924c69f08ac"
   },
   {
-    "url": "assets/js/28.5cec7934.js",
-    "revision": "5ea5a4b6d3b48e361d46b5620d68f275"
+    "url": "assets/js/28.223db08f.js",
+    "revision": "a4e85ac8fb2b65651ebcf4cb2541f761"
   },
   {
-    "url": "assets/js/29.dcf81928.js",
-    "revision": "a1a28b147002ca8f3247225e7bfe2019"
+    "url": "assets/js/29.d9701ea1.js",
+    "revision": "bbe3335fd56a319b7628bf9e86eb2f67"
   },
   {
     "url": "assets/js/3.87454ec6.js",
     "revision": "007b92b4e1c1cfbc80a32d2c081bfa78"
   },
   {
-    "url": "assets/js/30.91b04d0a.js",
-    "revision": "0892bb47ea79108ccd126e192935d056"
+    "url": "assets/js/30.22a28dbd.js",
+    "revision": "94636cdda11b3dad0c9ab0d02ca4ca1d"
   },
   {
-    "url": "assets/js/31.13bfbbc5.js",
-    "revision": "59e54d555c7b4f2f7b32d35c0cf4c6f9"
+    "url": "assets/js/31.71571936.js",
+    "revision": "856c88992616d7a77bd8bc047aa68f1c"
   },
   {
     "url": "assets/js/32.7eac1050.js",
@@ -170,7 +170,7 @@ self.__precacheManifest = [
     "revision": "7faa1c2122e90f1d189408a04a3e8768"
   },
   {
-    "url": "assets/js/7.b59cf1ea.js",
+    "url": "assets/js/7.84e86e63.js",
     "revision": "6eca5a6e3f3cb9cee66f0bfa0ae2918f"
   },
   {
@@ -182,24 +182,24 @@ self.__precacheManifest = [
     "revision": "4bc508d3eb1ac8ac7bb79f70ce45628f"
   },
   {
-    "url": "assets/js/app.c01be4a7.js",
-    "revision": "d1423712b063811a95755ffcdc9a77da"
+    "url": "assets/js/app.23640327.js",
+    "revision": "d5d65bd432d81d1087fed075fb5cac9c"
   },
   {
     "url": "bookmark/harapan-adalah-candu-bagi-orang-orang-kalah.md.html",
-    "revision": "0a1f6cea2b5b059f2334ab94cee55009"
+    "revision": "cb1ac93194226b5f85fb881843a660bb"
   },
   {
     "url": "bookmark/index.html",
-    "revision": "568188c47046e8275f3f816770429a0e"
+    "revision": "a2d64e3eb33393191c95ea469aec6d16"
   },
   {
     "url": "bookmark/lonely-poor-surabayan.html",
-    "revision": "fdca0a547a52d1128ff32c778c8410cd"
+    "revision": "8b36399bdb70525931b6c1fe8ea73ad1"
   },
   {
     "url": "devops/index.html",
-    "revision": "7221cfb786e58d4e92d234a0a6916940"
+    "revision": "d368b43385b72812348c1d5eae94832c"
   },
   {
     "url": "fonts/charter-regular-webfont.woff",
@@ -490,40 +490,44 @@ self.__precacheManifest = [
     "revision": "2bf73464d7eebb6b4e5d2c0ef38112a8"
   },
   {
+    "url": "images/posts/screenshot-preact-hello-world.png",
+    "revision": "c359c4307417d3d259e93778d774a7c4"
+  },
+  {
     "url": "images/profiles/avatar.jpg",
     "revision": "30e02b03e0fdfd856e8f85f0e425b32a"
   },
   {
     "url": "index.html",
-    "revision": "ebb08e6eebb037ce67fcfa6ffbaf5219"
+    "revision": "f99ebb4d018f7f564dd73206d61a9456"
   },
   {
     "url": "informasi/belajar-finansial-literasi.html",
-    "revision": "02466842cd7deb5d83b576847acc1279"
+    "revision": "f51619248d2d1b4f64b29ef73e5d955f"
   },
   {
     "url": "informasi/index.html",
-    "revision": "90ec61638db6dcf2e3fcee2db013874c"
+    "revision": "2eee2511033363fdd78116082068b6fb"
   },
   {
     "url": "informasi/password-modem-telkom-hg8245h.html",
-    "revision": "cc15c0c2aee196981a3695f9f0bfc052"
+    "revision": "f76c02110bbf72130e7d5ab6dca77b42"
   },
   {
     "url": "javascript/index.html",
-    "revision": "e8831dee6be1fbc3972560af0b38525d"
+    "revision": "ebad755092761a76882fc38647da81b5"
   },
   {
     "url": "javascript/modules-and-bundler.html",
-    "revision": "8e84614d46ed90f3dbc42afad3ba94a6"
+    "revision": "f46d102bdd9d291d706d3a2da682d7a0"
   },
   {
     "url": "javascript/setup-nodejs-project-dengan-typescript.html",
-    "revision": "63e31fb94a18d8e93369b86a3673d804"
+    "revision": "1f0548a0f1e0b92b4a7c4d98c2b93e7a"
   },
   {
     "url": "javascript/virtual-dom.html",
-    "revision": "0ce471a12a821d6dbce72a0e1eac86cc"
+    "revision": "603c7eab5f3e5e3aa66acb58201d7269"
   },
   {
     "url": "logo.png",
@@ -535,39 +539,39 @@ self.__precacheManifest = [
   },
   {
     "url": "preact/belajar-preact/apa-itu-preact-js.html",
-    "revision": "ce31655b7d95bd64ded342ebc82e6df4"
+    "revision": "918378fb5cb5bddee27c6bd3368a3d1d"
   },
   {
     "url": "preact/belajar-preact/index.html",
-    "revision": "29c7445c063bfb8d4e9db692ec7f21a8"
+    "revision": "0bd32ff7bc8e0a0850fa646218c62dac"
   },
   {
     "url": "preact/belajar-preact/preact-hello-world.html",
-    "revision": "8326bf9fe55becd79824284fd01c0497"
+    "revision": "fada6518428ab2d93caf62da4e597fd3"
   },
   {
     "url": "preact/belajar-preact/setup-preact-app.html",
-    "revision": "cddcc8233a9c61143cb87eedcd755ec1"
+    "revision": "07902c0f8aa69c694fd27258b0bf143d"
   },
   {
     "url": "preact/index.html",
-    "revision": "75011ede55b5fdf1f926d596a9e8dbbe"
+    "revision": "6fc50c70f513f90cadf60745d2c5a85c"
   },
   {
     "url": "preact/preact-cli.html",
-    "revision": "6921a56af877088d1e4388b3659e7778"
+    "revision": "ad292fc3ed8f70687be4ee50c8589f14"
   },
   {
     "url": "preact/preact-hooks.html",
-    "revision": "e8348e08cc1369fd7ab819acf4bdd1cc"
+    "revision": "788e059d4039830a2fd2413c5f58cd12"
   },
   {
     "url": "preact/preact-unistore.html",
-    "revision": "c3be1aec9b51b00e2536ca1f35302e1f"
+    "revision": "9cb8ec05d7c02ddaab9d9c4e202d4fae"
   },
   {
     "url": "preact/unistore-array.html",
-    "revision": "ff0805f310f546cad19a9a448f712ceb"
+    "revision": "752d5b7cb34fe696babb0e31472d131a"
   },
   {
     "url": "thumbnail/belajar-finansial-literasi--nyandev-blog.jpg",
@@ -623,15 +627,15 @@ self.__precacheManifest = [
   },
   {
     "url": "tips/index.html",
-    "revision": "8c4888800b5b6aa780b1b012184b99a7"
+    "revision": "e2328de51d5be261fa9776e4337752e1"
   },
   {
     "url": "tips/meta-data-extract.html",
-    "revision": "9e8e7d8835b811e60d485640d4a711cf"
+    "revision": "9b5b3ca100576cdf894b53e1de15ee69"
   },
   {
     "url": "tips/wifi-id-not-redirected.html",
-    "revision": "8eb2508bd1e0d938c5ce399e47fdbc20"
+    "revision": "ebab26f5f0d6df4cc2aaf8cf7bbb6b95"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
