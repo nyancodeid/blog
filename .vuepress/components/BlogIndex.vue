@@ -115,6 +115,7 @@ export default {
 .post-item--thumbnail {
   border-radius: 100%;
   object-fit: cover;
+  background: #eee;
 }
 .home .post-item--thumbnail {
   height: 110px;

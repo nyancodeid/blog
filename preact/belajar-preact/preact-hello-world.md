@@ -136,3 +136,78 @@ const App = () => (
 export default App;
 ```
 
+Kode snippet diatas mungkin akan terlihat berbeda dari apa yang ada sebelumnya dari file `index.jsx` kamu. Ya, disini penulis merubah component `App` menjadi *Functional Component* karena menurut `ESLint` yang sudah terpasang di template `preact-cli` yang sudah kita setup sebelumnya mengharuskan kita untuk merubahnya menjadi *Functional Component* karena hanya menampilkan tampilan sederhana dan tidak membutuhkan fitur *life cycle* yang ada pada *Classes Component*.
+
+dan terakhir kita perlu menambahkan style untuk class `.container` pada file `src/style.css` kita dengan code snippet dibawah ini:
+
+```css
+.container {
+	text-align: center;
+}
+```
+
+## Konfigurasi ESLint
+Konfigurasi ini mungkin menjadi langkah optional karena secara sederhannya `ESLint` bertujuan untuk membuat koding kita lebih baik dan mudah dibaca dengan mengikuti standart aturan penulisan dari konfigurasi ESLint yang terpasang. Jika ada aturan yang dilanggar maka akan ada warning atau error yang muncul di text editor kalian seperti VS Code.
+
+Untuk meng-*custom* konfigurasi ESLint yang sudah ada, kita perlu membuat file `.eslintrc` di-root folder project kita. Dan dibawah ini adalah contoh konfigurasi `ESLint` penulis untuk project Hello World kita ini:
+
+```json
+{
+  "extends": "eslint-config-synacor",
+  "rules": {
+    "no-console": 0,
+    "indent": ["error", 2]
+  }
+}
+```
+
+Selanjutnya kita perlu menghapus konfigurasi default ESLint yang ada pada file `package.json`.
+
+```git
+- "eslintConfig": {
+-   "extends": "eslint-config-developit"
+- },
+```
+
+## Menjalankan Project
+Akhirnya kita bisa mencoba menjalankan Project kita dengan cara menjalankan perintah:
+
+```shell
+$ yarn start
+```
+
+Tunggu sampai prosess build selesai sampai muncul pesan pada Terminal,
+
+```
+You can view the application in browser.
+
+Local:            http://0.0.0.0:8080
+On Your Network:  http://192.168.100.xx:8080
+```
+
+Dan kamu bisa membuka alamat tersebut di browser kalian, misalnya `http://localhost:8080`.
+
+### Preview Hasil
+Maka hasil akhirnya akan seperti berikut:
+
+![Preview Hasil Preact Hello World](/images/posts/screenshot-preact-hello-world.png)
+*Tampilan hasil project Preact Hello World*
+
+## Github Repository
+:::: preview https://github.com/nyancodeid/preact-helloworld
+
+::: preview-content GitHub - nyancodeid/preact-helloworld: Preact Hello World [#3]
+Preact Hello World [#3]. Contribute to nyancodeid/preact-helloworld development by creating an account on GitHub.
+
+github.com
+:::
+::: preview-thumbnail https://avatars1.githubusercontent.com/u/24630806?s=400&v=4
+:::
+::::
+
+## Kesimpulan
+Pada series kali ini kita bertujuan membuat Project **Hello World** sederhana yang mengenalkan pada kita cara membuat *Functional Component, Classes Component, Component Life Cycle, Props, dan Best Practise* dalam mengorganisir Component kita. Dari series ini juga kita bisa membuat project Preact untuk pertama kita dengan `Preact-CLI`.
+
+Penjelasan untuk Component, Props, dan Component Life Cycle akan dibahas terpisah pada series selanjutnya.
+
+<Disqus />
