@@ -6,7 +6,12 @@
         <img v-if="(avatar && name.indexOf('Ryan') == -1)" :src="avatar" :alt="name" width="48" height="48">
       </div>
       <div class="author-detail">
-        <div>{{name}}</div>
+        <div>
+          <span>{{name}}</span>
+          <div v-if="(!avatar && name.indexOf('Ryan') != -1)" class="author-detail--follow">
+            <button v-on:click="openFollow">Follow</button>
+          </div>
+        </div>
         <span>{{dateFormat($page.frontmatter.published)}} · {{$page.readingTime.text}}</span>
       </div>
     </div>
@@ -38,11 +43,14 @@ export default {
     "name", "avatar"
   ],
   methods: {
-    dateFormat(date) {
+    dateFormat (date) {
       var fDate = new Date(date);
       var months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 
       return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()}`
+    },
+    openFollow () {
+      window.open('https://github.com/nyancodeid','_blank');
     }
   }
 }
@@ -54,6 +62,7 @@ export default {
 .author {
   margin: 32px 0;
   justify-content: space-between;
+  font-family: Medium;
 }
 .author .author-main {
   align-items: center;
@@ -66,6 +75,26 @@ export default {
 }
 .author .author-main .author-detail {
   margin-left: 12px;
+}
+.author .author-main .author-detail > div {
+  display: flex;
+}
+.author .author-main .author-detail .author-detail--follow {
+  margin-left: 8px;
+  flex: 0 0 auto;
+}
+.author .author-main .author-detail .author-detail--follow > button {
+  border-color: rgba(0, 146, 227, 1);
+  color: rgba(0, 125, 188, 1);
+  font-family: Medium;
+  background: 0;
+  padding: 0px 8px;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
 }
 .author .author-main .author-detail > div {
   font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
