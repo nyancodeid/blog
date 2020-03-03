@@ -4,7 +4,7 @@
 set -e
 
 # build
-yarn blog:build
+yarn build
 
 # navigate into the build output directory
 cd dist/
