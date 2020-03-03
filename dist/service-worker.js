@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "1d5e964fcda19d93486f1a99818af6b1"
+    "revision": "537f1d69552851ccbea97da915656913"
   },
   {
-    "url": "assets/css/0.styles.a3600986.css",
-    "revision": "7f3be0f5dfa76ec3df682903847914b9"
+    "url": "assets/css/0.styles.b759c78a.css",
+    "revision": "e2807c12ab22cbef2ba034c6caa1a105"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -82,12 +82,12 @@ self.__precacheManifest = [
     "revision": "1014a8a951718887d9fbf393da9f91f0"
   },
   {
-    "url": "assets/js/20.d4b0bea2.js",
-    "revision": "60ef9cce39c00bf430b94f6062bceb0c"
+    "url": "assets/js/20.efcb91c8.js",
+    "revision": "418b575cff985c7e558ec2e8cfdc8ae1"
   },
   {
-    "url": "assets/js/21.c45ba774.js",
-    "revision": "9217ac501204fc84c941a363bf8792ec"
+    "url": "assets/js/21.2a9ed746.js",
+    "revision": "8fa1880749c5ade63a137ac4ed8d9d4c"
   },
   {
     "url": "assets/js/22.ff38a0a1.js",
@@ -162,44 +162,44 @@ self.__precacheManifest = [
     "revision": "0e837274e1536ba0c6ead20c644ce04d"
   },
   {
-    "url": "assets/js/5.16ee427d.js",
-    "revision": "42303fae21f8697077c59128683184fd"
+    "url": "assets/js/5.ea06dcb6.js",
+    "revision": "d6ed553544db7668fa845db2ce49a8c9"
   },
   {
-    "url": "assets/js/6.17a2e2ce.js",
-    "revision": "7faa1c2122e90f1d189408a04a3e8768"
+    "url": "assets/js/6.b6678df2.js",
+    "revision": "87a535a18e2ddba2f80a14d8c0f6b46d"
   },
   {
     "url": "assets/js/7.84e86e63.js",
     "revision": "6eca5a6e3f3cb9cee66f0bfa0ae2918f"
   },
   {
-    "url": "assets/js/8.ea447abf.js",
-    "revision": "0918fcb5d835ce4c9adad27158518556"
+    "url": "assets/js/8.ce29f64c.js",
+    "revision": "af10f4cfacca8aefc06420862793593d"
   },
   {
-    "url": "assets/js/9.6c3aae6b.js",
-    "revision": "4bc508d3eb1ac8ac7bb79f70ce45628f"
+    "url": "assets/js/9.88143ddb.js",
+    "revision": "4a8dadbe07310319750fdd7d3ca7bf4a"
   },
   {
-    "url": "assets/js/app.54620d65.js",
-    "revision": "2cab87964c6be580239a78fc3b88b394"
+    "url": "assets/js/app.af17e6e4.js",
+    "revision": "0bd0cbd9b5a87d35ce23844f3c5aad7c"
   },
   {
     "url": "bookmark/harapan-adalah-candu-bagi-orang-orang-kalah.md.html",
-    "revision": "f77a18d10159a0549959513a428faa0e"
+    "revision": "f859b4071917ba06fd69c91a783b8388"
   },
   {
     "url": "bookmark/index.html",
-    "revision": "259be5babc1293cff28bb5523bcd77be"
+    "revision": "bf453dbac5df40a9750df81896692d19"
   },
   {
     "url": "bookmark/lonely-poor-surabayan.html",
-    "revision": "6e5ac7d55203db3cace693ed328f5681"
+    "revision": "7f06e951fd5bc92ed62e9fff6810d181"
   },
   {
     "url": "devops/index.html",
-    "revision": "02a6b1fb27a10cff4b30ce4de0841c9c"
+    "revision": "66c37885cc20fee254bee865169bd273"
   },
   {
     "url": "fonts/charter-regular-webfont.woff",
@@ -503,35 +503,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4f6c33e7bb7b23cd51ca3d1c01efd892"
+    "revision": "690c2776e5a24858eeed202ceff0c006"
   },
   {
     "url": "informasi/belajar-finansial-literasi.html",
-    "revision": "3f2ecd7bfdc1367cd26676715ada92e5"
+    "revision": "36d25112c6c6dcf916ebb18344e11747"
   },
   {
     "url": "informasi/index.html",
-    "revision": "17e3c6c2de3f4bd01388eb386b89d8b7"
+    "revision": "02e50156f5532f1c306805eca4136cf2"
   },
   {
     "url": "informasi/password-modem-telkom-hg8245h.html",
-    "revision": "ec4b9ce627f657aaad7d2e71eb10325c"
+    "revision": "5e2835d3f881d114e238d488a973ddd6"
   },
   {
     "url": "javascript/index.html",
-    "revision": "f1517bb6a0ea2e2339272015f63cf461"
+    "revision": "dafcf6e9ebbdaf9eef6733831f39c3dc"
   },
   {
     "url": "javascript/modules-and-bundler.html",
-    "revision": "22a55a317381ffae3554102d2b6eb6e0"
+    "revision": "07fe4a0c85b2ef158e37a188ea245df3"
   },
   {
     "url": "javascript/setup-nodejs-project-dengan-typescript.html",
-    "revision": "7692b5953ebed3f6c93bde72f1ca70a9"
+    "revision": "c8f1d0f49b35cd0a11f6c60b7626b269"
   },
   {
     "url": "javascript/virtual-dom.html",
-    "revision": "da1da36590d23c55714339bb3c3dc8d1"
+    "revision": "e20ce277bbe19aca5ec74579234dc207"
   },
   {
     "url": "logo.png",
@@ -543,39 +543,39 @@ self.__precacheManifest = [
   },
   {
     "url": "preact/belajar-preact/apa-itu-preact-js.html",
-    "revision": "f239f2761961a6131db31da13882448d"
+    "revision": "d42f50a5c6636845b537bf007dd1f25c"
   },
   {
     "url": "preact/belajar-preact/index.html",
-    "revision": "152fa77cb62aed60ecda402936e892e1"
+    "revision": "b3d7ad3e2b6bf0bffb6168d178465513"
   },
   {
     "url": "preact/belajar-preact/preact-hello-world.html",
-    "revision": "879c655789149326990b344678848206"
+    "revision": "ae32132f7c5787218f0b7498bc224217"
   },
   {
     "url": "preact/belajar-preact/setup-preact-app.html",
-    "revision": "fd0c82f0b95cb7d2ee13cb35098dd722"
+    "revision": "b570dace39830409851475c76bd8a324"
   },
   {
     "url": "preact/index.html",
-    "revision": "eb6be9450f146b7244404f59e8431fb9"
+    "revision": "d75eef4834761eb91a76135ece3e44b1"
   },
   {
     "url": "preact/preact-cli.html",
-    "revision": "721c0d04d2f1e4da120b37bb7ba4ed23"
+    "revision": "6f4120a4b22f24d62f8098a30c0b3264"
   },
   {
     "url": "preact/preact-hooks.html",
-    "revision": "fa921cf8ad2864ff8c4f034eac632586"
+    "revision": "8aed322445afb315d9b21e243c36742b"
   },
   {
     "url": "preact/preact-unistore.html",
-    "revision": "68e322f5d62e17d2b032d6d8472f290f"
+    "revision": "9f849c565b135912d6675a107956b340"
   },
   {
     "url": "preact/unistore-array.html",
-    "revision": "20e620465543457505ab2bcf1d2c5454"
+    "revision": "53a8e4be0dea59f5fd6c8cb0fd74f6dd"
   },
   {
     "url": "thumbnail/belajar-finansial-literasi--nyandev-blog.jpg",
@@ -631,15 +631,15 @@ self.__precacheManifest = [
   },
   {
     "url": "tips/index.html",
-    "revision": "76a8398970e40be08f63ecb73d1cdbbc"
+    "revision": "e96035d6236ecc44f9b7ce7e23f85356"
   },
   {
     "url": "tips/meta-data-extract.html",
-    "revision": "062865d43c2bd6b44f828da9ffb7534c"
+    "revision": "1745164839b76c769568f260f4486305"
   },
   {
     "url": "tips/wifi-id-not-redirected.html",
-    "revision": "fb573dce6a5c5163f1a14d0ed09b0bff"
+    "revision": "63954e5047e160697ad3a10af4f28919"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
