@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.nyandev.id/</id>
     <title>NyanDev Blog</title>
-    <updated>2020-03-03T08:41:16.937Z</updated>
+    <updated>2020-03-03T08:45:00.443Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.nyandev.id/"/>
     <link rel="self" href="https://blog.nyandev.id/feed.atom"/>
@@ -12,7 +12,7 @@
         <id>https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html</id>
         <link href="https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html">
         </link>
-        <updated>2020-03-03T08:41:16.927Z</updated>
+        <updated>2020-03-03T08:45:00.433Z</updated>
         <summary type="html"><![CDATA[Password terbaru untuk modem telkom indihome berseri HG8245H tahun 2020]]></summary>
     </entry>
     <entry>
@@ -20,7 +20,7 @@
         <id>https://blog.nyandev.id/javascript/modules-and-bundler.html</id>
         <link href="https://blog.nyandev.id/javascript/modules-and-bundler.html">
         </link>
-        <updated>2020-03-03T08:41:16.928Z</updated>
+        <updated>2020-03-03T08:45:00.433Z</updated>
         <summary type="html"><![CDATA[Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.]]></summary>
     </entry>
     <entry>
@@ -28,7 +28,7 @@
         <id>https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html</id>
         <link href="https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html">
         </link>
-        <updated>2020-03-03T08:41:16.930Z</updated>
+        <updated>2020-03-03T08:45:00.435Z</updated>
         <summary type="html"><![CDATA[Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.]]></summary>
     </entry>
     <entry>
@@ -36,7 +36,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html">
         </link>
-        <updated>2020-03-03T08:41:16.930Z</updated>
+        <updated>2020-03-03T08:45:00.435Z</updated>
         <summary type="html"><![CDATA[Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.]]></summary>
     </entry>
     <entry>
@@ -44,7 +44,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html">
         </link>
-        <updated>2020-03-03T08:41:16.930Z</updated>
+        <updated>2020-03-03T08:45:00.435Z</updated>
         <summary type="html"><![CDATA[Program Hello world adalah gerbang pertama dari runtutan series belajar Preact kita selanjutnya]]></summary>
     </entry>
     <entry>
@@ -52,7 +52,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html">
         </link>
-        <updated>2020-03-03T08:41:16.931Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Belajar memulai project dengan preact menggunakan bundler tool.]]></summary>
     </entry>
     <entry>
@@ -60,7 +60,7 @@
         <id>https://blog.nyandev.id/preact/preact-hooks.html</id>
         <link href="https://blog.nyandev.id/preact/preact-hooks.html">
         </link>
-        <updated>2020-03-03T08:41:16.931Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.]]></summary>
     </entry>
     <entry>
@@ -68,7 +68,7 @@
         <id>https://blog.nyandev.id/preact/preact-unistore.html</id>
         <link href="https://blog.nyandev.id/preact/preact-unistore.html">
         </link>
-        <updated>2020-03-03T08:41:16.931Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.]]></summary>
     </entry>
     <entry>
@@ -76,7 +76,7 @@
         <id>https://blog.nyandev.id/preact/unistore-array.html</id>
         <link href="https://blog.nyandev.id/preact/unistore-array.html">
         </link>
-        <updated>2020-03-03T08:41:16.931Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Ketika kita akan menambahkan sebuah item kedalam state dengan tipe data Array maka kita perlu tau tau perbedaan dari metode penambahan Array yang kita ketahui.]]></summary>
     </entry>
     <entry>
@@ -84,7 +84,7 @@
         <id>https://blog.nyandev.id/tips/meta-data-extract.html</id>
         <link href="https://blog.nyandev.id/tips/meta-data-extract.html">
         </link>
-        <updated>2020-03-03T08:41:16.931Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Cara dapetin data meta di web untuk digunakan di NyanDev Blog]]></summary>
     </entry>
     <entry>
@@ -92,7 +92,7 @@
         <id>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</id>
         <link href="https://blog.nyandev.id/tips/wifi-id-not-redirected.html">
         </link>
-        <updated>2020-03-03T08:41:16.932Z</updated>
+        <updated>2020-03-03T08:45:00.436Z</updated>
         <summary type="html"><![CDATA[Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux]]></summary>
     </entry>
 </feed>
