@@ -156,7 +156,7 @@ I’ve recently been writing about what exactly the DOM and the shadow DOM are a
 
 bitsofco.de
 :::
-::: preview-thumbnail /assets/icons/icon_128.png?v=c7b75d6807
+::: preview-thumbnail https://bitsofco.de//assets/icons/icon_128.png?v=c7b75d6807
 :::
 ::::
 
