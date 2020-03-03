@@ -137,4 +137,27 @@ Sebuah teknik akan cocok diterapkan dengan cara dan penggunaan yang tepat, mungk
 ## Kesimpulan
 Virtual-DOM adalah sebuah teknik dan sebuah set algoritma yang memungkinkan kita untuk meningkatkan performa front-end dengan cara menghindari bekerja langsung dengan DOM dan hanya bekerja dengan Javascript Object ringan yang meniru DOM Tree asli. Walaupun ini bukan teknik lama tapi ide dari virtual dom sudah lama namun dikarenakan implementasinya yang sulit menjadikannya kurang populer sebelum adanya library React yang membuat semuanya menjadi mudah.
 
+## Referensi
+:::: preview https://medium.com/@tony_freed/what-is-virtual-dom-c0ec6d6a925c
+
+::: preview-content What is Virtual Dom - Tony Freed - Medium
+Before we start to discover the virtual DOM technology let’s talk a little bit about the basic thing — the original DOM. DOM stands for Document Object Model. It’s a way of representing a structured…
+
+medium.com
+:::
+::: preview-thumbnail https://miro.medium.com/max/1200/1*JUXkrOzYP45oEHXumdf0YA.jpeg
+:::
+::::
+
+:::: preview https://bitsofco.de/understanding-the-virtual-dom/
+
+::: preview-content Understanding the Virtual DOM
+I’ve recently been writing about what exactly the DOM and the shadow DOM are and how they differ. To recap, the Document Object Model is an object-based representation of an HTML document and an interface to manipulating that object. The shadow DOM can be thought of as a “lite”
+
+bitsofco.de
+:::
+::: preview-thumbnail /assets/icons/icon_128.png?v=c7b75d6807
+:::
+::::
+
 <Disqus />
