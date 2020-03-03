@@ -45,7 +45,7 @@ Artikel kali kita akan membahas pengaturan dan konfigurasi yang diperlukan untuk
 [[toc]]
 
 ## Prasyarat
-Karena kita akan menggunakan Node.js maka pastikan kamu sudah memiliki Node dengan versi minimal `6` atau gunakan NodeJS versi LTS terbaru untuk mengantisipasi error akibat tidak adanya fitur yang diperlukan untuk menjalankan Typescript.
+Karena kita akan menggunakan Node.js maka pastikan kamu sudah memiliki Node dengan versi minimal yaitu `v6` atau gunakan NodeJS versi LTS terbaru untuk mengantisipasi error akibat tidak adanya fitur yang diperlukan untuk menjalankan Typescript.
 
 ### Node
 Untuk memastikan bahwa prasyarat sudah dipenuhi adalah dengan memastikan versi node dan npm milik kalian dengan mengetik perintah dibawah ini di terminal atau command line kalian.
