@@ -106,13 +106,6 @@ module.exports = {
       }
     ],
     [
-      '@vuepress/pwa',
-      {
-        serviceWorker: true,
-        updatePopup: true
-      }
-    ],
-    [
       'seo',
       {
         siteTitle: (_, $site) => $site.title,

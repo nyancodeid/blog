@@ -1,5 +1,5 @@
 ---
-title: Membuat API Generate QR-Code menggunakan Cloudflare Worker
+title: Membuat API Generate QR-Code dengan Cloudflare Worker
 lang: id-ID
 description: Bereksperimen dengan Cloudflare Worker dengan studi kasus membuat API Generate QR-Code
 image: /images/covers/membuat-api-qr-code-dengan-cloudflare-worker.jpg
