@@ -23,9 +23,9 @@ feed:
   sourceLink="https://unsplash.com/photos/4zwozQxDbD4" />
 
 ## Introduction
-Berawal dari konsep Serverless, kita tau bahwa nodejs sudah hadir diberbagai Cloud Provider yang menyediakan produk serverless nya. Contoh saja AWS dengan AWS Lambda nya dan Google Firebase dengan Firebase Function nya. Kita tidak ada masalah tentunya, toh dengan *serverless* kita nggak lagi peduli dengan server, kita hanya berharap aplikasi kita berjalan dengan baik.
+Berawal dari konsep **Serverless**, kita tau bahwa nodejs sudah hadir diberbagai Cloud Provider yang menyediakan produk serverless nya. Contoh saja **AWS** dengan **AWS Lambda** nya dan **Google Firebase** dengan **Firebase Function** nya. Kita tidak ada masalah tentunya, toh dengan *serverless* kita nggak lagi peduli dengan server, kita hanya berharap aplikasi kita berjalan dengan baik.
 
-Jadi kenapa kita bahasa Serverless kalau tidak ada masalah? ya ini cukup menarik. Kita tau bahwa serverless punya kelemahan yaitu *boot time*. Jadi selama app kita diserverless nggak ada yang akses selama waktu tenggang (idle) yang ditentukan provider maka app kita dibekukan. Jadi setiap kali ada yang akses maka akan dicairkan kembali atau istilahnya *cold start*. Ini memakan waktu beberapa ms atau detik sih (berterima kasih ke fitur snapshot nya `V8`). 
+Jadi kenapa kita bahas *serverless* kalau tidak ada masalah? ya ini cukup menarik. Kita tau bahwa *serverless* punya kelemahan yaitu *boot time*. Jadi selama app kita di-*serverless* nggak ada yang akses selama waktu tenggang (idle) yang sudah ditentukan provider maka app kita akan dibekukan. Jadi, setiap kali ada yang akses maka akan dicairkan kembali atau dalam istilahnya adalah *cold start*. Ini memakan waktu beberapa ms atau detik sih (berterima kasih ke fitur snapshot nya `V8`) karena untuk nodejs kita perlu install dependency sebelum kita bisa menjalankan program seutuhnya.
 
 :::: preview https://dashbird.io/blog/can-we-solve-serverless-cold-starts
 
@@ -53,7 +53,7 @@ Sebelum kita masuk tutorial kita perlu mempersiapkan tools yang akan kita gunaka
 - Node.js (`^v12.16`)
 - Wrangler (`^v1.6.0`)
 
-Yang belum install node.js silahkan install terlebih dahulu sesuai dengan platform yang digunakan masing-masing. Ingat bahwa gunakan versi 12 keatas atau LTS terbaru ya.
+Yang belum install node.js silahkan install terlebih dahulu sesuai dengan platform yang digunakan masing-masing. Ingat bahwa gunakan versi `12` keatas atau LTS terbaru ya.
 
 Selanjutnya kita install tool bernama `wrangler`, tool (CLI) ini disediakan secara official oleh Cloudflare Worker sendiri untuk memudahkan kita membuat project di Cloudflare Worker. Cara installnya adalah:
 
@@ -72,7 +72,7 @@ $ wrangler -V
 # wrangler v1.6.0
 ```
 
-Selanjutnya kita akan configurasi wrangler supaya bisa deploy ke akun Cloudflare Worker kita dengan cara ketik perintah:
+Selanjutnya kita akan configurasi wrangler supaya bisa deploy ke akun **Cloudflare Worker** kita dengan cara ketik perintah:
 
 ```shell
 $ wrangler config
@@ -91,7 +91,7 @@ Karena token tidak bisa dilihat kembali harap simpan baik baik kode token yang s
 :::
 
 ## Setup Project
-Karena semua tool yang dibutuhkan sudah siap, selanjutnya kita akan setup project kita menggunakan *wrangler*. Buka command line dan arahkan ke directory kerja kita. Untuk setup project dengan menggunakan *wrangler* kita bisa menjalankan perintah:
+Karena semua tool yang dibutuhkan sudah siap, selanjutnya kita akan setup project kita menggunakan *wrangler*. Buka command line dan arahkan ke *directory* kerja kita. Untuk setup project dengan menggunakan *wrangler* kita bisa menjalankan perintah:
 
 ```shell
 $ wrangler generate qr-code
@@ -116,7 +116,7 @@ zone_id = ""
 Jika field `account_id` sudah ada, kamu tidak perlu menggantinya.
 :::
 
-Disini `type` diubah dari javascript ke webpack karena kita akan menggunakan bundler webpack untuk meng-compile npm package kita supaya menjadi satu file `.js`. Kita tidak perlu melakukkan konfigurasi webpack karena wrangler sudah melakukkannya.
+Disini `type` diubah dari javascript ke webpack karena kita akan menggunakan *bundler* **webpack** untuk meng-*compile* npm package kita supaya menjadi satu file `.js`. Kita tidak perlu melakukkan konfigurasi webpack karena wrangler sudah melakukkannya untuk kita.
 
 ## Coding
 Untuk proses koding sendiri kita akan bekerja pada file `index.js`. Pada Cloudflare Worker kita akan mendefinisikan function `handleRequest` yang menangani request atau yang bertugas sebagai gateway dari request kita. Karena Cloudflare menggunakan `fetch` maka kita harus tau terlebih dahulu apa itu `Request` dan `Response`.
@@ -140,7 +140,7 @@ addEventListener('fetch', event => {
 })
 ```
 
-Request kita akan dihandle oleh Listener tersebut jadi fungsi ini wajib ada pada script kalian. Bahasa mudahnya adalah `"Jika ada request maka jalankan fungsi ini"`. Nah selanjutnya adalah kita buat `handleRequest` untuk mempermudah kita menangani request dan melakukkan *decision*.
+Request kita akan dihandle oleh Listener tersebut jadi fungsi ini wajib ada pada script kalian. Bahasa mudahnya adalah `"Jika ada request maka jalankan fungsi ini"`. Nah selanjutnya adalah kita buat `handleRequest` untuk mempermudah kita menangani request dan melakukkan *decision* atau routing.
 
 ```js
 async function handleRequest(request) {
