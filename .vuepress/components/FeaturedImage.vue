@@ -16,9 +16,9 @@ export default {
   methods: {
     generateSubtitle () {
       if (this.source && this.sourceLink && !this.author) {
-        return `(source <u><a href="${this.sourceLink}" target="_blank">${this.source}</a></u>)`
+        return `(source <u><a href="${this.sourceLink}" rel="noopener noreferrer" target="_blank">${this.source}</a></u>)`
       } else if (this.source && this.sourceLink && this.author) {
-        return `(featured image by <u>${this.author}</u> on <u><a href="${this.sourceLink}" target="_blank">${this.source}</a></u>)`
+        return `(featured image by <u>${this.author}</u> on <u><a href="${this.sourceLink}"   rel="noopener noreferrer" target="_blank">${this.source}</a></u>)`
       }
     }
   }

@@ -145,5 +145,3 @@ nightnoirvision.wordpress.com
 ::: preview-thumbnail https://nightnoirvision.files.wordpress.com/2018/11/20181126_183604_0001.png?w=200
 :::
 ::::
-
-<Disqus />
