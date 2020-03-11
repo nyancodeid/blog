@@ -219,7 +219,7 @@ Maka browser akan membuka website yang memungkinkan kita melakukkan test, dan me
 *Preview Script sebelum kita Deploy*
 
 ## Build
-Pada tahap ini script kita sudah berjalan sesuai dengan keinginan kita. Selanjutnya ada prosess deploy, tapi judul tahap ini Build?. Ya, wrangler menyediakan build karena hasil build script kita yang ada pada `worker/script.js` juga bisa kita manfaatkan untuk Web Worker kita sendiri. 
+Pada tahap ini script kita sudah berjalan sesuai dengan keinginan kita. Selanjutnya adalah prosess deploy, tapi judul tahap ini `build`?. Ya, wrangler menyediakan perintah build karena hasil build script kita yang ada pada `worker/script.js` juga bisa kita manfaatkan untuk Web Worker kita sendiri.
 
 Untuk build script, kita bisa menjalankan perintah seperti berikut:
 
@@ -270,6 +270,10 @@ Vary: Accept-Encoding
 ```
 
 ## Hasil Akhir
+Berikut adalah script penuh dari hasil akhir kita dalam membuat generator qr-code:
+
+<Gist id="nyancodeid/03a24d32cb4e25f018e446a2cf9443e2" />
+
 Kamu bisa melihat hasil akhir dan script sepenuhnya di Repository yang sudah saya buat dibawah ini:
 
 :::: preview https://github.com/nyancodeid/qr-code-api
