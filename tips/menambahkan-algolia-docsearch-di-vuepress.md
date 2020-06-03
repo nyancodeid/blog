@@ -148,3 +148,5 @@ docsearch.algolia.com
 ::: preview-thumbnail https://docsearch.netlify.com/img/og_image.png
 :::
 ::::
+
+<Disqus />
