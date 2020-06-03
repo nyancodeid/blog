@@ -1,5 +1,5 @@
 ---
-title: " Tips: Cara Extract Meta Data Web"
+title: "Tips: Cara Extract Meta Data Web"
 description: Cara dapetin data meta di web untuk digunakan di NyanDev Blog
 image: /images/covers/extract-meta-data--nyandev-blog.jpg
 lang: id-ID

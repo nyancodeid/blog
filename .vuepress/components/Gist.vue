@@ -31,6 +31,10 @@ export default {
     id: {
       type: String,
       required: true
+    },
+    file: {
+      type: String,
+      required: false
     }
   },
   data() {
@@ -43,8 +47,12 @@ export default {
   },
   methods: {
     fetchGistData (id) {
-      const FETCH_URL = `https://cors-anywhere.herokuapp.com/https://gist.github.com/${id}.json`
-      
+      let FETCH_URL = `https://cors-anywhere.herokuapp.com/https://gist.github.com/${id}.json`
+       
+      if (this.file) {
+        FETCH_URL += `?file=${this.file}`
+      } 
+
       fetcher(FETCH_URL).then((data) => {
         this.content = data.div
 
