@@ -53,7 +53,10 @@ Selanjutnya kita bisa langsung eksekusi dengan memanfaatkan Tips diatas yang sud
 
 > Screenshot diatas diambil setelah melakukkan teknik/tips optimasi nomor 2, 3, 4, dan 6
 
-## Extract Vue Style
+## Penerapan
+Setelah diteliti metode atau teknik apa yang cocok, maka langsung saja kita terapkan satu persatu pada project kita.
+
+### Extract Vue Style
 Vue sendiri pada default nya memiliki template file yang berekstensi .vue yang mana memiliki 3 elemen didalamnya, yaitu template, style, script. Nah kita akan mengeleminasi style supaya di extract keluar dari file bundle-nya yaitu app.js . Jadi secara default file vue akan di-bundle (CSS dan JS nya) menjadi satu file yang pada project ini yaitu app.js. Kita tidak mau itu terjadi dan akan mengeluarkan setiap style yang ada di file Vue menjadi file CSS sendiri. 
 
 Kita bisa melakukkan nya dengan menambahkan opsi di file `webpack.mix.js` kita.
@@ -67,7 +70,7 @@ mix.options({
 
 Nah hasil style nya akan di berada di `public/css/app-ui.css`. Jangan lupa untuk menambahkan di Laravel View nya untuk memuat file css diatas.
 
-## Laravel Mix Extract 
+### Laravel Mix Extract 
 Laravel Mix sendiri punya mekanisme untuk memisahkan antara Logical App/Web dan Vendor atau library yang kita gunakan. Gunanya apa dipisah? untuk mencegah browser men-download ulang file vendor kembali ketika cache di browser dimuat ulang. Kita tidak mau ketika kita melakukkan perubahan pada Logical Web kita membuat browser memuat kembali library/vendor yang tidak kita ubah. Jadi kita pisah supaya yang dimuat ulang oleh browser adalah Logical web kita saja sedangkan file vendor tetap akan mengambil dari file yang sudah disimpan sebagai cache oleh browser.
 
 Kita bisa melakukkan nya dengan menambahkan opsi di file `webpack.mix.js` kita.
@@ -94,7 +97,7 @@ laravel-mix.com
 ::::
 
 
-## TailwindCSS Variants, CorePlugin, and Purge
+### TailwindCSS Variants, CorePlugin, and Purge
 **TailwindCSS** memiliki ukuran yang sedikit brutal karena semua style akan kita pakai semua jika kita tidak melakukkan *purgecss* (mengeliminasi style yang tidak terpakai secara otomatis) dan memilih secara manual style mana yang kita pakai atau kita keep nantinya.
 
 Pada file `tailwind.config.js` kita akan menambahkan beberapa konfigurasi dan pastikan bahwa anda sudah mengkonfigurasi Laravel Mix anda dengan TailwindCSS sesuai dengan dokumentasi tailwind yang ada.
@@ -136,7 +139,7 @@ Untuk versi lengkapnya bisa ke Gist Github ini:
 https://gist.github.com/nyancodeid/19e2402d3f006a3d68f816ca5f59d977#file-tailwind-config-js
 
 
-## ES2015 Import Transform Cherry-Pick
+### ES2015 Import Transform Cherry-Pick
 Untuk meng-import sebuah library di project biasanya kita melakukkan cara berikut:
 
 ```js
@@ -181,7 +184,7 @@ Kamu hanya perlu membuat file konfigurasi babel yaitu `.babelrc` pada root folde
 }
 ```
 
-## Use Luxon, not Moment.js
+### Use Luxon, not Moment.js
 Project ini sebelumnya menggunakan Moment untuk memudahkan bekerja dengan Tanggal dan Waktu. Setelah mengetahui bahwa Moment juga membuat library yang serupa tapi dengan method dan penulisan yang lebih mudah dipahami kini kita memilih Luxon sebagai library yang menangani Waktu dan Tanggal. 
 
 Menurut situs **BundlePhobia** sendiri Moment.js memiliki ukuran bundle sebesar **278KB** sedangkan Luxon memiliki ukuran **69KB**. Dari segi ukuran bundle sudah terlihat bahwa Luxon lebih unggul. 
