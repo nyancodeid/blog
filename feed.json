@@ -11,23 +11,7 @@
             "title": "Password Modem Telkom HG8245H",
             "summary": "Password terbaru untuk modem telkom indihome berseri HG8245H tahun 2020",
             "image": "https://blog.nyandev.id/images/covers/infomasi-password-modem-telkom.jpg",
-            "date_modified": "2020-06-03T08:41:25.007Z"
-        },
-        {
-            "id": "https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html",
-            "url": "https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html",
-            "title": "Cara Setup Project Node.js + Typescript",
-            "summary": "Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.",
-            "image": "https://blog.nyandev.id/images/covers/cara-setup-nodejs-project-dengan-typescript.jpg",
-            "date_modified": "2020-06-03T08:41:25.010Z"
-        },
-        {
-            "id": "https://blog.nyandev.id/javascript/modules-and-bundler.html",
-            "url": "https://blog.nyandev.id/javascript/modules-and-bundler.html",
-            "title": "Javascript: Module and Bundler",
-            "summary": "Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.",
-            "image": "https://blog.nyandev.id/images/covers/javascript-modules-bundler-nyandev-blog.png",
-            "date_modified": "2020-06-03T08:41:25.011Z"
+            "date_modified": "2020-06-05T09:51:14.377Z"
         },
         {
             "id": "https://blog.nyandev.id/javascript/membuat-api-qr-code-dengan-cloudflare-worker.html",
@@ -35,7 +19,23 @@
             "title": "Membuat API Generate QR-Code dengan Cloudflare Worker",
             "summary": "Bereksperimen dengan Cloudflare Worker dengan studi kasus membuat API Generate QR-Code",
             "image": "https://blog.nyandev.id/images/covers/membuat-api-qr-code-dengan-cloudflare-worker.jpg",
-            "date_modified": "2020-06-03T08:41:25.011Z"
+            "date_modified": "2020-06-05T09:51:14.380Z"
+        },
+        {
+            "id": "https://blog.nyandev.id/javascript/modules-and-bundler.html",
+            "url": "https://blog.nyandev.id/javascript/modules-and-bundler.html",
+            "title": "Javascript: Module and Bundler",
+            "summary": "Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.",
+            "image": "https://blog.nyandev.id/images/covers/javascript-modules-bundler-nyandev-blog.png",
+            "date_modified": "2020-06-05T09:51:14.381Z"
+        },
+        {
+            "id": "https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html",
+            "url": "https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html",
+            "title": "Cara Setup Project Node.js + Typescript",
+            "summary": "Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.",
+            "image": "https://blog.nyandev.id/images/covers/cara-setup-nodejs-project-dengan-typescript.jpg",
+            "date_modified": "2020-06-05T09:51:14.381Z"
         },
         {
             "id": "https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html",
@@ -43,15 +43,7 @@
             "title": "Belajar Preact: Hello World [#3]",
             "summary": "Program Hello world adalah gerbang pertama dari runtutan series belajar Preact kita selanjutnya",
             "image": "https://blog.nyandev.id/images/covers/belajar-preact-hello-world.jpg",
-            "date_modified": "2020-06-03T08:41:25.011Z"
-        },
-        {
-            "id": "https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html",
-            "url": "https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html",
-            "title": "Belajar Preact: Setup Preact App [#2]",
-            "summary": "Belajar memulai project dengan preact menggunakan bundler tool.",
-            "image": "https://blog.nyandev.id/images/covers/belajar-preact-bundler.jpg",
-            "date_modified": "2020-06-03T08:41:25.012Z"
+            "date_modified": "2020-06-05T09:51:14.381Z"
         },
         {
             "id": "https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html",
@@ -59,7 +51,15 @@
             "title": "Belajar Preact: Apa itu Preact JS? [#1]",
             "summary": "Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.",
             "image": "https://blog.nyandev.id/images/covers/belajar-preact-perkenalan.png",
-            "date_modified": "2020-06-03T08:41:25.012Z"
+            "date_modified": "2020-06-05T09:51:14.381Z"
+        },
+        {
+            "id": "https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html",
+            "url": "https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html",
+            "title": "Belajar Preact: Setup Preact App [#2]",
+            "summary": "Belajar memulai project dengan preact menggunakan bundler tool.",
+            "image": "https://blog.nyandev.id/images/covers/belajar-preact-bundler.jpg",
+            "date_modified": "2020-06-05T09:51:14.381Z"
         },
         {
             "id": "https://blog.nyandev.id/preact/preact-hooks.html",
@@ -67,7 +67,7 @@
             "title": "Preact Hooks: untuk Functional Component",
             "summary": "Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.",
             "image": "https://blog.nyandev.id/images/covers/preact-hooks--nyandev-blog.jpg",
-            "date_modified": "2020-06-03T08:41:25.012Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/preact/preact-unistore.html",
@@ -75,7 +75,7 @@
             "title": "Unistore: State Management Mudah untuk Preact App",
             "summary": "Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.",
             "image": "https://blog.nyandev.id/images/covers/preact-unistore--nyandev-blog.png",
-            "date_modified": "2020-06-03T08:41:25.013Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/preact/unistore-array.html",
@@ -83,7 +83,7 @@
             "title": "Unistore: Manage State with Arrays",
             "summary": "Ketika kita akan menambahkan sebuah item kedalam state dengan tipe data Array maka kita perlu tau tau perbedaan dari metode penambahan Array yang kita ketahui.",
             "image": "https://blog.nyandev.id/images/covers/unistore-array-state.jpg",
-            "date_modified": "2020-06-03T08:41:25.013Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/tips/enable-intellisense-on-relative-path-module.html",
@@ -91,7 +91,7 @@
             "title": "Tips: Enable Intellisense on Relative Path Module Import",
             "summary": "Sekarang lagi zamannya Lazy Programmer with Smart Text Editor. Dengan hadir nya VS Code, Text editor powerfull nan gratis + open source...",
             "image": "https://blog.nyandev.id/images/covers/enable-intellisense-on-relative-path-module.jpeg",
-            "date_modified": "2020-06-03T08:41:25.013Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html",
@@ -99,7 +99,7 @@
             "title": "Tips: Menambahkan Algolia DocSearch di Vuepress",
             "summary": "Algolia DocSearch adalah bisa dibilang adalah layanan open-source untuk web dokumentasi yang disediakan oleh Algolia...",
             "image": "https://blog.nyandev.id/images/covers/tips-menambahkan-algolia-docsearch-di-vuepress.png",
-            "date_modified": "2020-06-03T08:41:25.013Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/tips/meta-data-extract.html",
@@ -107,7 +107,7 @@
             "title": "Tips: Cara Extract Meta Data Web",
             "summary": "Cara dapetin data meta di web untuk digunakan di NyanDev Blog",
             "image": "https://blog.nyandev.id/images/covers/extract-meta-data--nyandev-blog.jpg",
-            "date_modified": "2020-06-03T08:41:25.013Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/tips/reduce-bundle-size-laravel-mix-vue.html",
@@ -115,7 +115,7 @@
             "title": "Tips: Reduce Bundle Size of Laravel Mix + Vue 2 Project",
             "summary": "Sebelum kita masuk ke dalam pembahasan, perlu diketahui bahwa project yang kali ini kita bahas adalah Web App (bukan website) yang dimana...",
             "image": "https://blog.nyandev.id/images/covers/reduce-bundle-size-laravel-mix-vue.jpeg",
-            "date_modified": "2020-06-03T08:41:25.014Z"
+            "date_modified": "2020-06-05T09:51:14.382Z"
         },
         {
             "id": "https://blog.nyandev.id/tips/wifi-id-not-redirected.html",
@@ -123,7 +123,7 @@
             "title": "Tips: Login Page WiFi.id di OS Linux",
             "summary": "Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux",
             "image": "https://blog.nyandev.id/images/covers/tips-login-wifiid-linux--nyandev-blog.jpg",
-            "date_modified": "2020-06-03T08:41:25.014Z"
+            "date_modified": "2020-06-05T09:51:14.383Z"
         }
     ]
 }
