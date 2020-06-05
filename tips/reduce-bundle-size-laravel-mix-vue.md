@@ -28,15 +28,16 @@ Sebelum kita masuk ke dalam pembahasan, perlu diketahui bahwa project yang kali 
 ## Table of Content
 [[toc]]
 
-## Ukuran sebelum di optimalkan
-Supaya ada gambaran ukuran file dan apa saja file nya berikut adalah hasil menjalankan perintah yarn prod. 
+## FYI (For Your Information)
+Supaya ada gambaran ukuran file dan apa saja file nya, berikut adalah hasil menjalankan perintah yarn prod. 
 
 ![Webpack Bundle Result](https://telegra.ph/file/2d683ddff0ce4f9f191f6.png)
 *Webpack Bundle Result*
 
 Kita akan memperkecil dan membagi kembali file CSS dan JS yang sudah dibundle menjadi beberapa part supaya memaksimalkan prosess load dalam website. Sebelumnya ukuran file vendor.js ini parah banget bisa sampai 2MB lebih. 
 
-Oke kita akan melakukkan beberapa langkah untuk memperkecil ukuran file-file diatas. Berikut teknik atau tips yang akan kita gunakan:
+## Metode dan Teknik
+Oke kita mulai dengan menganalisa metode apa yang cocok digunakan untuk memperkecil ukuran file-file diatas. Berikut teknik atau tips yang sekiranya cocok dan yang akan kita gunakan:
 
 1. Extract Vue Styles
 2. Laravel Mix Extract (Code Splitting Build In)
