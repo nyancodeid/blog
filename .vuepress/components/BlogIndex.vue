@@ -16,7 +16,7 @@
         <router-link :to="post.path">
           <!-- If a post has the frontmatter "coverImage" then display that image. -->
           <div v-if="typeof post.frontmatter.image !== 'undefined'">
-            <img class="post-item--thumbnail no-zoom" :src="post.thumbnail" :alt="post.title" />
+            <img class="post-item--thumbnail no-zoom" :alt="post.title" v-lazysizes :data-src="post.thumbnail" />
           </div>
         </router-link>
       </div>
@@ -24,12 +24,17 @@
   </div>
 </template>
 <script>
+import vueLazysizes from 'vue-lazysizes';
+
 export default {
   name: "BlogIndex",
   props: [
     // This will limit the amount of blog posts shown
     "limit", "category", "subcategory", "order"
   ],
+  directives: {
+    lazysizes: vueLazysizes
+  },
   methods: {
     // Control how our data is formatted. You can change to format accoring to JS date format.
     formateDate(date, format = "MMM D, YY") {

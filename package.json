@@ -23,6 +23,7 @@
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "markdown-it-mark": "^3.0.0"
+    "markdown-it-mark": "^3.0.0",
+    "vue-lazysizes": "^1.0.5"
   }
 }
