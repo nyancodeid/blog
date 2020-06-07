@@ -45,6 +45,7 @@ export default {
         + '?container=focus'
         + '&resize_w=' + width
         + '&refresh=604800'
+        + '&rewriteMime=image/*'
         + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
     }
   },
@@ -81,7 +82,7 @@ export default {
       posts = posts.map(post => ({ 
         ...post,
         tags: (post.frontmatter.tags && post.frontmatter.tags.split(',')) || [],
-        thumbnail: this.formatImageResize(post.frontmatter.image, (this.category) ? 128 : 256)
+        thumbnail: this.formatImageResize(post.frontmatter.image, 256)
       }))
 
       return posts;
