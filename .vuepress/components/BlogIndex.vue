@@ -38,7 +38,7 @@ export default {
 
       return `${months[fDate.getMonth()]} ${fDate.getDate()}, ${fDate.getFullYear()}`
     },
-    formatImageResize(url, width = 512) {
+    formatImageResize(url, width = 256) {
       if (process.env.NODE_ENV !== "production") return url
 
       return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
