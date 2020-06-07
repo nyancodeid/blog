@@ -3,7 +3,7 @@ title: Getting Started with PM2
 lang: id-ID
 description: Berkenalan dengan PM2, nodejs process manager untuk aplikasi nodejs kalian.
 image: /images/covers/getting-started-with-pm2.jpeg
-published: 7/6/2020, 10:55:23 AM
+published: 6/7/2020, 10:55:23 AM
 category: devops
 author: Ryan Aunur Rassyid
 tags: nodejs,pm2,deployment,production,server
@@ -35,18 +35,18 @@ Dalam artikel ini kita akan deep drive untuk berkenalan dengan PM2. *Here we go*
 [[toc]]
 
 ## Why PM2?
-Beberapa dari kalian mungkin bertanya, kenapa harus PM2? kenapa tidak PM-GAN?. Kita tau bahwa kita bisa pakai app atau tool lain kalau ingin aplikasi kita dimuat ulang jika mengalami error. Contohnya saja `supervisor` atau `nodemon`, kedua aplikasi tersebut memang bisa terbukti mengatasi masalah kita. Namun kedua aplikasi tersebut terlalu featur yang lightweight, dan hanya cocok dipakai untuk keperluan selama prosess development saja. 
+Beberapa dari kalian mungkin bertanya, kenapa harus PM2? kenapa tidak PM-GAN?. Kita tau bahwa kita bisa pakai app atau tool lain kalau ingin aplikasi kita dimuat ulang jika mengalami error. Contohnya saja `supervisor` atau `nodemon`, kedua aplikasi tersebut memang terbukti mengatasi masalah kita. Namun kedua aplikasi tersebut menurut penulis hanya cocok dipakai untuk keperluan selama prosess development saja. 
 
 ![Perbedaan Apps yang berjalan dengan dan tanpa PM2](https://telegra.ph/file/535d76a5718c989e90e1a.png)
 *Running PM2 & Node.js in Production Environments - hackernoon.com*
 
-Sedangkan PM2 memiliki feature yang lebih luas dari sekedar file watcher atau reload app saja. Dari beberapa fitur PM2, yang paling berguna saat production adalah:
+Sedangkan PM2 memiliki fitur yang bukan hanya sekedar file watcher atau reload app saja. Dari beberapa fitur PM2, yang paling berguna saat production adalah:
 
 - `Restarting after crashes`: PM2 memungkinkan kita untuk menjaga agar aplikasi kita tetap berfungsi walaupun app mengalami error atau crash.
 
 - `Monitoring and managing processes remotely`: kita tidak melulu memonitoring pm2 lewat CLI saja, kita juga bisa memonitoring nya lewat menggunakan [KeyMetrics](https://pm2.keymetrics.io/) contohnya.
 
-- `It doesn’t just run Node apps`: PM2 tidak terbatas hanya untuk NodeJS saja, kamu bisa menjalankan PHP Worker, atau aplikasi yang membutuhkan PM2 sebagai process manager.
+- `It doesn’t just run Node apps`: PM2 tidak terbatas hanya untuk NodeJS saja, kamu bisa menjalankan PHP Worker, atau aplikasi yang membutuhkan PM2 sebagai proccess managernya.
 
 - `Restart-Persistance`: PM2 bisa menyimpan dan mengingat aplikasi mana saja yang berjalan padanya dan memulai kembali dengan segera, ketika server mengalami restart atau kembali hidup.
 
@@ -62,10 +62,10 @@ $ yarn global add pm2
 ```
 
 ## Basic Commands
-Kita mulai perkenalan pm2 dengan basic command yang sering dipakai untuk memulai, mengulang, memberhentikan, dan menampilkan logs aplikasi. Untuk berinteriaksi dengan PM2 kamu bisa menggunakan perintah CLI atau menggunakan configuration file seperti JSON, Javascript, dan YAML. Untuk kali ini karena kita mau berkenalan dengan PM2 kita bahas yang CLI dulu supaya paham bagaimana alur kerja dan sekaligus mebiasakan diri dengan PM2.
+Kita mulai perkenalan PM2 dengan basic command yang sering dipakai untuk memulai, mengulang, memberhentikan, dan menampilkan logs aplikasi. Untuk berinteraksi dengan PM2 kamu bisa menggunakan perintah CLI atau menggunakan configuration file seperti JSON, Javascript, dan YAML. Untuk kali ini karena kita mau berkenalan dengan PM2 kita bahas yang CLI dulu supaya paham bagaimana alur kerja dan sekaligus mebiasakan diri dengan PM2.
 
 ### Start
-Untuk menjalankan aplikasi nodejs anda tinggal memanggil perintah berikut. Perlu dicatat kalau kita perlu menambahkan param `--name` untuk memudahkan kita untuk mengidentifikasi aplikasi kita.
+Untuk menjalankan aplikasi nodejs anda tinggal memanggil perintah berikut. Perlu dicatat kalau kita perlu menambahkan param `--name` untuk memudahkan kita dalam mengenali aplikasi kita.
 
 ```shell
 $ pm2 start index.js --name app_name
@@ -83,7 +83,7 @@ $ pm2 start index.js --name app_name
 ```
 
 ### List Managed Apps
-Untuk melihat aplikasi apa yang sedang berjalan pada PM2 kita bisa panggil perintah berikut. Ada 3 opsi silahkan pilih tergantung enaknya. bisa pakai `list`, `ls`, atau `status` semua nya sama.
+Untuk melihat aplikasi apa yang sedang berjalan pada PM2 kita bisa panggil perintah berikut. Ada 3 opsi silahkan pilih tergantung anda nyaman menggunakan perintah yang mana. bisa pakai `list`, `ls`, atau `status` semua nya sama.
 
 ```shell
 $ pm2 <list|ls|status>
