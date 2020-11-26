@@ -67,7 +67,7 @@ Setelah kita mempersiapkan API Key yang dibutuhkan. Selanjutnya kita bisa membua
 ### Create Github Readme Profile
 Next, kita membuat file dengan nama `README.md`. Kalian tidak diharuskan cloning dan melakukkannya di local kalian, kalian bisa membuat file dan meng-editnya langsung di website githubnya. Dan kalian bisa mencontoh github profile milik user **nyancodeid** dibawah ini dan menyesuaikan dengan profile atau skill kalian.
 
-::: info Perhatian!
+::: warning Perhatian!
 Pastikan kalian merubah setiap kata "nyancodeid" dengan username github kalian.
 :::
 
