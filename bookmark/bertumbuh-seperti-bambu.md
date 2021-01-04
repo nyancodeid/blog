@@ -1,6 +1,6 @@
 ---
 title: Bertumbuh Seperti Bambu
-author: Naufal Rasyid (acidopal.com)
+author: Naufal Rasyid
 description: Fikiranku terbang melayang me-reka adagen seluruh kejadian dan percakapan yang menurut otak-ku menarik. Hingga akhirnya terhenti disebuah kalimat "tetap tumbuh dan berproses ya!"...
 lang: id-ID
 published: 1/4/2021, 10:03:21 AM

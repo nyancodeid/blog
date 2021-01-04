@@ -19,7 +19,7 @@ const plugins = [
       siteTitle: (_, $site) => $site.title,
       title: $page => $page.title,
       description: $page => $page.frontmatter.description,
-      author: (_, $site) => $site.themeConfig.author,
+      author: ($page) => $page.frontmatter.author || "Ryan Aunur Rassyid",
       tags: $page => $page.frontmatter.tags,
       twitterCard: _ => 'summary_large_image',
       type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
@@ -35,7 +35,6 @@ const plugins = [
           siteTitle,
           title,
           description,
-          author,
           tags,
           twitterCard,
           type,
@@ -45,9 +44,12 @@ const plugins = [
           modifiedAt,
         } = context
 
-        add('og:image:alt', title, 'property')
+        const author = $page.frontmatter.author || "Ryan Aunur Rassyid";
+
+        add('og:image:alt', $page.title, 'property')
         add('og:image:width', '450', 'property')
-        add('article:author', 'https://facebook.com/ryan.hac', 'property')
+        add('author', author, 'property')
+        add('article:author', author, 'property')
       },
     }
   ],
