@@ -5,7 +5,12 @@ description: Ketika kita akan menambahkan sebuah item kedalam state dengan tipe 
 image: /images/covers/unistore-array-state.jpg
 published: 2/10/2020, 04:53:21 PM
 category: preact
-tags: preact,unistore,state,management,react
+tags: 
+  - preact
+  - unistore
+  - state
+  - management
+  - react
 meta:
   - name: keywords
     content: preact,unistore,state,management,react

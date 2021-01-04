@@ -6,7 +6,12 @@ image: /thumbnail/preact-unistore--nyandev-blog.png
 published: 1/25/2020, 00:55:21 AM
 type: pages
 category: preact
-tags: preact,cli,preactjs,javascript,react
+tags: 
+  - preact
+  - cli
+  - preactjs
+  - javascript
+  - react
 meta:
   - name: keywords
     content: preact,cli,preact.js,react

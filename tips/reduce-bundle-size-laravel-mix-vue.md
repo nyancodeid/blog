@@ -6,7 +6,14 @@ lang: id-ID
 published: 6/3/2020, 03:01:21 PM
 category: tips
 author: Ryan Aunur Rassyid
-tags: bundle,laravel,mix,vue,reduce,file,size
+tags: 
+  - bundle
+  - laravel
+  - mix
+  - vue
+  - reduce
+  - file
+  - size
 meta:
   - name: keywords
     content: bundle,laravel,mix,vue,reduce,file,size

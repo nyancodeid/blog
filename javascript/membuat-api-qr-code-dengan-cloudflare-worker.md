@@ -6,7 +6,11 @@ image: /images/covers/membuat-api-qr-code-dengan-cloudflare-worker.jpg
 published: 3/4/2020, 10:55:23 AM
 category: javascript
 author: Ryan Aunur Rassyid
-tags: javascript,worker,cloudflare,wrangler
+tags: 
+  - javascript
+  - worker
+  - cloudflare
+  - wrangler
 meta:
   - name: keywords
     content: javascript,worker,cloudflare,wrangler

@@ -6,7 +6,11 @@ image: /images/covers/javascript-modules-bundler-nyandev-blog.png
 published: 1/26/2020, 07:55:23 AM
 category: javascript
 author: Ryan Aunur Rassyid
-tags: javascript,module,bundler,belajar
+tags: 
+  - javascript
+  - module
+  - bundler
+  - belajar
 meta:
   - name: keywords
     content: javascript,module,bundler,belajar

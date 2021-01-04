@@ -6,7 +6,12 @@ lang: id-ID
 published: 3/9/2020, 10:03:21 AM
 category: bookmark
 image: /images/covers/panduan-orang-dewasa-terampil-dalam-bersosial.jpg
-tags: bersosialisasi,sosial,orang,dewasa,panduan
+tags: 
+  - bersosialisasi
+  - sosial
+  - orang
+  - dewasa
+  - panduan
 meta:
   - name: keywords
     content: bersosialisasi,sosial,orang,dewasa,panduan

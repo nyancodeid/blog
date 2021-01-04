@@ -6,7 +6,12 @@ lang: id-ID
 published: 2/17/2020, 05:03:21 PM
 category: informasi
 image: /images/covers/infomasi-password-modem-telkom.jpg
-tags: telkom,indihome,password,router,modem
+tags: 
+  - telkom
+  - indihome
+  - password
+  - router
+  - modem
 meta:
   - name: keywords
     content: telkom,indihome,password,router,modem,terbaru,2020

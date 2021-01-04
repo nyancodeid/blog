@@ -6,7 +6,11 @@ lang: id-ID
 published: 1/31/2020, 10:03:21 AM
 category: bookmark
 image: /images/covers/lonely-poor-surabayan.jpg
-tags: lonely,poor,cinta,surabaya
+tags: 
+  - lonely
+  - poor
+  - cinta
+  - surabaya
 meta:
   - name: keywords
     content: lonely,poor,cinta,surabaya

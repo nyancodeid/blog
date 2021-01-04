@@ -6,7 +6,14 @@ image: /images/covers/how-to-deal-with-kswapd0-on-linux.jpg
 published: 09/30/2020, 10:55:23 AM
 category: devops
 author: Ryan Aunur Rassyid
-tags: kswapd0,ubuntu,linux,debian,cpu,production,server
+tags: 
+  - kswapd0
+  - ubuntu
+  - linux
+  - debian
+  - cpu
+  - production
+  - server
 meta:
   - name: keywords
     content: kswapd0,ubuntu,linux,debian,cpu,production,server

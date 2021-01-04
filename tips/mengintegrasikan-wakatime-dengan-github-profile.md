@@ -6,7 +6,11 @@ image: /images/covers/mengintegrasikan-wakatime-dengan-github-profile.jpg
 published: 10/20/2020, 10:55:23 AM
 category: devops
 author: Ryan Aunur Rassyid
-tags: github,profile,readme,wakatime
+tags:
+  - github
+  - profile
+  - readme
+  - wakatime
 meta:
   - name: keywords
     content: github,profile,readme,wakatime

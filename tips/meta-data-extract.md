@@ -6,7 +6,12 @@ lang: id-ID
 published: 1/17/2020, 10:06:21 AM
 category: tips
 author: Ryan Aunur Rassyid
-tags: meta,api,runkit,nodejs,markdown
+tags:
+  - meta
+  - api
+  - runkit
+  - nodejs
+  - markdown
 meta:
   - name: keywords
     content: meta,api,runkit,nodejs,markdown

@@ -2,11 +2,17 @@
 title: "Tips: Login Page WiFi.id di OS Linux"
 description: Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux
 lang: id-ID
-tags: wifi.id,linux,refirected,login,dns,tips
 published: 1/17/2020, 10:06:21 AM
 category: tips
 image: /images/covers/tips-login-wifiid-linux--nyandev-blog.jpg
 author: Ryan Aunur Rassyid
+tags:
+  - wifi.id
+  - linux
+  - redirected
+  - login
+  - dns
+  - tips
 meta:
   - name: keywords
     content: wifi.id,linux,redirected,login

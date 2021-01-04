@@ -84,9 +84,10 @@ export default {
       if (this.limit > 0) {
         posts = posts.slice(0, this.limit);
       }
+
       posts = posts.map(post => ({ 
         ...post,
-        tags: (post.frontmatter.tags && post.frontmatter.tags.split(',')) || [],
+        tags: (post.frontmatter && post.frontmatter.tags) || [],
         thumbnail: this.formatImageResize(post.frontmatter.image, 256)
       }))
 

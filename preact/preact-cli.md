@@ -5,7 +5,12 @@ description: Dalam pembuatan aplikasi Preact kita di mudahkan dengan adanya Prea
 image: /images/covers/preact-cli--nyandev-blog.jpg
 published: 1/24/2020, 02:49:21 PM
 category: preact
-tags: preact,cli,preactjs,javascript,react
+tags: 
+  - preact
+  - cli
+  - preactjs
+  - javascript
+  - react
 meta:
   - name: keywords
     content: preact,cli,preact.js,react

@@ -6,7 +6,12 @@ image: /images/covers/cara-setup-nodejs-project-dengan-typescript.jpg
 published: 2/18/2020, 09:55:23 PM
 category: javascript
 author: Ryan Aunur Rassyid
-tags: javascript,typescript,setup,node,belajar
+tags: 
+  - javascript
+  - typescript
+  - setup
+  - node
+  - belajar
 meta:
   - name: keywords
     content: javascript,typescript,setup,node,belajar

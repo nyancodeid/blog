@@ -6,7 +6,11 @@ lang: id-ID
 published: 2/18/2020, 10:03:21 AM
 category: bookmark
 image: /images/covers/harapan-adalah-candu-bagi.jpg
-tags: noir,vesion,harapan,candu
+tags: 
+  - noir
+  - vesion
+  - harapan
+  - candu
 meta:
   - name: keywords
     content: noir,vision,harapan,candu,cerpen,cerita

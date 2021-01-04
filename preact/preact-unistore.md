@@ -5,7 +5,12 @@ description: Mari berkenal dengan Unistore, state container yang mensentralkan s
 image: /images/covers/preact-unistore--nyandev-blog.png
 published: 1/17/2020, 10:06:21 AM
 category: preact
-tags: preact,unistore,state,management,react
+tags: 
+  - preact
+  - unistore
+  - state
+  - management
+  - react
 meta:
   - name: keywords
     content: preact,unistore,state,management,react

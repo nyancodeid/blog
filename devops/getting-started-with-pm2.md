@@ -6,7 +6,12 @@ image: /images/covers/getting-started-with-pm2.jpeg
 published: 6/7/2020, 10:55:23 AM
 category: devops
 author: Ryan Aunur Rassyid
-tags: nodejs,pm2,deployment,production,server
+tags: 
+  - nodejs
+  - pm2
+  - deployment
+  - production
+  - server
 meta:
   - name: keywords
     content: nodejs,pm2,deployment,production,server

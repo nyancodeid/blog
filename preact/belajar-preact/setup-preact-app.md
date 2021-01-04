@@ -6,7 +6,12 @@ image: /images/covers/belajar-preact-bundler.jpg
 published: 1/26/2020, 07:55:23 AM
 category: preact
 subcategory: belajar-preact
-tags: javascript,module,bundler,belajar,project
+tags: 
+  - javascript
+  - module
+  - bundler
+  - belajar
+  - project
 next: /preact/belajar-preact/preact-hello-world.html
 prev: /preact/belajar-preact/apa-itu-preact-js.html
 meta:

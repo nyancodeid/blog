@@ -6,7 +6,11 @@ lang: id-ID
 published: 1/17/2020, 10:06:21 AM
 category: informasi
 image: /images/covers/belajar-financial-literasi-nyandev-blog.jpg
-tags: finansial,riba,hutang,literasi
+tags: 
+  - finansial
+  - riba
+  - hutang
+  - literasi
 meta:
   - name: keywords
     content: finansial,riba,hutang

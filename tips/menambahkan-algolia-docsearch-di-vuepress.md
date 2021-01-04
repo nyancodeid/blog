@@ -6,7 +6,11 @@ lang: id-ID
 published: 3/29/2020, 06:01:21 PM
 category: tips
 author: Ryan Aunur Rassyid
-tags: algolia,docsearch,vuepress,search
+tags:
+  - algolia
+  - docsearch
+  - vuepress
+  - search
 meta:
   - name: keywords
     content: algolia,docsearch,vuepress,search
