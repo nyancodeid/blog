@@ -4,7 +4,7 @@
         <title>NyanDev Blog</title>
         <link>https://blog.nyandev.id/</link>
         <description>Let&apos;s playing around with Javascript and his friends</description>
-        <lastBuildDate>Tue, 15 Dec 2020 17:31:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jan 2021 14:42:30 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://blog.nyandev.id/feed.atom" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[How to Deal With High CPU Usage kswapd0 on Linux]]></title>
             <link>https://blog.nyandev.id/devops/deal-with-high-cpu-kswapd0.html</link>
             <guid>https://blog.nyandev.id/devops/deal-with-high-cpu-kswapd0.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[High CPU Usage pada aplikasi kswapd0 bisa berarti SWAP atau bahkan Mining.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/how-to-deal-with-kswapd0-on-linux.jpg">
             </enclosure>
@@ -21,7 +21,7 @@
             <title><![CDATA[Getting Started with PM2]]></title>
             <link>https://blog.nyandev.id/devops/getting-started-with-pm2.html</link>
             <guid>https://blog.nyandev.id/devops/getting-started-with-pm2.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Berkenalan dengan PM2, nodejs process manager untuk aplikasi nodejs kalian.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/getting-started-with-pm2.jpeg">
             </enclosure>
@@ -30,7 +30,7 @@
             <title><![CDATA[Password Modem Telkom HG8245H]]></title>
             <link>https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html</link>
             <guid>https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Password terbaru untuk modem telkom indihome berseri HG8245H tahun 2020]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/infomasi-password-modem-telkom.jpg">
             </enclosure>
@@ -39,7 +39,7 @@
             <title><![CDATA[Membuat API Generate QR-Code dengan Cloudflare Worker]]></title>
             <link>https://blog.nyandev.id/javascript/membuat-api-qr-code-dengan-cloudflare-worker.html</link>
             <guid>https://blog.nyandev.id/javascript/membuat-api-qr-code-dengan-cloudflare-worker.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Bereksperimen dengan Cloudflare Worker dengan studi kasus membuat API Generate QR-Code]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/membuat-api-qr-code-dengan-cloudflare-worker.jpg">
             </enclosure>
@@ -48,7 +48,7 @@
             <title><![CDATA[Javascript: Module and Bundler]]></title>
             <link>https://blog.nyandev.id/javascript/modules-and-bundler.html</link>
             <guid>https://blog.nyandev.id/javascript/modules-and-bundler.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/javascript-modules-bundler-nyandev-blog.png">
             </enclosure>
@@ -57,7 +57,7 @@
             <title><![CDATA[Cara Setup Project Node.js + Typescript]]></title>
             <link>https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html</link>
             <guid>https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/cara-setup-nodejs-project-dengan-typescript.jpg">
             </enclosure>
@@ -66,7 +66,7 @@
             <title><![CDATA[Belajar Preact: Apa itu Preact JS? [#1]]]></title>
             <link>https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html</link>
             <guid>https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/belajar-preact-perkenalan.png">
             </enclosure>
@@ -75,7 +75,7 @@
             <title><![CDATA[Belajar Preact: Hello World [#3]]]></title>
             <link>https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html</link>
             <guid>https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Program Hello world adalah gerbang pertama dari runtutan series belajar Preact kita selanjutnya]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/belajar-preact-hello-world.jpg">
             </enclosure>
@@ -84,7 +84,7 @@
             <title><![CDATA[Belajar Preact: Setup Preact App [#2]]]></title>
             <link>https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html</link>
             <guid>https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Belajar memulai project dengan preact menggunakan bundler tool.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/belajar-preact-bundler.jpg">
             </enclosure>
@@ -93,16 +93,25 @@
             <title><![CDATA[Preact Hooks: untuk Functional Component]]></title>
             <link>https://blog.nyandev.id/preact/preact-hooks.html</link>
             <guid>https://blog.nyandev.id/preact/preact-hooks.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/preact-hooks--nyandev-blog.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Unistore: State Management Mudah untuk Preact App]]></title>
+            <link>https://blog.nyandev.id/preact/preact-unistore.html</link>
+            <guid>https://blog.nyandev.id/preact/preact-unistore.html</guid>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
+            <description><![CDATA[Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.]]></description>
+            <enclosure url="https://blog.nyandev.id/images/covers/preact-unistore--nyandev-blog.png">
             </enclosure>
         </item>
         <item>
             <title><![CDATA[Unistore: Manage State with Arrays]]></title>
             <link>https://blog.nyandev.id/preact/unistore-array.html</link>
             <guid>https://blog.nyandev.id/preact/unistore-array.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Ketika kita akan menambahkan sebuah item kedalam state dengan tipe data Array maka kita perlu tau tau perbedaan dari metode penambahan Array yang kita ketahui.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/unistore-array-state.jpg">
             </enclosure>
@@ -111,25 +120,25 @@
             <title><![CDATA[Tips: Enable Intellisense on Relative Path Module Import]]></title>
             <link>https://blog.nyandev.id/tips/enable-intellisense-on-relative-path-module.html</link>
             <guid>https://blog.nyandev.id/tips/enable-intellisense-on-relative-path-module.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Sekarang lagi zamannya Lazy Programmer with Smart Text Editor. Dengan hadir nya VS Code, Text editor powerfull nan gratis + open source...]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/enable-intellisense-on-relative-path-module.jpeg">
             </enclosure>
         </item>
         <item>
-            <title><![CDATA[Unistore: State Management Mudah untuk Preact App]]></title>
-            <link>https://blog.nyandev.id/preact/preact-unistore.html</link>
-            <guid>https://blog.nyandev.id/preact/preact-unistore.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
-            <description><![CDATA[Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.]]></description>
-            <enclosure url="https://blog.nyandev.id/images/covers/preact-unistore--nyandev-blog.png">
+            <title><![CDATA[Tips: Menambahkan Algolia DocSearch di Vuepress]]></title>
+            <link>https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html</link>
+            <guid>https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html</guid>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
+            <description><![CDATA[Algolia DocSearch adalah bisa dibilang adalah layanan open-source untuk web dokumentasi yang disediakan oleh Algolia...]]></description>
+            <enclosure url="https://blog.nyandev.id/images/covers/tips-menambahkan-algolia-docsearch-di-vuepress.png">
             </enclosure>
         </item>
         <item>
             <title><![CDATA[Membuat Github Profile lebih menarik dengan Wakatime]]></title>
             <link>https://blog.nyandev.id/tips/mengintegrasikan-wakatime-dengan-github-profile.html</link>
             <guid>https://blog.nyandev.id/tips/mengintegrasikan-wakatime-dengan-github-profile.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Membuat github profile mu lebih menarik dengan github status dan wakatime.]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/mengintegrasikan-wakatime-dengan-github-profile.jpg">
             </enclosure>
@@ -138,36 +147,27 @@
             <title><![CDATA[Tips: Cara Extract Meta Data Web]]></title>
             <link>https://blog.nyandev.id/tips/meta-data-extract.html</link>
             <guid>https://blog.nyandev.id/tips/meta-data-extract.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Cara dapetin data meta di web untuk digunakan di NyanDev Blog]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/extract-meta-data--nyandev-blog.jpg">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Tips: Login Page WiFi.id di OS Linux]]></title>
-            <link>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</link>
-            <guid>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
-            <description><![CDATA[Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux]]></description>
-            <enclosure url="https://blog.nyandev.id/images/covers/tips-login-wifiid-linux--nyandev-blog.jpg">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Tips: Menambahkan Algolia DocSearch di Vuepress]]></title>
-            <link>https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html</link>
-            <guid>https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
-            <description><![CDATA[Algolia DocSearch adalah bisa dibilang adalah layanan open-source untuk web dokumentasi yang disediakan oleh Algolia...]]></description>
-            <enclosure url="https://blog.nyandev.id/images/covers/tips-menambahkan-algolia-docsearch-di-vuepress.png">
             </enclosure>
         </item>
         <item>
             <title><![CDATA[Tips: Reduce Bundle Size of Laravel Mix + Vue 2 Project]]></title>
             <link>https://blog.nyandev.id/tips/reduce-bundle-size-laravel-mix-vue.html</link>
             <guid>https://blog.nyandev.id/tips/reduce-bundle-size-laravel-mix-vue.html</guid>
-            <pubDate>Tue, 15 Dec 2020 17:31:18 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
             <description><![CDATA[Sebelum kita masuk ke dalam pembahasan, perlu diketahui bahwa project yang kali ini kita bahas adalah Web App (bukan website) yang dimana...]]></description>
             <enclosure url="https://blog.nyandev.id/images/covers/reduce-bundle-size-laravel-mix-vue.jpeg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Tips: Login Page WiFi.id di OS Linux]]></title>
+            <link>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</link>
+            <guid>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</guid>
+            <pubDate>Mon, 04 Jan 2021 14:42:30 GMT</pubDate>
+            <description><![CDATA[Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux]]></description>
+            <enclosure url="https://blog.nyandev.id/images/covers/tips-login-wifiid-linux--nyandev-blog.jpg">
             </enclosure>
         </item>
     </channel>
