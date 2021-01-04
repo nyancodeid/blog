@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.nyandev.id/</id>
     <title>NyanDev Blog</title>
-    <updated>2021-01-04T14:42:30.247Z</updated>
+    <updated>2021-01-04T15:11:55.164Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://blog.nyandev.id/"/>
     <link rel="self" href="https://blog.nyandev.id/feed.atom"/>
@@ -12,7 +12,7 @@
         <id>https://blog.nyandev.id/devops/deal-with-high-cpu-kswapd0.html</id>
         <link href="https://blog.nyandev.id/devops/deal-with-high-cpu-kswapd0.html">
         </link>
-        <updated>2021-01-04T14:42:30.224Z</updated>
+        <updated>2021-01-04T15:11:55.133Z</updated>
         <summary type="html"><![CDATA[High CPU Usage pada aplikasi kswapd0 bisa berarti SWAP atau bahkan Mining.]]></summary>
     </entry>
     <entry>
@@ -20,7 +20,7 @@
         <id>https://blog.nyandev.id/devops/getting-started-with-pm2.html</id>
         <link href="https://blog.nyandev.id/devops/getting-started-with-pm2.html">
         </link>
-        <updated>2021-01-04T14:42:30.225Z</updated>
+        <updated>2021-01-04T15:11:55.134Z</updated>
         <summary type="html"><![CDATA[Berkenalan dengan PM2, nodejs process manager untuk aplikasi nodejs kalian.]]></summary>
     </entry>
     <entry>
@@ -28,7 +28,7 @@
         <id>https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html</id>
         <link href="https://blog.nyandev.id/informasi/password-modem-telkom-hg8245h.html">
         </link>
-        <updated>2021-01-04T14:42:30.227Z</updated>
+        <updated>2021-01-04T15:11:55.135Z</updated>
         <summary type="html"><![CDATA[Password terbaru untuk modem telkom indihome berseri HG8245H tahun 2020]]></summary>
     </entry>
     <entry>
@@ -36,7 +36,7 @@
         <id>https://blog.nyandev.id/javascript/membuat-api-qr-code-dengan-cloudflare-worker.html</id>
         <link href="https://blog.nyandev.id/javascript/membuat-api-qr-code-dengan-cloudflare-worker.html">
         </link>
-        <updated>2021-01-04T14:42:30.228Z</updated>
+        <updated>2021-01-04T15:11:55.136Z</updated>
         <summary type="html"><![CDATA[Bereksperimen dengan Cloudflare Worker dengan studi kasus membuat API Generate QR-Code]]></summary>
     </entry>
     <entry>
@@ -44,7 +44,7 @@
         <id>https://blog.nyandev.id/javascript/modules-and-bundler.html</id>
         <link href="https://blog.nyandev.id/javascript/modules-and-bundler.html">
         </link>
-        <updated>2021-01-04T14:42:30.228Z</updated>
+        <updated>2021-01-04T15:11:55.136Z</updated>
         <summary type="html"><![CDATA[Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.]]></summary>
     </entry>
     <entry>
@@ -52,7 +52,7 @@
         <id>https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html</id>
         <link href="https://blog.nyandev.id/javascript/setup-nodejs-project-dengan-typescript.html">
         </link>
-        <updated>2021-01-04T14:42:30.228Z</updated>
+        <updated>2021-01-04T15:11:55.137Z</updated>
         <summary type="html"><![CDATA[Mempelajari bagaimana cara setup project nodejs dan typescript untuk meningkatkan penulisan javascript.]]></summary>
     </entry>
     <entry>
@@ -60,7 +60,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/apa-itu-preact-js.html">
         </link>
-        <updated>2021-01-04T14:42:30.229Z</updated>
+        <updated>2021-01-04T15:11:55.137Z</updated>
         <summary type="html"><![CDATA[Berkenalan dengan lebih dekat dengan Preact dan apa perbedaannya dengan React.]]></summary>
     </entry>
     <entry>
@@ -68,7 +68,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/preact-hello-world.html">
         </link>
-        <updated>2021-01-04T14:42:30.229Z</updated>
+        <updated>2021-01-04T15:11:55.137Z</updated>
         <summary type="html"><![CDATA[Program Hello world adalah gerbang pertama dari runtutan series belajar Preact kita selanjutnya]]></summary>
     </entry>
     <entry>
@@ -76,7 +76,7 @@
         <id>https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html</id>
         <link href="https://blog.nyandev.id/preact/belajar-preact/setup-preact-app.html">
         </link>
-        <updated>2021-01-04T14:42:30.229Z</updated>
+        <updated>2021-01-04T15:11:55.137Z</updated>
         <summary type="html"><![CDATA[Belajar memulai project dengan preact menggunakan bundler tool.]]></summary>
     </entry>
     <entry>
@@ -84,7 +84,7 @@
         <id>https://blog.nyandev.id/preact/preact-hooks.html</id>
         <link href="https://blog.nyandev.id/preact/preact-hooks.html">
         </link>
-        <updated>2021-01-04T14:42:30.229Z</updated>
+        <updated>2021-01-04T15:11:55.137Z</updated>
         <summary type="html"><![CDATA[Penggunaan state dan lifecycle lewat Function Components yang lebih ringkas.]]></summary>
     </entry>
     <entry>
@@ -92,7 +92,7 @@
         <id>https://blog.nyandev.id/preact/preact-unistore.html</id>
         <link href="https://blog.nyandev.id/preact/preact-unistore.html">
         </link>
-        <updated>2021-01-04T14:42:30.229Z</updated>
+        <updated>2021-01-04T15:11:55.138Z</updated>
         <summary type="html"><![CDATA[Mari berkenal dengan Unistore, state container yang mensentralkan state dengan memanfaatkan component binding.]]></summary>
     </entry>
     <entry>
@@ -100,7 +100,7 @@
         <id>https://blog.nyandev.id/preact/unistore-array.html</id>
         <link href="https://blog.nyandev.id/preact/unistore-array.html">
         </link>
-        <updated>2021-01-04T14:42:30.230Z</updated>
+        <updated>2021-01-04T15:11:55.138Z</updated>
         <summary type="html"><![CDATA[Ketika kita akan menambahkan sebuah item kedalam state dengan tipe data Array maka kita perlu tau tau perbedaan dari metode penambahan Array yang kita ketahui.]]></summary>
     </entry>
     <entry>
@@ -108,7 +108,7 @@
         <id>https://blog.nyandev.id/tips/enable-intellisense-on-relative-path-module.html</id>
         <link href="https://blog.nyandev.id/tips/enable-intellisense-on-relative-path-module.html">
         </link>
-        <updated>2021-01-04T14:42:30.230Z</updated>
+        <updated>2021-01-04T15:11:55.138Z</updated>
         <summary type="html"><![CDATA[Sekarang lagi zamannya Lazy Programmer with Smart Text Editor. Dengan hadir nya VS Code, Text editor powerfull nan gratis + open source...]]></summary>
     </entry>
     <entry>
@@ -116,7 +116,7 @@
         <id>https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html</id>
         <link href="https://blog.nyandev.id/tips/menambahkan-algolia-docsearch-di-vuepress.html">
         </link>
-        <updated>2021-01-04T14:42:30.230Z</updated>
+        <updated>2021-01-04T15:11:55.138Z</updated>
         <summary type="html"><![CDATA[Algolia DocSearch adalah bisa dibilang adalah layanan open-source untuk web dokumentasi yang disediakan oleh Algolia...]]></summary>
     </entry>
     <entry>
@@ -124,7 +124,7 @@
         <id>https://blog.nyandev.id/tips/mengintegrasikan-wakatime-dengan-github-profile.html</id>
         <link href="https://blog.nyandev.id/tips/mengintegrasikan-wakatime-dengan-github-profile.html">
         </link>
-        <updated>2021-01-04T14:42:30.230Z</updated>
+        <updated>2021-01-04T15:11:55.139Z</updated>
         <summary type="html"><![CDATA[Membuat github profile mu lebih menarik dengan github status dan wakatime.]]></summary>
     </entry>
     <entry>
@@ -132,7 +132,7 @@
         <id>https://blog.nyandev.id/tips/meta-data-extract.html</id>
         <link href="https://blog.nyandev.id/tips/meta-data-extract.html">
         </link>
-        <updated>2021-01-04T14:42:30.230Z</updated>
+        <updated>2021-01-04T15:11:55.139Z</updated>
         <summary type="html"><![CDATA[Cara dapetin data meta di web untuk digunakan di NyanDev Blog]]></summary>
     </entry>
     <entry>
@@ -140,7 +140,7 @@
         <id>https://blog.nyandev.id/tips/reduce-bundle-size-laravel-mix-vue.html</id>
         <link href="https://blog.nyandev.id/tips/reduce-bundle-size-laravel-mix-vue.html">
         </link>
-        <updated>2021-01-04T14:42:30.231Z</updated>
+        <updated>2021-01-04T15:11:55.139Z</updated>
         <summary type="html"><![CDATA[Sebelum kita masuk ke dalam pembahasan, perlu diketahui bahwa project yang kali ini kita bahas adalah Web App (bukan website) yang dimana...]]></summary>
     </entry>
     <entry>
@@ -148,7 +148,7 @@
         <id>https://blog.nyandev.id/tips/wifi-id-not-redirected.html</id>
         <link href="https://blog.nyandev.id/tips/wifi-id-not-redirected.html">
         </link>
-        <updated>2021-01-04T14:42:30.231Z</updated>
+        <updated>2021-01-04T15:11:55.143Z</updated>
         <summary type="html"><![CDATA[Cara mengatasi wifi id yang tidak redirect ke halaman login di sistem operasi linux]]></summary>
     </entry>
 </feed>
