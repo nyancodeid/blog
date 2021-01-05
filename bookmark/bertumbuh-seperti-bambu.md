@@ -54,6 +54,7 @@ Tidak hanya itu, dari kisah tersebut kita jadi mengetahui bahwa dalam hidup kita
 
 Maka, bersabarlah dalam usaha untuk mengedepankan konsistensi, bukan mengedepankan hasil.
 
+## Sumber
 :::: preview https://naufalrasyid.com/bertumbuh-seperti-bambu/
 
 ::: preview-content Bertumbuh Seperti Bambu – Catatan Si Opal
