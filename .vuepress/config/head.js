@@ -87,6 +87,10 @@ module.exports = [
     rel: "preconnect",
     href: "https://telegra.ph"
   }],
+  ['link', {
+    rel: "preconnect",
+    href: "https://images1-focus-opensocial.googleusercontent.com"
+  }],
   ['script', {
     src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js",
     async: ''
