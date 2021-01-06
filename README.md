@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /images/covers/programming-icons.png
+heroImage: /images/covers/programming-icons.webp
 
 lang: id-ID
-image: /images/covers/programming-icons.png
-footer: MIT Licensed | Copyright © 2019-2020 NyanDev Indonesia
+image: /images/covers/programming-icons.webp
+footer: MIT Licensed | Copyright © 2019-2021 NyanDev Indonesia
 type: pages
 ---
 
