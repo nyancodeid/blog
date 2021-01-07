@@ -1,5 +1,3 @@
-
-
 const plugins = [
   'code-switcher',
   'vuepress-plugin-nprogress',

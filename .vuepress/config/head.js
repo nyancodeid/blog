@@ -91,6 +91,10 @@ module.exports = [
     rel: "preconnect",
     href: "https://images1-focus-opensocial.googleusercontent.com"
   }],
+  ['link', {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Katibeh&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+  }],
   ['script', {
     src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js",
     async: ''
