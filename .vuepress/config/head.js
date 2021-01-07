@@ -95,6 +95,10 @@ module.exports = [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Katibeh&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap"
   }],
+  ['link', {
+    rel: "stylesheet",
+    href: "https://cdn.statically.io/gh/PrismJS/prism-themes/dddd93a8/themes/prism-material-dark.min.css"
+  }],
   ['script', {
     src: "https://cdn.statically.io/gh/aFarkas/lazysizes/gh-pages/lazysizes.min.js",
     async: ''
