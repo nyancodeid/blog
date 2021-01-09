@@ -81,19 +81,43 @@ module.exports = [
   }],
   ['link', {
     rel: "preconnect",
+    href: "https://cdn.statically.io",
+    crossorigin: ""
+  }],
+  ['link', {
+    rel: "dns-prefetch",
     href: "https://cdn.statically.io"
   }],
   ['link', {
     rel: "preconnect",
+    href: "https://telegra.ph",
+    crossorigin: ""
+  }],
+  ['link', {
+    rel: "dns-prefetch",
     href: "https://telegra.ph"
   }],
   ['link', {
     rel: "preconnect",
+    href: "https://fonts.gstatic.com/",
+    crossorigin: ""
+  }],
+  ['link', {
+    rel: "dns-prefetch",
+    href: "https://fonts.gstatic.com/"
+  }],
+  ['link', {
+    rel: "preconnect",
+    href: "https://images1-focus-opensocial.googleusercontent.com",
+    crossorigin: ""
+  }],
+  ['link', {
+    rel: "dns-prefetch",
     href: "https://images1-focus-opensocial.googleusercontent.com"
   }],
   ['link', {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Katibeh&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Lateef&family=Work+Sans:ital,wght@0,400;0,500;1,400&display=swap",
     media: "all"
   }],
   ['link', {

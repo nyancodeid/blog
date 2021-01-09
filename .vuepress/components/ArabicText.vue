@@ -13,7 +13,7 @@ export default {
 
 <style>
 .arabic-text {
-  font-family: 'Katibeh', cursive;
+  font-family: 'Lateef', cursive;
   text-align: right;
   font-size: 2rem;
 }
