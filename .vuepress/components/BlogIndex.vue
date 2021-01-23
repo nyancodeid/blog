@@ -46,12 +46,14 @@ export default {
     formatImageResize(url, width = 256) {
       if (process.env.NODE_ENV !== "production") return url
 
-      return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
-        + '?container=focus'
-        + '&resize_w=' + width
-        + '&refresh=604800'
-        + '&rewriteMime=image/*'
-        + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
+      // return 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy'
+      //   + '?container=focus'
+      //   + '&resize_w=' + width
+      //   + '&refresh=604800'
+      //   + '&rewriteMime=image/*'
+      //   + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
+
+      return `https://cdn.statically.io/img/blog.nyandev.id/w=${width}` + url;
     }
   },
   computed: {
