@@ -11,7 +11,7 @@ function transpile() {
 
 function css () {
   return src(['dist/assets/css/*.css'])
-    .pipe(replacement('/assets/', 'https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/assets/'))
+    .pipe(replacement('/assets/img/search.83621669.svg', `'https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/assets/img/search.83621669.svg'`))
     .pipe(debug({title: 'debug-css:'}))
     .pipe(dest('dist/assets/css'))
 }
