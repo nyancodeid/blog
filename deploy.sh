@@ -14,6 +14,8 @@ echo 'blog.nyandev.id' > CNAME
 
 cd -
 
+npx gulp
+
 git add dist
 
 echo "Commit message for gh-pages commit?"
