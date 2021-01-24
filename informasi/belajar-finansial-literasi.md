@@ -82,6 +82,18 @@ Hijrah boleh, tetep di bayar dan jangan lari. Jangan menghina yang masih berhuta
 
 > "Tulisan ini saya tujukan agar yang saat ini masih hutang bisa sedikit mendapat wawasan."
 
-Baca langsung original post [di sini](https://www.facebook.com/photo.php?fbid=10218549847890809&set=a.1013387948343&type=3)
+## Sumber
+:::: preview https://web.facebook.com/tiyoavianto/posts/10218550040575626
+
+::: preview-content Avianto Tiyo - Belajar Financial Literasi Itu Penting.... | Facebook
+Belajar Financial Literasi Itu Penting. 
+
+Apapun background mu saat ini, berapapun usiamu saat ini, dari keluarga kaya atau biasa saja, dari lulusan apa...
+
+web.facebook.com
+:::
+::: preview-thumbnail https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/82413256_10218549847970811_5509069720680136704_o.jpg?_nc_cat=110&ccb=2&_nc_sid=8024bb&_nc_ohc=Fx_SmDxELZ4AX_BHPkt&_nc_ht=scontent-sea1-1.xx&oh=2562668677f588380c37d0d7c018a454&oe=6031A83D
+:::
+::::
 
 <Disqus />
