@@ -5,6 +5,7 @@ const debug = require('gulp-debug');
 function transpile() {
   return src(['dist/**/*.html'])
     .pipe(replacement('/assets/', 'https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/assets/'))
+    .pipe(replacement('/icons/', 'https://cdn.statically.io/gh/nyancodeid/blog/gh-pages/icons/'))
     .pipe(debug({title: 'debug-transpile:'}))
     .pipe(dest('dist'))
 }
