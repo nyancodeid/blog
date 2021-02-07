@@ -1,0 +1,21 @@
+name: Generate PSI report
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+         persist-credentials: false
+         fetch-depth: 0
+
+      - name: psi-gh-action
+        uses: mazipan/psi-gh-action@1.1.0
+        with:
+          api_key: ${{ secrets.PSI_API }}
+          urls: |
+            https://blog.nyandev.id/
+          devices: |
+            mobile
+            desktop
+          runs: 1
+          branch: psi-result
