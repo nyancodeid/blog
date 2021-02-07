@@ -1,4 +1,11 @@
 name: Generate PSI report
+on: 
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Bump Version
+        default: v1.0.0
+        required: true
 jobs:
   auto_commit:
     runs-on: ubuntu-latest
@@ -19,3 +26,6 @@ jobs:
             desktop
           runs: 1
           branch: psi-result
+      
+      - name: Bump version tag
+        run: git tag ${{ github.event.inputs.version }}
