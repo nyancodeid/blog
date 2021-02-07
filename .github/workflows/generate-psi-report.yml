@@ -26,6 +26,7 @@ jobs:
             desktop
           runs: 1
           branch: psi-result
+          token: ${{ secrets.GH_TOKEN }}
       
       - name: Bump version tag
         run: git tag ${{ github.event.inputs.version }}
