@@ -1,0 +1,35 @@
+{
+  "timestamp": "2021-02-07T08:21:28.990Z",
+  "reports": [
+    {
+      "url": "https://blog.nyandev.id/",
+      "device": "mobile",
+      "perf": 0.69,
+      "fid": 0,
+      "lcp": 5415,
+      "cls": 0.0009383544921874999,
+      "fcp": 3257,
+      "fci": 3557,
+      "tbt": 223.5,
+      "tti": 4532,
+      "si": 3821.1572379599675,
+      "req": 65,
+      "size": 426202
+    },
+    {
+      "url": "https://blog.nyandev.id/",
+      "device": "desktop",
+      "perf": 0.95,
+      "fid": 0,
+      "lcp": 1480,
+      "cls": 0.09203648717275195,
+      "fcp": 640,
+      "fci": 806,
+      "tbt": 8,
+      "tti": 1046,
+      "si": 640,
+      "req": 71,
+      "size": 468625
+    }
+  ]
+}
