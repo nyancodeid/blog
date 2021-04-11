@@ -1,4 +1,4 @@
-name: Generate PSI report
+name: Generate PSI Report
 on: 
   workflow_dispatch:
     inputs:
