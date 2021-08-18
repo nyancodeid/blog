@@ -18,7 +18,7 @@ meta:
 ---
 # Panduan Bagi Orang Dewasa untuk Terampil Bersosial, untuk Mereka yang Tidak Pernah Mengejar
 
-<Author name="Eric Ravenscraft" avatar="https://telegra.ph/file/0c5dc03c5a96610c846d4.png" />
+<Author name="Eric Ravenscraft" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/0c5dc03c5a96610c846d4.png" />
 <FeaturedImage
   src="/images/covers/panduan-orang-dewasa-terampil-dalam-bersosial.jpg"
   author="Toa Heftiba"
@@ -31,7 +31,7 @@ Tidak seperti topik-topik seperti matematika atau sains, keterampilan sosial leb
 
 Mempelajari keterampilan sosial bisa jadi sulit jika Anda tidak terpapar dinamika kelompok tradisional sebagai seorang anak, jika Anda bergumul dengan penyakit mental seperti kecemasan atau depresi, atau bahkan jika Anda tidak memiliki banyak model peran positif ketika Anda tumbuh dewasa. Kaum muda cenderung belajar bagaimana mengelola emosi mereka sendiri, mengenali emosi orang lain dan mengelolanya secara efektif dengan bersosialisasi. Jika ini bukan keterampilan yang Anda kembangkan saat tumbuh dewasa, jangan khawatir. Kamu tidak sendiri.
 
-![An Adult’s Guide to Social Skills, for Those Who Were Never Taught](https://telegra.ph/file/06862e4cf87a9b0b094eb.png)
+![An Adult’s Guide to Social Skills, for Those Who Were Never Taught](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/06862e4cf87a9b0b094eb.png)
 *Gambar oleh Evan Cohen*
 
 ## Fondasi sosial: kecerdasan emosional
@@ -40,7 +40,7 @@ Sebelum kita sampai pada situasi sosial tertentu, kita harus mendiskusikan konse
 
 Ada beberapa model kecerdasan emosional, tetapi untuk tujuan kita, kita akan melihat penulis [Daniel Goleman](https://blog.cognifit.com/emotional-intelligence/). Dia menguraikan lima kategori umum kecerdasan emosional yang saling melengkapi dan mendukung.
 
-![5 Kategori Kecerdasan Emosional menurut Daniel Goleman](https://telegra.ph/file/5fcdb236d3f4fa8bed31f.png)
+![5 Kategori Kecerdasan Emosional menurut Daniel Goleman](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/5fcdb236d3f4fa8bed31f.png)
 *5 Kategori Kecerdasan Emosional menurut Daniel Goleman - source [u.osu.edu](https://u.osu.edu/gardner.1286/the-value-of-strong-leadership/)*
 
 ### 1. Kesadaran Diri

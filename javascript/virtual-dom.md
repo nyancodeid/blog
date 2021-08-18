@@ -35,7 +35,7 @@ Sampai hari ini DOM API sudah hampir cross-platform dan cross-browser. Lalu apa 
 ### DOM Problem?
 Masalah utama dari DOM adalah tidak pernah dioptimalkan untuk membuat Dynamic UI (Tampilan yang dinamis).
 
-![parsing HTML and building a DOM tree - developers.google.com](https://telegra.ph/file/55d8cb709a4728caa8d17.png)
+![parsing HTML and building a DOM tree - developers.google.com](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/55d8cb709a4728caa8d17.png)
 *parsing HTML and building a DOM tree - [developers.google.com](https://developers.google.com/web/updates/2018/09/inside-browser-part3)*
 
 Kita bisa menggunakan Javascript atau library seperti jQuery. Tapi jQuery hanya membantu sedikit mengurangi masalah tersebut. Tapi bayangkan untuk kedepannya misalnya kita memiliki 1000 div element pada website kita yang pastinya akan menyebabkan performa issue kan, kita tidak ingin pengguna website kita merasa terganggu dengan adanya masalah ini. 

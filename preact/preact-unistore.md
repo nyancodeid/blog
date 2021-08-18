@@ -51,14 +51,14 @@ Jadi sederhanya Unistore merupakan sebuah state management yg mana tugasnya seba
 ## Konsep
 Karena unistore adalah module sederhana yang dibuat dengan prinsip yang sama dengan Redux, jadi konsep dasar State Management nya hampir sama dengan Redux.
 
-![Global State - itnext.io](https://telegra.ph/file/d5858dde9444919de5f41.png)
+![Global State - itnext.io](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/d5858dde9444919de5f41.png)
 *Global State pada Redux - itnext.io*
 
 Jika digambarkan secara sederhana maka unistore adalah database sederhana untuk front-end. Layaknya database kita bisa melakukkan operasi CRUD (Create-Read-Update-Delete) pada unistore ini. Kita juga bisa memprosess atau memanipulasi nilai yang akan di-*return* (dikembalikan) oleh action. Konsep ini sangatlah sederhana jika kalian sudah mengetahui atau mereasakan kekurangan dari *state* itu sendiri.
 
 **State management** ini sendiri dibuat atas permasalahn ketika kita sudah memiliki banyak child component yang saling membutuhkan nilai state pada parent component atau bahkan diatasnya. Coba bayangkan kalau component product yang jauh dibawah membutuhkan nilai state nama user yang ada jauh diatasnya. Cara yang biasa kita lakukkan adalah mempasing nilai state tersebut melalui `props` kan.
 
-![Perbedaan Menggunakan State Management](https://telegra.ph/file/884e19a28c553b005023b.png)
+![Perbedaan Menggunakan State Management](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/884e19a28c553b005023b.png)
 *Perbedaan Menggunakan State Management - css-tricks.com*
 
 Cara ini memang tidak ada masalah, semua bekerja dengan baik. Tapi jika child component sudah mengakar panjang kebawah? ini lah kenapa konsep State Management oleh Redux diperkenalkan. Konsep state management sendiri banyak caranya, namun yang paling dikenal adalah Redux itu sendiri.
@@ -256,7 +256,7 @@ Unistore Demo by developit using preact, unistore
 
 codesandbox.io
 :::
-::: preview-thumbnail https://telegra.ph/file/5feccb61e3b04cf8c0f3c.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/5feccb61e3b04cf8c0f3c.png
 :::
 ::::
 

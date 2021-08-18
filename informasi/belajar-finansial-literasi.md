@@ -17,7 +17,7 @@ meta:
 ---
 # Belajar Financial Literasi Itu Penting
 
-<Author name="Avianto Tiyo" avatar="https://telegra.ph/file/feb763759206b2f37e8e5.png" />
+<Author name="Avianto Tiyo" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/feb763759206b2f37e8e5.png" />
 <FeaturedImage 
   src="/images/covers/belajar-financial-literasi-nyandev-blog.jpg"
   author="Pepi Stojanovski"
@@ -34,7 +34,7 @@ Sisi pengetahuan syariah perlu di ketahui lebih awal agar kita tidak bermandikan
 
 Saya tidak menggunakan Kartu Kredit, Hutang Bank (kita singkat "hutang" saja) untuk kebutuhan pribadi, semua saya gunakan untuk puratan bisnis. Tidak ada yang salah dengan kondisi ini. 99% pengusaha pasti punya hutang (dalam bentuk apapun).
 
-![Bahaya Riba](https://telegra.ph/file/14a74b7b05be374ea53fe.png)
+![Bahaya Riba](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/14a74b7b05be374ea53fe.png)
 *Bahaya Riba*
 
 Alkisah setelah saya keluar dari bisnis, masih ada sisa hutang yang belum sempat terbayar, karena tidak ada uang di rekening, semua kosong karena tidak ada gaji dan pemasukan. Lanjut, hutang itu menumpuk dan terus berbunga, dan terus ber-denda.

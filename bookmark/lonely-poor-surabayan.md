@@ -17,7 +17,7 @@ meta:
 ---
 # Lonely Poor Surabayan
 
-<Author name="Aris Rahman P. Putra" avatar="https://telegra.ph/file/2fbf52fafc3602298f03f.png" />
+<Author name="Aris Rahman P. Putra" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/2fbf52fafc3602298f03f.png" />
 <FeaturedImage
   src="/images/covers/lonely-poor-surabayan.jpg"
   author="Fabrizio Verrecchia"

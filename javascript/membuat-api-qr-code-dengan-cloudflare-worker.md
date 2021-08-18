@@ -44,7 +44,7 @@ dashbird.io
 
 Nah NodeJS pada versi baru-baru ini merilis fitur yang sudah lama dinanti yaitu **Worker**. Worker ini memungkinkan kita menjalankan sebuah pekerjaan di thread lain yang tidak membebankan main thread. Fitur inilah yang dipakai oleh **Cloudflare Worker**. Fitur ini menyelesaikan masalah *cold start* dari serverless sebelumnya karena server hanya menjalankan script worker kita saja dan server selalu standby (tidak mati). Cold start yang diperlukan hanya lah **4ms**, ini berbeda jauh bahkan 50x lebih cepat.
 
-![NodeJS Workers](https://telegra.ph/file/9a8ce65436f84d53c5a18.png)
+![NodeJS Workers](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/9a8ce65436f84d53c5a18.png)
 *NodeJS Thread - source [nodesource.com](https://nodesource.com/blog/worker-threads-nodejs)*
 
 ::: tip Gaol
@@ -87,7 +87,7 @@ Untuk API Key nya kita buat dulu di:
 
 Lalu klik "**Create Token**", Selanjutnya isi permission nya sesuai dengan gambar dibawah ini. Sesuaikan inputan yang lain lalu klik "**Continue to summary**" dan copy tokennya.
 
-![Cloudflare Token](https://telegra.ph/file/e80da438e093dff6c22cb.png)
+![Cloudflare Token](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/e80da438e093dff6c22cb.png)
 *Create Token Cloudflare Worker Permissions*
 
 ::: warning Penting
@@ -205,7 +205,7 @@ function generateQrCode({
 
 Untuk opsi lain seperti merubah lebar margin, *error correction level*, dan type image (`png`, `svg`, `eps`, dan `pdf`) kamu bisa lihat di halaman NPM nya untuk melihat opsi lain yang ada pada package `qr-image`.
 
-![qr-image](https://telegra.ph/file/e49a121b2d1d5452618bc.png)
+![qr-image](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/e49a121b2d1d5452618bc.png)
 *Konfigurasi lain yang ada pada package `qr-image`*
 
 Oke semua script sudah ada dan yang dibutuhkan sudah siap. Selanjutnya kita akan melakukkan test.
@@ -219,7 +219,7 @@ $ wrangler preview
 
 Maka browser akan membuka website yang memungkinkan kita melakukkan test, dan melihat console dari program javascript kita. Domain yang disediakan memang `example.com` tapi jangan khawatir ini hanya untuk test saja dan memang seperti itu adanya. 
 
-![Wrangler Preview](https://telegra.ph/file/85d4c27668a1862a86fe8.png)
+![Wrangler Preview](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/85d4c27668a1862a86fe8.png)
 *Preview Script sebelum kita Deploy*
 
 ## Build
@@ -299,7 +299,7 @@ Use Cloudflare’s APIs and edge network to build secure, ultra-fast application
 
 developers.cloudflare.com
 :::
-::: preview-thumbnail https://telegra.ph/file/73935aea4865c151c4c70.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/73935aea4865c151c4c70.png
 :::
 ::::
 

@@ -297,7 +297,7 @@ Writing server-side JavaScript can be challenging as a codebase grows. TypeScrip
 
 www.digitalocean.com
 :::
-::: preview-thumbnail https://telegra.ph/file/16a59f51b52e26d80ce1f.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/16a59f51b52e26d80ce1f.png
 :::
 ::::
 
@@ -308,7 +308,7 @@ ESLint's large set of linting rules and the increased commitment to use ESLint b
 
 dev.to
 :::
-::: preview-thumbnail https://telegra.ph/file/c3717d0a25064f909b50e.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/c3717d0a25064f909b50e.png
 :::
 ::::
 

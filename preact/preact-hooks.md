@@ -324,7 +324,7 @@ An introductory guide to React's useContext Hook to gain access to a global stat
 
 alligator.io
 :::
-::: preview-thumbnail https://telegra.ph/file/9d0d66d03c52febd50913.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/9d0d66d03c52febd50913.png
 :::
 ::::
 

@@ -171,7 +171,7 @@ app.get("/fetch", async (req, res) => {
     res.send(renderResult({
         ...result,
         link: req.query.url,
-        thumbnail: result.ogImage || 'https://telegra.ph/file/73935aea4865c151c4c70.png',
+        thumbnail: result.ogImage || 'https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/73935aea4865c151c4c70.png',
         description: result.description || result.twitterDescription
     }))
 })
@@ -193,7 +193,7 @@ curl https://untitled-okej29pce04f.runkit.sh/fetch?url=URL_WEB
 
 Hasil nya akan nampak seperti berikut
 
-![Hasil Pemanggilan API di Terminal](https://telegra.ph/file/fa5790f00cb63af08f6b3.png "Hasil Pemanggilan API di Terminal")
+![Hasil Pemanggilan API di Terminal](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/fa5790f00cb63af08f6b3.png "Hasil Pemanggilan API di Terminal")
 *Hasil Pemanggilan API di Terminal*
 
 <Disqus />

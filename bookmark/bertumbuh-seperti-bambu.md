@@ -19,7 +19,7 @@ meta:
 ---
 # Bertumbuh Seperti Bambu
 
-<Author name="Naufal Rasyid" avatar="https://telegra.ph/file/6073e0adf8e7a618eb2d2.png" />
+<Author name="Naufal Rasyid" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/6073e0adf8e7a618eb2d2.png" />
 <FeaturedImage
   src="/images/covers/bertumbuh-seperti-bambu.jpg"
   author="Pablo Azurduy"
@@ -62,7 +62,7 @@ Ada banyak hal yang ku pelajari untuk tumbuh dan berproses, salah satunya adalah
 
 naufalrasyid.com
 :::
-::: preview-thumbnail https://telegra.ph/file/6083041c46275303bb41b.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/6083041c46275303bb41b.png
 :::
 ::::
 

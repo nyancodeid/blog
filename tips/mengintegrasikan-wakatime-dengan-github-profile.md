@@ -48,17 +48,17 @@ API Key diatas jangan sampai hilang atau diketahui orang lain, karena API key ad
 
 Untuk membuat Github API Key pertama kita buka terlebih dahulu alamat berikut, [https://github.com/settings/tokens](https://github.com/settings/tokens). Lalu klik tombol "Generate new token".
 
-![Github Personal Access Token](https://telegra.ph/file/e72d4259b16be01142287.png)
+![Github Personal Access Token](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/e72d4259b16be01142287.png)
 *Github Personal Access Token*
 
 Nanti kita akan di-*redirect* untuk memasukkan password akun github kita, ini wajar karena kita akan membuat token yang mana merupakan informasi sensitif dan private. Setelah memasukkan password maka kita akan di-*redirect* ke halaman buat personal akses token. Dibagian field **Note** kita isi dengan `GithubProfileToken` atau terserah teman-teman. Nah untuk field scope kita centang bagian **read, workflow, dan user** dan yang lain biarkan kosong.
 
-![](https://telegra.ph/file/f5dfcc5cae9e4db505deb.png)
+![](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/f5dfcc5cae9e4db505deb.png)
 *Membuat Github Personal Access Token*
 
 Kalau sudah kita bisa klik tombol submit "Generate token". Lalu simpan kode token yang ditampilkan dinotepad atau dicatatan karena kode access token tersebut tidak akan ditampilkan kembali oleh Github. Selanjutnya kita akan membuat Wakatime API Token. Buka halaman dashboard Wakatime lalu pilih setting, atau bisa kunjungi link berikut [https://wakatime.com/settings/account](https://wakatime.com/settings/account). Selanjutnya kita tinggal klik field **Secret API Key** dan API Key akan muncul. Lalu simpan key nya di notepad atau catatan seperti tadi.
 
-![Wakatime Secret API Key](https://telegra.ph/file/c67351a45af8422a83dfd.png)
+![Wakatime Secret API Key](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/c67351a45af8422a83dfd.png)
 
 ## Create Github Profile
 Untuk membuat gihub profile sebenernya cukuplah mudah namun kali ini karena kita akan mengintegrasikan dengan statistik dan matriks dari Wakatime jadi mungkin akan sedikit ribet. But, worth it untuk dicoba dan diterapkan.
@@ -66,7 +66,7 @@ Untuk membuat gihub profile sebenernya cukuplah mudah namun kali ini karena kita
 ### Create Repository
 Setelah kita mempersiapkan API Key yang dibutuhkan. Selanjutnya kita bisa membuat repository yang nantinya akan kita pakai sebagai readme profile kita. Repository yang dibuat tidak bisa sembarang nama, karena repository yang diperuntunkan untuk github profile memiliki nama khusus yaitu username github profile kalian. Misalnya nama github profile nya adalah **nyancodeid** maka kita harus membuat repository dengan nama yang sama dengan username kita yaitu **nyancodeid**. Jadi nantinya alamat url repository adalah [https://github.com/nyancodeid/nyancodeid](https://github.com/nyancodeid/nyancodeid). Cara membuatnya sama seperti membuat repository github pada umumnya.
 
-![Repository Profile](https://telegra.ph/file/db20928830b1178fe4795.png)
+![Repository Profile](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/db20928830b1178fe4795.png)
 
 ### Create Github Readme Profile
 Next, kita membuat file dengan nama `README.md`. Kalian tidak diharuskan cloning dan melakukkannya di local kalian, kalian bisa membuat file dan meng-editnya langsung di website githubnya. Dan kalian bisa mencontoh github profile milik user **nyancodeid** dibawah ini dan menyesuaikan dengan profile atau skill kalian.
@@ -103,12 +103,12 @@ Lalu `commit` file yang dibuat tadi untuk menyimpan file.
 ### Add Github Repository Secret
 Selanjutnya kita perlu mempersiapkan variable environment atau kalau di github dipanggil dengan Github Secret. Masih dihalaman repository, kita klik menu **Settings**. Setelahnya kita akan diredirect ke halaman repository setting, lalu kita pilih sub-menu **Secrets**. Disini kita akan menyimpan 2 API Key yang kita buat tadi.  
 
-![](https://telegra.ph/file/32c26975d7d3a1a17db4b.png)
+![](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/32c26975d7d3a1a17db4b.png)
 
 Lalu kita akan klik `New repository secret`. 
 
-![](https://telegra.ph/file/f275177e58018bdeba82b.png)
-![](https://telegra.ph/file/8ba7eeca876633261b15a.png)
+![](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/f275177e58018bdeba82b.png)
+![](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/8ba7eeca876633261b15a.png)
 
 Buat 2 repository secret yang mana masing masing nama nya adalah:
 
@@ -167,13 +167,13 @@ github.com
 
 Jangan lupa untuk `commit` file nya untuk menyimpan. Karena pada konfigurasi diatas kita mengatur Github Action untuk berjalan pada tiap tengah malam saja maka untuk pertama kali kita akan menjalankan Actionnya secara manual. Buka menu `Actions` di menu atas repository. Maka kita akan melihat action `Waka Readme`pada sidebar daftar **Workflows**. Klik lalu akan muncul tombol `Run Workflow` dan jalankan dengan klik tombol hijau `Run Workflow`.
 
-![](https://telegra.ph/file/16ee4357a35dfb4c754a6.png)
+![](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/16ee4357a35dfb4c754a6.png)
 
 ## Result
 Terakhir kita tinggal melihat hasilnya dengan mengunjungi halaman profile kalian di github pada link `https://github.com/username`. Seharusnya hasilnya tidak akan jauh beda seperti ini:
 
-![Github Profile Result](https://telegra.ph/file/b7b6067959cd5e5544a4d.png)
-![Github Profile Result](https://telegra.ph/file/30894eb38cb27cfd899e5.png)
+![Github Profile Result](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/b7b6067959cd5e5544a4d.png)
+![Github Profile Result](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/30894eb38cb27cfd899e5.png)
 
 ## Conclution
 Dengan adanya Github Profile kalian akan semakin kenal dengan developer-developer yang aktif di Github atau maintener project OSS favorit kalian di-github. Dan berpeluang kalian mudah dikenali oleh developer lain yang mengunjungi profile kalian. Sapaan singkat, daftar skill, insight kedepan serta tujuan kalian akan meningkatkan peluang kalian bertemu dengan orang yang memiliki visi serta tujuan yang sama, diharapkan peluang kerja sama lewat github akan semakin tinggi.

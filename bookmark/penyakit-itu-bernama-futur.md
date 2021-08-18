@@ -19,7 +19,7 @@ meta:
 ---
 # Penyakit itu Bernama Futur!
 
-<Author name="Mawas Rizki Hidayanti" avatar="https://telegra.ph/file/04ac3c1d0915da66af4b4.png" />
+<Author name="Mawas Rizki Hidayanti" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/04ac3c1d0915da66af4b4.png" />
 <FeaturedImage
   src="/images/covers/penyakit-itu-bernama-futur.jpg"
   author="felipepelaquim"

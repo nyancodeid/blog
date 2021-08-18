@@ -33,7 +33,7 @@ Berawal dari kesulitan penulis untuk berinternet di Wifi.id Corner maka penulis 
 ## Permasalahan
 Dengan kebiasaan menggunakan OS Windows yang serba simple dan mudah, maka untuk sistem operasi linux akan sedikit berbeda ketika anda akan berhubungan dengan internet. Karena linux dibuat advance jadi anda di berikan kebebasan untuk mengkonfigurasi semua file sistem. Didalam keseharian penulis, penulis menggunakan NextDNS sebagai DNS Service yang mengamankan proses resolve dari domain yang anda kunjungi. Anda bisa mengkontrol Domain apa saya yang di block, diubah, dan disaring bahkan list domain iklan tersedia jadi anda tidak perlu mengetik satu persatu domain yang ingin anda block.
 
-![NextDNS](https://telegra.ph/file/c69954f713c9dabf6487f.png)
+![NextDNS](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/c69954f713c9dabf6487f.png)
 *Halaman depan [nextdns.io](https://nextdns.io/)*
 
 Karena NextDNS ini harus berjalan lokal (karena Telkon memblokir koneksi DNS keluar) jadi aplikasi berjalan dibelakang sebagai Services. Balik lagi ke permasalahan, karena koneksi wifi.id tidak mengizinkan internet sebelum anda login maka NextDNS ini tidak akan bekerja. Yang mana menyebabkan semua DNS Query yang mengarah ke service NextDNS tidak dapat di kerjakan. 
@@ -99,7 +99,7 @@ welcome2.wifi.id.	82334	IN	A	10.233.16.32
 ## Bagaimana DNS Bekerja?
 Untuk mengetahui penyebab masalah ini kita harus paham bahwa prosess troubleshooting dilakukkan secara bertahap seperti langkah-langkah diatas yang sudah kita lakukkan.
 
-![Bagaimana DNS Bekerja - NyanDev Blog](https://telegra.ph/file/f9e6efa08eb30cb424fcb.png)
+![Bagaimana DNS Bekerja - NyanDev Blog](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/f9e6efa08eb30cb424fcb.png)
 *How DNS Works - [wpbeginner.com](https://www.wpbeginner.com/wp-tutorials/how-to-clear-your-dns-cache-mac-windows-chrome/)*
 
 1. "**Saya butuh alamat untuk domain `http://www.wpbeginner.com`**", User menanyakan kepada DNS Server alamat IP dan Konfigurasi DNS untuk alamat domain tersebut.

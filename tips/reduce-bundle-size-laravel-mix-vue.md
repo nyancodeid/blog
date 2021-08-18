@@ -38,7 +38,7 @@ Sebelum kita masuk ke dalam pembahasan, perlu diketahui bahwa project yang kali 
 ## FYI (For Your Information)
 Supaya ada gambaran ukuran file dan apa saja file nya, berikut adalah hasil menjalankan perintah yarn prod. 
 
-![Webpack Bundle Result](https://telegra.ph/file/2d683ddff0ce4f9f191f6.png)
+![Webpack Bundle Result](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/2d683ddff0ce4f9f191f6.png)
 *Webpack Bundle Result*
 
 Kita akan memperkecil dan membagi kembali file CSS dan JS yang sudah dibundle menjadi beberapa part supaya memaksimalkan prosess load dalam website. Sebelumnya ukuran file vendor.js ini parah banget bisa sampai 2MB lebih. 
@@ -100,7 +100,7 @@ Documentation for Laravel Mix.
 
 laravel-mix.com
 :::
-::: preview-thumbnail https://telegra.ph/file/73935aea4865c151c4c70.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/73935aea4865c151c4c70.png
 :::
 ::::
 
@@ -170,7 +170,7 @@ Setiap cara atau fitur yang dipakai pasti punya kekurangan dan kelebihannya, mis
 
 Untuk memudahkan pekerjaan kita, kita bisa menggunakan plugin untuk babel yang bernama `babel-plugin-lodash` yang secara otomatis men-transform lodash yang di import seluruhnya menjadi method yang diperlukan. Contohnya seperti berikut:
 
-![babel-plugin-lodash - A simple transform to cherry-pick Lodash modules so you don’t have to.](https://telegra.ph/file/a8e3b51b2be1da2c9f608.png)
+![babel-plugin-lodash - A simple transform to cherry-pick Lodash modules so you don’t have to.](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/a8e3b51b2be1da2c9f608.png)
 *babel-plugin-lodash - A simple transform to cherry-pick Lodash modules so you don’t have to.*
 
 :::: preview https://www.npmjs.com/package/babel-plugin-lodash
@@ -199,7 +199,7 @@ Menurut situs **BundlePhobia** sendiri Moment.js memiliki ukuran bundle sebesar 
 
 Tidak hanya keuntungan dari sisi ukuran saja yang lebih kecil, tapi penulisan kode jadi lebih mudah dipahami. Perbedaan paling jelas terlihat dari penulisan kode keduanya adalah Moment.js menerima tipe data apapun kedalam pemanggilan fungsi nya, sedangkan Luxon memisahkan hal tersebut. Berikut adalah contoh perbedaan penulisan Moment.js dan Luxon
 
-![Moment.js and Luxon Creation example](https://telegra.ph/file/1f93e51fd4c5e4b2ba8d7.png)
+![Moment.js and Luxon Creation example](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/1f93e51fd4c5e4b2ba8d7.png)
 *Moment.js and Luxon Creation example*
 
 Gimana? mudah di baca kan. Mungkin awalnya sedikit ribet tapi keuntungan yang tak dirasakan diawal akan dirasakan ketika anda tidak melihat kodingan anda selama beberapa hari.
@@ -207,11 +207,11 @@ Gimana? mudah di baca kan. Mungkin awalnya sedikit ribet tapi keuntungan yang ta
 ## Moment of Truth a.k.a Result
 Setelah melakukkan beberapa optimasi diatas berikut adalah uji hasil bundle production:
 
-![Result](https://telegra.ph/file/4fa783f5a900759e7cece.png)
+![Result](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/4fa783f5a900759e7cece.png)
 
 File vendor.js turun sebanyak 29% , file app.js turun sebanyak 15%, di ikuti kenaikan file css yang tidak berdampak banyak dengan performa web kita jadi tidak masalah kalau file css sedikit lebih besar.
 
-![Webpack Bundle Analyzer](https://telegra.ph/file/53d67284002708f67c025.png)
+![Webpack Bundle Analyzer](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/53d67284002708f67c025.png)
 *Webpack Bundle Analyzer*
 
 Done, kita sepakat bahwa hasilnya cukup memuaskan. Kita bisa mengurangi ukuran dari file bundle kita dengan cara cara yang lain yang mungkin anda tau. Kita sangat menantikan cara cara brilian lainnya untuk membuat web lebih dan lebih baik lagi. 
@@ -227,11 +227,11 @@ Jadi perubahan tersebut adalah:
 
 Berikut ukuran terakhir yang didapat:
 
-![Result Update 1.1.0](https://telegra.ph/file/06dda2e9862d835e25151.png)
+![Result Update 1.1.0](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/06dda2e9862d835e25151.png)
 
 Detail hasil dari Webpack Bundle Analyzer
 
-![Bundle Analyzer](https://telegra.ph/file/cbe7c454e2bcf3ebf04a9.png)
+![Bundle Analyzer](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/cbe7c454e2bcf3ebf04a9.png)
 *Webpack Bundle Analyzer update 1.1.0 results*
 
 Akhir kata semoga ilmu nya bermanfaat, sekian terima kasih.

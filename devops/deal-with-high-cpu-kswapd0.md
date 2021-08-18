@@ -42,7 +42,7 @@ Singkat cerita ditemukan akar masalahnya, yaitu aplikasi **kswapd0** yang berjal
 
 Ada forum yang berpendapat bahwa kejadian ini adalah bug dari linux yang harusnya sudah di-fix di versi yang baru sedangkan ada beberapa orang berpendapat bahwa ini disebabkan oleh server yang menggunakan hardisk dari pada SSD sebagai SWAP sehingga CPU dan Hardisk dipaksa bekerja dengan semaksimal mungkin. Team memutuskan untuk upgrade versi package yang kadarluasa dengan menjalankan `apt get upgrade`. Dan bener saja banyak package yang diupgrade pada waktu itu. Namun ini tidak menuntaskan masalah, **kswapd0** tetap berjalan.
 
-![kswapd0 terlihat berjalan di aplikasi monitoring htop](https://telegra.ph/file/2b542fc07f6a6a176c072.jpg)
+![kswapd0 terlihat berjalan di aplikasi monitoring htop](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/2b542fc07f6a6a176c072.jpg)
 *Aplikasi kswapd0 terlihat berjalan di aplikasi monitoring htop*
 
 ### What now?
@@ -108,7 +108,7 @@ Setelah aplikasi di berhentikan dan dihapus dari server, penggunaan resource CPU
 ### Virus Total
 Kita pastikan kembali bahwa ini adalah aplikasi Crypto Mining dengan cara upload file **kswapd0** tersebut ke website [virustotal](https://www.virustotal.com/gui/file/fd9007df08c1bd2cf47fb97443c4d7360e204f4d8fe48c5d603373b2b2975708/detection). Hasilnya dipastikan bahwa ini bukan file **kswapd0** yang asli atau bawaan Linux melainkan aplikasi Crypto Mining.
 
-![Hasil scan pada website VirusTotal.com](https://telegra.ph/file/9c9b44a1073398b6c30a5.png)
+![Hasil scan pada website VirusTotal.com](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/9c9b44a1073398b6c30a5.png)
 *Hasil scan pada website [VirusTotal.com](https://www.virustotal.com/gui/file/fd9007df08c1bd2cf47fb97443c4d7360e204f4d8fe48c5d603373b2b2975708/detection)*
 
 ## Kesimpulan

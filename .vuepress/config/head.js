@@ -90,15 +90,6 @@ module.exports = [
   }],
   ['link', {
     rel: "preconnect",
-    href: "https://telegra.ph",
-    crossorigin: ""
-  }],
-  ['link', {
-    rel: "dns-prefetch",
-    href: "https://telegra.ph"
-  }],
-  ['link', {
-    rel: "preconnect",
     href: "https://fonts.gstatic.com/",
     crossorigin: ""
   }],

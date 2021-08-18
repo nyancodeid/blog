@@ -34,7 +34,7 @@ Tenang anda tidak sendiri, saya juga merasakan keuntungan dari fitur tersebut. K
 ## Apa itu Relative Path dan Absolute Path
 Jika kita membicarakan path kita kita pasti sudah tau absolute path dong, tapi ada  juga yang namanya relative path. Kita bisa baca artikel tentang ke-dua istilah ini dari beberapa artikel yang sudah saya baca sebelumnya.
 
-![Apa itu Relative Path dan Absolute Path](https://telegra.ph/file/d09fdd92c21fdc755bd67.png)
+![Apa itu Relative Path dan Absolute Path](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/d09fdd92c21fdc755bd67.png)
 *Apa itu Relative Path dan Absolute Path*
 
 Singkatnya **Absolute Path** adalah path file/directory yang lengkap atau dimulai dari root directory. Pada contoh diatas `C:\` dan `A:\` adalah root directory. Sedangkan **Relative Path** adalah path file/directory yang tidak lengkap bisa dimulai dengan sebuah directory atau file langsung.Penggunaan Relative path biasanya menggunakan Working Directory atau folder yang aktif dipakai sebagai acuan dari Root Directory yang nantinya digabung menjadi sebuah Absolute Path.
@@ -44,17 +44,17 @@ Karena pada kasus ini kita menggunakan Laravel Mix maka secara default kita meng
 
 Contoh penulisan Relative Path:
 
-![Relative Path](https://telegra.ph/file/eeed5d22c74705f83811c.png)
+![Relative Path](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/eeed5d22c74705f83811c.png)
 
 Contoh penulisan Relative Path dengan Aliases:
 
-![Relative Path dengan Aliases](https://telegra.ph/file/beb99bdae2971c55b6359.png)
+![Relative Path dengan Aliases](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/beb99bdae2971c55b6359.png)
 
 Lebih mudah dibaca yang menggunakan alias bukan? Dengan alias kita bisa memdefiniskan alias folder `components/` yang mengarah pada folder `../../../../path/to/file` dengan fungsi import yang sama. Dan secara otomatis webpack yang akan menghandle sisanya.
 
 Untuk mendefinsikan alias kita bisa menambahkan beberapa kode ke file `webpack.mix.js` kita.
 
-![Weback Config file webpack.mix.js](https://telegra.ph/file/616abe5b7772915c24914.png)
+![Weback Config file webpack.mix.js](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/616abe5b7772915c24914.png)
 *Weback Config file webpack.mix.js*
 
 ## Intellisense tidak bekerja?
@@ -62,7 +62,7 @@ Secara default ts-server yang bertugas mengenali code dan membuat Intellisense p
 
 Konfigurasi untuk tsconfig.json juga sama, jika sudah ada file tsconfig.json sebelumnya tinggal tambahkan `"baseUrl"` dan `"paths"` saja pada `compilerOptions`. 
 
-![jsconfig.json](https://telegra.ph/file/4b3222499208cf07fcbe9.png)
+![jsconfig.json](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/4b3222499208cf07fcbe9.png)
 *jsconfig.json*
 
 Kenapa perlu menambahkan `"/*"` pada akhir definisi alias dan path? menurut issues github yang sudah solved memang di-anjurkan ditambahkan karena jika tidak ditambahkan VS Code tetap tidak mengenali alias path kita. *I don't know why*.
@@ -71,10 +71,10 @@ Sekarang Text Editor kamu tampak seksi dengan munculnya Intellisense pada Aliase
 
 Lalu hasil nya akan seperti ini
 
-![Import Info](https://telegra.ph/file/e60bbad8dcc19a66f65f5.png)
+![Import Info](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/e60bbad8dcc19a66f65f5.png)
 *Import Info*
 
-![Code Intellisense](https://telegra.ph/file/3aeff0533f5e7af3a2ae7.png)
+![Code Intellisense](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/3aeff0533f5e7af3a2ae7.png)
 *Code Intellisense*
 
 Sekian dari saya, maaf jika ada salah dalam pengartian atau pemberian istilah. Terima kasih.

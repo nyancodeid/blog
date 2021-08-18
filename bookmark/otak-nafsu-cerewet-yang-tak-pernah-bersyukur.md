@@ -17,7 +17,7 @@ meta:
 ---
 # Otak: Nafsu Cerewet Yang Tidak Pernah Bersyukur
 
-<Author name="Redaksi El-Samsi" avatar="https://telegra.ph/file/a9adeef005319e95a68cc.png" />
+<Author name="Redaksi El-Samsi" avatar="https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/a9adeef005319e95a68cc.png" />
 <FeaturedImage
   src="/images/covers/otak-nafsu-cerewet-yang-tak-pernah-bersyukur.jpg"
   author="Timothy Barlin"
@@ -50,7 +50,7 @@ Ada tujuh lathaif pada diri manusia. Satu di antara lathaif itu ada pada otak, y
 
 www.facebook.com
 :::
-::: preview-thumbnail https://telegra.ph/file/a9adeef005319e95a68cc.png
+::: preview-thumbnail https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/a9adeef005319e95a68cc.png
 :::
 ::::
 

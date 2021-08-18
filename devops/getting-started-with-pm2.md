@@ -42,7 +42,7 @@ Dalam artikel ini kita akan deep drive untuk berkenalan dengan PM2. *Here we go*
 ## Why PM2?
 Beberapa dari kalian mungkin bertanya, kenapa harus PM2? kenapa tidak PM-GAN?. Kita tau bahwa kita bisa pakai app atau tool lain kalau ingin aplikasi kita dimuat ulang jika mengalami error. Contohnya saja `supervisor` atau `nodemon`, kedua aplikasi tersebut memang terbukti mengatasi masalah kita. Namun kedua aplikasi tersebut menurut penulis hanya cocok dipakai untuk keperluan selama prosess development saja. 
 
-![Perbedaan Apps yang berjalan dengan dan tanpa PM2](https://telegra.ph/file/535d76a5718c989e90e1a.png)
+![Perbedaan Apps yang berjalan dengan dan tanpa PM2](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/535d76a5718c989e90e1a.png)
 *Running PM2 & Node.js in Production Environments - hackernoon.com*
 
 Sedangkan PM2 memiliki fitur yang bukan hanya sekedar file watcher atau reload app saja. Dari beberapa fitur PM2, yang paling berguna saat production adalah:
@@ -142,7 +142,7 @@ $ pm2 stop <app_name|id|all>
 ### Logs
 Untuk melihat logs yang dihasilkan dari aplikasi yang berjalan pada PM2 kamu bisa menggunakan perintah `logs`. 
 
-![Log Management](https://telegra.ph/file/a17894336bb460b3a466c.png)
+![Log Management](https://cdn.statically.io/img/telegra.ph/f=auto,q=100/file/a17894336bb460b3a466c.png)
 *Running PM2 & Node.js in Production Environments - hackernoon.com*
 
 ```shell
