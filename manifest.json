@@ -4,7 +4,7 @@
 	"name" : "NyanDev Blog",
 	"scope" : "/",
 	"display" : "standalone",
-	"start_url" : "https://blog.nyandev.id/",
+	"start_url" : "https://blog.nyan.my.id/",
 	"short_name" : "NyanDev Blog",
 	"theme_color" : "#65c59a",
 	"description" : "Let's playing around with Javascript and his friends",
@@ -55,7 +55,7 @@
      "type": "image/png"
     }
    ],
-	"url" : "https://blog.nyandev.id",
+	"url" : "https://blog.nyan.my.id",
 	"screenshots" : [],
 	"generated" : "true"
 }
