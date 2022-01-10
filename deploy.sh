@@ -10,7 +10,7 @@ yarn build
 cd dist/
 
 # if you are deploying to a custom domain
-echo 'blog.nyandev.id' > CNAME
+echo 'blog.nyan.my.id' > CNAME
 
 cd -
 

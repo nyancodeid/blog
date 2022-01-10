@@ -40,14 +40,14 @@ Jika kalian belum tau atau belum paham familiar dengan modern web development, d
 Kalau teman teman sudah mengetahui atau sudah terbiasa dengan workflow project menggunakan React, kamu bisa skip dan lanjut ke series selanjutnya.
 :::
 
-:::: preview https://blog.nyandev.id/javascript/modules-and-bundler.html
+:::: preview https://blog.nyan.my.id/javascript/modules-and-bundler.html
 
 ::: preview-content Javascript: Module and Bundler | NyanDev Blog
 Lebih mengenal apa itu Module dan Bundler dan alasan mereka ada.
 
-blog.nyandev.id
+blog.nyan.my.id
 :::
-::: preview-thumbnail https://blog.nyandev.id/thumbnail/javascript-modules-bundler-nyandev-blog.jpg
+::: preview-thumbnail https://blog.nyan.my.id/thumbnail/javascript-modules-bundler-nyandev-blog.jpg
 :::
 ::::
 

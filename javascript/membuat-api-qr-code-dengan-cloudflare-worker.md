@@ -191,7 +191,7 @@ Sekarang kita bisa buat function `generateQrCode` yang fungsi nya merubah text y
 function generateQrCode({
   text
 }) {
-  const image = imageSync(text || 'https://blog.nyandev.id')
+  const image = imageSync(text || 'https://blog.nyan.my.id')
 
   return new Response(image, {
     status: 200,

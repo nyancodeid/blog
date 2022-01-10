@@ -53,7 +53,7 @@ export default {
       //   + '&rewriteMime=image/*'
       //   + `&url=https://cdn.statically.io/gh/nyancodeid/blog/gh-pages${url}`;
 
-      return `https://cdn.statically.io/img/blog.nyandev.id/w=${width}` + url;
+      return `https://cdn.statically.io/img/blog.nyan.my.id/w=${width}` + url;
     }
   },
   computed: {

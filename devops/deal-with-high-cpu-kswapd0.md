@@ -3,7 +3,7 @@ title: How to Deal With High CPU Usage kswapd0 on Linux
 lang: id-ID
 description: High CPU Usage pada aplikasi kswapd0 bisa berarti SWAP atau bahkan Mining.
 image: /images/covers/how-to-deal-with-kswapd0-on-linux.jpg
-published: 09/30/2020, 10:55:23 AM
+published: 9/30/2020, 10:55:23 AM
 category: devops
 author: Ryan Aunur Rassyid
 tags: 

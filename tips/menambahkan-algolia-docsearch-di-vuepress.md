@@ -28,7 +28,7 @@ feed:
 ## Introduction
 Search (*Pencarian*) adalah sebuah fitur vital dalam penyimpanan. Tak hayal Google dikenal dengan mesin pencarinya yang andal. Berjuta-juta dokumen yang ada di internet dikenalinya supaya memudahkan orang untuk mencari dokumen yang ingin dicarinya. Pada artikel kali ini kita akan bahas **Algolia DocSearch** dan cara implementasinya di **Vuepress**.
 
-Vuepress menyebut dirinya static-site generator yang fungsi nya menghasilkan website statis menggunakan Framework **Vue**. Vuepress sendiri banyak dipakai untuk membuat sebuah website dokumentasi pada project atau library. Bahkan saat artikel ini ditulis, website **https://blog.nyandev.id** ini bangun diatas Vuepress.
+Vuepress menyebut dirinya static-site generator yang fungsi nya menghasilkan website statis menggunakan Framework **Vue**. Vuepress sendiri banyak dipakai untuk membuat sebuah website dokumentasi pada project atau library. Bahkan saat artikel ini ditulis, website **https://blog.nyan.my.id** ini bangun diatas Vuepress.
 
 Vuepress sendiri menyediakan fitur search built-in yang hanya meng-*index* judul tiap halaman. Jadi, ketika pengunjung ingin mencari kata yang ada dalam artikel (content) maka tidak akan ada sugesti yang muncul. Untuk mengatasi permasalahan ini kita bisa menggunakan fitur search *Algolia DocSearch* yang sudah tersedia plugin (build-in functionality) pada Vuepress untuk mempermudah kita meng-implementasikannya.
 

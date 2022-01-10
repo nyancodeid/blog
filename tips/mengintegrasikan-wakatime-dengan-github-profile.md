@@ -95,7 +95,7 @@ Pastikan kalian merubah setiap kata "nyancodeid" dengan username github kalian.
 ### 📫 Contact Me
 - Facebook - [Ryan Aunur Rassyid](https://facebook.com/ryan.hac)
 - Twitter - [@ryanaunur](https://twitter.com/ryanaunur)
-- Blog - [https://blog.nyandev.id](https://blog.nyandev.id)
+- Blog - [https://blog.nyan.my.id](https://blog.nyan.my.id)
 ```
 
 Lalu `commit` file yang dibuat tadi untuk menyimpan file. 

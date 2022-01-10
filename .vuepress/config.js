@@ -6,7 +6,7 @@ module.exports = {
   description: "Let's playing around with Javascript and his friends",
   head: headers,
   themeConfig: {
-    domain: 'https://blog.nyandev.id',
+    domain: 'https://blog.nyan.my.id',
     displayAllHeaders: true,
     nav: [{
         text: 'Home',
@@ -55,7 +55,7 @@ module.exports = {
     smoothScroll: false,
     lastUpdated: 'Last Updated',
     feed: {
-      canonical_base: 'https://blog.nyandev.id/'
+      canonical_base: 'https://blog.nyan.my.id/'
     }
   },
   extendMarkdown: md => {

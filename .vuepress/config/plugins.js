@@ -79,20 +79,32 @@ const plugins = [
 
 if (process.env.NODE_ENV === "production") {
   plugins.push([ 'sitemap', {
-    hostname: 'https://blog.nyandev.id',
+    hostname: 'https://blog.nyan.my.id',
     dateFormatter: (time) => {
-      let [ day, month, rest ] = time.split("/")
-      rest = rest.replace(/\./g, ":");
+      let [ x_date, ...x_time ] = time.split(" ")
+      let [ day, month, year ] = x_date.split("/")
+
+      if (month > 12) {
+        const x = month
+        month = day
+        day = x
+      }
+
+      x_time = (x_time.join(" ")).replace(/\./g, ":")
+
+      let date = `${month}/${day}/${year} ${x_time}`;
+
+      console.log(time, ' --@-- ', date)
+
       try {
-        return new Date(`${month}/${day}/${rest}`).toISOString();
+        const date = new Date(date).toISOString();
       } catch (error) {
-        console.error(error, time);
         return new Date().toISOString();
       }
     }
   }])
   plugins.push(['feed', {
-    canonical_base: 'https://blog.nyandev.id/'
+    canonical_base: 'https://blog.nyan.my.id/'
   }])
 }
 
